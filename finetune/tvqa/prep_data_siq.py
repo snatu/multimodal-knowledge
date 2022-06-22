@@ -3,7 +3,6 @@ Convert TVQA into tfrecords
 """
 import sys
 
-# sys.path.append('../../')
 sys.path.append('/work/sheryl/merlot_reserve')
 import argparse
 import hashlib
@@ -40,7 +39,7 @@ import ftfy
 # parser.add_argument(
 #     '-data_dir',
 #     dest='data_dir',
-#     default='/work/sheryl/tvqa_full/',
+#     default='/work/sheryl/raw/',
 #     type=str,
 #     help='Image directory.'
 # )
@@ -109,23 +108,23 @@ drwxrwxr-x 1 rowan rowan       4096 Sep 14 08:06 tvqa_frames
 seed = 1337
 random.seed(seed)
 
-base_fn = "/work/sheryl/merlot_reserve/finetune"
+base_fn = "/work/sheryl/raw"
 split = "train"
 fold = 1
 if split == "train": 
     num_folds = 256 
 else:
     num_folds = 8
-data_dir = '/work/sheryl/tvqa_full/'
+data_dir = '/work/sheryl/raw/'
 
-out_fn = os.path.join(base_fn, 'tvqa', '{}{:03d}of{:03d}.tfrecord'.format(split, fold, num_folds))
+out_fn = os.path.join(base_fn, 'siq', '{}{:03d}of{:03d}.tfrecord'.format(split, fold, num_folds))
 
 split_fn = {
-    'train': 'tvqa_train.jsonl',
-    'val': 'tvqa_val.jsonl',
-    'test': 'tvqa_test_public.jsonl',
+    'train': 'siq_train.jsonl',
+    'val': 'siq_val.jsonl',
+    #'test': 'tvqa_test_public.jsonl',
 }[split]
-split_fn = os.path.join(data_dir, 'tvqa_qa_release', split_fn)
+split_fn = os.path.join(data_dir, 'siq_qa_release', split_fn)
 
 data = []
 with open(split_fn, 'r') as f:
@@ -143,22 +142,19 @@ ts_lens = [x['ts'][1] - x['ts'][0] for x in data]
 max_end = max([x['ts'][1] for x in data])
 
 def parse_item(item):
-    qa_item = {'qa_query': item.pop('q'), 'qa_choices': [item.pop(f'a{i}') for i in range(5)],
+    answer_num = 0
+    answer_choices = []
+    while f'a{answer_num}' in item:
+        answer_choices.append(item.pop(f'a{answer_num}'))
+        answer_num += 1
+    qa_item = {'qa_query': item.pop('q'), 'qa_choices': answer_choices,
                'qa_label': item.get('answer_idx', 0),
-               'id': '{:06d}~{}'.format(item.pop('qid'), item['vid_name'])}
+               'id': '{}~{}'.format(item.pop('qid'), item['vid_name'])}
 
-    show_shortname = {
-        'Grey\'s Anatomy': 'grey',
-        "How I Met You Mother": 'met',
-        "Friends": 'friends',
-        'The Big Bang Theory': 'bbt',
-        'House M.D.': 'house',
-        'Castle': 'castle',
-    }[item['show_name']]
-    frames_path = os.path.join(data_dir, 'tvqa_frames_hq', 'uncompressed', 'frames_hq', f'{show_shortname}_frames',
-                            item['vid_name'])
+    frames_path = os.path.join(data_dir, 'frames',
+                            item['vid_name'] + "_trimmed-out")
 
-    max_frame_no = max([int(x.split('.')[0]) for x in os.listdir(frames_path)])
+    max_frame_no = max([int(x.split('_')[-1].split('.')[0]) for x in os.listdir(frames_path)])
     max_time = (max_frame_no - 1) / 3.0
 
     ts0, ts1 = item.pop('ts')
@@ -202,7 +198,7 @@ def parse_item(item):
         t_mid_3ps_idx = max(t_mid_3ps_idx, 1)
         t_mid_3ps_idx = min(t_mid_3ps_idx, max_frame_no)
 
-        fn = os.path.join(frames_path, f'{t_mid_3ps_idx:05d}.jpg')
+        fn = os.path.join(frames_path, item['vid_name'] + "_trimmed-out_" + f'{t_mid_3ps_idx:03d}.jpg')
         if os.path.exists(fn):
             image = Image.open(fn)
             image = resize_image(image, shorter_size_trg=450, longer_size_max=800)
@@ -211,12 +207,8 @@ def parse_item(item):
         else:
             print(f"{fn} doesn't exist")
 
-    ### idk why this is the case...
-    show_audioname = show_shortname if show_shortname != 'bbt' else 'bbt_new'
 
-
-    audio_fn_mp3 = os.path.join(data_dir, 'tvqa_audios', 'uncompressed', show_audioname,
-                            f'{show_shortname}_audios', item['vid_name'] + '.mp3')
+    audio_fn_mp3 = os.path.join(data_dir, 'acoustic_mp3', item['vid_name'] + "_trimmed-out.mp3")
     # Start the process
     temp_folder = tempfile.TemporaryDirectory()
     audio_fn = os.path.join(temp_folder.name, 'audio.wav')
@@ -236,9 +228,9 @@ def parse_item(item):
     except:  # Keyboardinterrupt
         ffmpeg_process.kill()
         raise
-    if not os.path.exists(audio_fn):
-        import ipdb
-        ipdb.set_trace()
+    # if not os.path.exists(audio_fn):
+    #     import ipdb
+    #     ipdb.set_trace()
     ffmpeg_process.kill()
     sr, waveform = wavfile.read(audio_fn, mmap=False)
     waveform = waveform.astype('float32')
@@ -265,9 +257,10 @@ def parse_item(item):
 
     # Get subtitles
     #############################################################
-    show_subname = item['vid_name']
-    sub_fn = os.path.join(data_dir, 'tvqa_subtitles', show_subname + '.srt')
+    show_subname = item['vid_name'] + "-trimmed"
+    sub_fn = os.path.join(data_dir, 'transcript', show_subname + '.en.vtt')
     if not os.path.exists(sub_fn):
+        print(sub_fn)
         import ipdb
         ipdb.set_trace()
 
@@ -351,7 +344,7 @@ with GCSTFRecordWriter(out_fn, auto_close=False) as tfrecord_writer:
         if num_written < 4:
             print(f"~~~~~~~~~~~ Example {num_written} {qa_item['id']} ~~~~~~~~")
             print(encoder.decode(feature_dict['qa_query'].int64_list.value, skip_special_tokens=False), flush=True)
-            for i in range(5):
+            for i in range(len(qa_item['qa_choices'])):
                 toks = feature_dict[f'qa_choice_{i}'].int64_list.value
                 toks_dec = encoder.decode(toks, skip_special_tokens=False)
                 lab = ' GT' if i == qa_item['qa_label'] else '   '

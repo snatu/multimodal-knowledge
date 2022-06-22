@@ -1,5 +1,6 @@
 import sys
 sys.path.append('../')
+sys.path.append('/work/sheryl/merlot_reserve')
 import tensorflow as tf
 from google.cloud import storage
 from tempfile import TemporaryDirectory
