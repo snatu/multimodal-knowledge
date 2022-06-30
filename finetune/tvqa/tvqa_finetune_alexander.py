@@ -7,6 +7,7 @@ I used a v3-32 for this (it's more expensive than VCR due to the use of video + 
 import sys
 
 sys.path.append('../../')
+sys.path.append('/home/sheryl/merlot_reserve')
 import yaml
 from datetime import datetime
 import pytz
@@ -42,37 +43,40 @@ print('JAX process: {} / {}. Local devices {}. Using {}'.format(
 parser = argparse.ArgumentParser(description='Train model!')
 
 parser.add_argument(
-    'pretrain_config_file',
+    '-pretrain_config_file',
     help='Where the config.yaml is located',
     type=str,
+    default="../../pretrain/configs/base.yaml",
 )
 parser.add_argument(
-    'ckpt',
+    '-ckpt',
     help='checkpoint to use',
     type=str,
+    default="../../base.ckpt",
 )
 parser.add_argument(
     '-lr',
     help='lr',
     type=float,
+    default=5e-6,
 )
 parser.add_argument(
     '-ne',
     help='ne',
     type=int,
-    default=5,
+    default=3,
 )
 parser.add_argument(
     '-output_grid_h',
     help='output_grid_h',
     type=int,
-    default=12,
+    default=18,
 )
 parser.add_argument(
     '-output_grid_w',
     help='output_grid_w',
     type=int,
-    default=20,
+    default=32,
 )
 parser.add_argument(
     '-output_name',
@@ -84,7 +88,7 @@ parser.add_argument(
     '-wandb_name',
     help='wandb_name',
     type=str,
-    default='merlotreserve-tvqa',
+    default='merlotreserve-siq',
 )
 parser.add_argument(
     '-val_batch_size',
@@ -96,7 +100,7 @@ parser.add_argument(
     '-scan_minibatch',
     help='scan_minibatch -- basically, if this is true then batch size is 1 but we do gradient accumulation',
     action='store_true',
-    default=False,
+    default=True,
 )
 args = parser.parse_args()
 
@@ -105,7 +109,7 @@ with open(args.pretrain_config_file, 'r') as f:
     config = yaml.load(f, yaml.FullLoader)
 
 
-config['data']['train_fns'] = os.path.join(os.environ["TFRECORDS_PATH"], "train{:03d}of256.tfrecord")
+config['data']['train_fns'] = os.path.join(os.environ["TFRECORDS_PATH"], "train{:03d}of347.tfrecord")
 config['data']['num_train_files'] = 256
 config['data']['num_answers'] = 5
 config['data']['random_scale_max'] = 1.1
@@ -117,7 +121,7 @@ config['device']['prefetch_size'] = 0
 config['device']['n_fns_per_cycle'] = 256
 
 NUM_EPOCH = args.ne
-TRAIN_SIZE = 122112
+TRAIN_SIZE = 6593
 steps_per_epoch = TRAIN_SIZE // config['device']['batch_size']
 config['optimizer'] = {
     'beta_2': 0.98,
@@ -323,7 +327,7 @@ def val_epoch(state: train_state.TrainState):
     :return:
     """
     val_config = deepcopy(config)
-    val_config['data']['val_fns'] = os.path.join(os.environ["TFRECORDS_PATH"], "val{:03d}of008.tfrecord")
+    val_config['data']['val_fns'] = os.path.join(os.environ["TFRECORDS_PATH"], "val{:03d}of012.tfrecord")
     val_config['data']['num_val_files'] = 8
     val_config['data']['do_random_scale'] = False
     val_config['data']['batch_size'] = args.val_batch_size

@@ -3,7 +3,7 @@ Convert TVQA into tfrecords
 """
 import sys
 
-sys.path.append('/work/sheryl/merlot_reserve')
+sys.path.append('/home/sheryl/merlot_reserve')
 import argparse
 import hashlib
 import io
@@ -35,14 +35,14 @@ from unidecode import unidecode
 import ftfy
 
 
-# parser = create_base_parser()
-# parser.add_argument(
-#     '-data_dir',
-#     dest='data_dir',
-#     default='/work/sheryl/raw/',
-#     type=str,
-#     help='Image directory.'
-# )
+parser = create_base_parser()
+parser.add_argument(
+    '-data_dir',
+    dest='data_dir',
+    default='/home/sheryl/raw/',
+    type=str,
+    help='Image directory.'
+)
 """
 Must set things up like this in the data_dir
 drwxr-xr-x 1 rowan rowan    1155072 Aug 19  2018 tvqa_subtitles
@@ -104,32 +104,32 @@ drwxrwxr-x 1 rowan rowan       4096 Sep 14 08:06 tvqa_frames
 -rw-rw-r-- 1 rowan rowan    7323926 Jan 19  2020 tvqa_plus_annotations_preproc_with_test.tar.gz
 """
 
-# args = parser.parse_args()
-seed = 1337
-random.seed(seed)
+args = parser.parse_args()
+# seed = 1337
+random.seed(args.seed)
 
-base_fn = "/work/sheryl/raw"
-split = "train"
-fold = 1
-if split == "train": 
-    num_folds = 256 
-else:
-    num_folds = 8
-data_dir = '/work/sheryl/raw/'
+# base_fn = "/home/sheryl/raw"
+# split = "train"
+# fold = 1
+# if split == "train": 
+#     num_folds = 256 
+# else:
+#     num_folds = 8
+# data_dir = '/home/sheryl/raw/'
 
-out_fn = os.path.join(base_fn, 'siq', '{}{:03d}of{:03d}.tfrecord'.format(split, fold, num_folds))
+out_fn = os.path.join(args.base_fn, 'siq', '{}{:03d}of{:03d}.tfrecord'.format(args.split, args.fold, args.num_folds))
 
 split_fn = {
     'train': 'siq_train.jsonl',
     'val': 'siq_val.jsonl',
     #'test': 'tvqa_test_public.jsonl',
-}[split]
-split_fn = os.path.join(data_dir, 'siq_qa_release', split_fn)
+}[args.split]
+split_fn = os.path.join(args.data_dir, 'siq_qa_release', split_fn)
 
 data = []
 with open(split_fn, 'r') as f:
     for idx, l in enumerate(f):
-        if idx % num_folds != fold:
+        if idx % args.num_folds != args.fold:
             continue
         item = json.loads(l)
         item['ts'] = tuple([float(x) for x in item['ts'].split('-')])
@@ -144,14 +144,14 @@ max_end = max([x['ts'][1] for x in data])
 def parse_item(item):
     answer_num = 0
     answer_choices = []
-    while f'a{answer_num}' in item:
-        answer_choices.append(item.pop(f'a{answer_num}'))
+    while f"a{answer_num}" in item:
+        answer_choices.append(item.pop(f"a{answer_num}"))
         answer_num += 1
     qa_item = {'qa_query': item.pop('q'), 'qa_choices': answer_choices,
                'qa_label': item.get('answer_idx', 0),
                'id': '{}~{}'.format(item.pop('qid'), item['vid_name'])}
 
-    frames_path = os.path.join(data_dir, 'frames',
+    frames_path = os.path.join(args.data_dir, 'frames',
                             item['vid_name'] + "_trimmed-out")
 
     max_frame_no = max([int(x.split('_')[-1].split('.')[0]) for x in os.listdir(frames_path)])
@@ -208,7 +208,7 @@ def parse_item(item):
             print(f"{fn} doesn't exist")
 
 
-    audio_fn_mp3 = os.path.join(data_dir, 'acoustic_mp3', item['vid_name'] + "_trimmed-out.mp3")
+    audio_fn_mp3 = os.path.join(args.data_dir, 'acoustic_mp3', item['vid_name'] + "_trimmed-out.mp3")
     # Start the process
     temp_folder = tempfile.TemporaryDirectory()
     audio_fn = os.path.join(temp_folder.name, 'audio.wav')
@@ -258,7 +258,7 @@ def parse_item(item):
     # Get subtitles
     #############################################################
     show_subname = item['vid_name'] + "-trimmed"
-    sub_fn = os.path.join(data_dir, 'transcript', show_subname + '.en.vtt')
+    sub_fn = os.path.join(args.data_dir, 'transcript', show_subname + '.en.vtt')
     if not os.path.exists(sub_fn):
         print(sub_fn)
         import ipdb
