@@ -43,13 +43,13 @@ print('JAX process: {} / {}. Local devices {}. Using {}'.format(
 parser = argparse.ArgumentParser(description='Train model!')
 
 parser.add_argument(
-    '-pretrain_config_file',
+    'pretrain_config_file',
     help='Where the config.yaml is located',
     type=str,
     default="../../pretrain/configs/base.yaml",
 )
 parser.add_argument(
-    '-ckpt',
+    'ckpt',
     help='checkpoint to use',
     type=str,
     default="../../base.ckpt",
@@ -109,19 +109,19 @@ with open(args.pretrain_config_file, 'r') as f:
     config = yaml.load(f, yaml.FullLoader)
 
 
-config['data']['train_fns'] = os.path.join(os.environ["TFRECORDS_PATH"], "train{:03d}of347.tfrecord")
-config['data']['num_train_files'] = 256
-config['data']['num_answers'] = 5
+config['data']['train_fns'] = os.path.join(os.environ["TFRECORDS_PATH"], "train{:03d}of833.tfrecord")
+config['data']['num_train_files'] = 833
+config['data']['num_answers'] = 4
 config['data']['random_scale_max'] = 1.1
 config['data']['random_scale_min'] = 1.0
 config['data']['num_segments'] = 7
 
 config['device']['batch_size'] = 8
 config['device']['prefetch_size'] = 0
-config['device']['n_fns_per_cycle'] = 256
+config['device']['n_fns_per_cycle'] = 833
 
 NUM_EPOCH = args.ne
-TRAIN_SIZE = 6593
+TRAIN_SIZE = 17493
 steps_per_epoch = TRAIN_SIZE // config['device']['batch_size']
 config['optimizer'] = {
     'beta_2': 0.98,
@@ -327,8 +327,8 @@ def val_epoch(state: train_state.TrainState):
     :return:
     """
     val_config = deepcopy(config)
-    val_config['data']['val_fns'] = os.path.join(os.environ["TFRECORDS_PATH"], "val{:03d}of012.tfrecord")
-    val_config['data']['num_val_files'] = 8
+    val_config['data']['val_fns'] = os.path.join(os.environ["TFRECORDS_PATH"], "val{:03d}of061.tfrecord")
+    val_config['data']['num_val_files'] = 61
     val_config['data']['do_random_scale'] = False
     val_config['data']['batch_size'] = args.val_batch_size
 

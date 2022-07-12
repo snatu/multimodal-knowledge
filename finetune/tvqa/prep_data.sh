@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-export NUM_FOLDS=347
-export NUM_FOLDS_VAL=12
+export NUM_FOLDS=833
+export NUM_FOLDS_VAL=61
 # Training
 mkdir -p logs
 

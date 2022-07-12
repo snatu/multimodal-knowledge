@@ -105,17 +105,17 @@ drwxrwxr-x 1 rowan rowan       4096 Sep 14 08:06 tvqa_frames
 """
 
 args = parser.parse_args()
-# seed = 1337
+# args.seed = 1337
 random.seed(args.seed)
 
-# base_fn = "/home/sheryl/raw"
-# split = "train"
-# fold = 1
-# if split == "train": 
-#     num_folds = 256 
+# temp_base_fn = "/home/sheryl/raw"
+# temp_split = "train"
+# temp_fold = 1
+# if temp_split == "train": 
+#     temp_num_folds = 256 
 # else:
-#     num_folds = 8
-# data_dir = '/home/sheryl/raw/'
+#     temp_num_folds = 8
+# temp_data_dir = '/home/sheryl/raw/'
 
 out_fn = os.path.join(args.base_fn, 'siq', '{}{:03d}of{:03d}.tfrecord'.format(args.split, args.fold, args.num_folds))
 
@@ -220,7 +220,7 @@ def parse_item(item):
     ffmpeg_process = subprocess.Popen(['ffmpeg', '-y', '-i', audio_fn_mp3, '-ac', '1', '-ar', '22620',
                                        audio_fn], stdout=-1, stderr=-1, text=True)
     try:
-        stdout, stderr = ffmpeg_process.communicate(None, timeout=5.0)
+        stdout, stderr = ffmpeg_process.communicate(None, timeout=15.0)
     except subprocess.TimeoutExpired:
         ffmpeg_process.kill()
         stdout, stderr = subprocess.TimeoutExpired.communicate()
