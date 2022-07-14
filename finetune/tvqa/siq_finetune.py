@@ -32,6 +32,7 @@ import functools
 import time
 import os
 from dotenv import load_dotenv
+import wandb
 
 load_dotenv('../../.env')
 
@@ -88,7 +89,7 @@ parser.add_argument(
     '-wandb_name',
     help='wandb_name',
     type=str,
-    default='merlotreserve-siq',
+    default='siq-finetune',
 )
 parser.add_argument(
     '-val_batch_size',
@@ -121,7 +122,7 @@ config['device']['prefetch_size'] = 0
 config['device']['n_fns_per_cycle'] = 833
 
 NUM_EPOCH = args.ne
-TRAIN_SIZE = 17493
+TRAIN_SIZE = 21 * config['data']['num_train_files']
 steps_per_epoch = TRAIN_SIZE // config['device']['batch_size']
 config['optimizer'] = {
     'beta_2': 0.98,
@@ -157,9 +158,9 @@ if args.output_name != '':
     tags.append(args.output_name)
 # if (jax.process_index() == 0):
 #     import wandb
-#     wandb.init(config=config, project=args.wandb_name, entity='rowan', notes=f'Loaded from {cfg_name}', tags=tags)
+wandb.init(config=config, project=args.wandb_name, entity='sherylm', notes=f'Loaded from {cfg_name}', tags=tags)
 # else:
-#     wandb = None
+# wandb = None
 
 class MerlotReserveTVQA(MerlotReserve):
     def setup(self):
@@ -365,16 +366,21 @@ def val_epoch(state: train_state.TrainState):
     joint_preds = pd.DataFrame(joint_preds)
     joint_preds['is_right'] = joint_preds['pred'] == joint_preds['label']
     joint_acc = joint_preds['is_right'].mean()
+    wandb.log({'joint_acc': joint_acc, 'text_acc': text_acc, 'audio_acc': audio_acc})
     return {'text_acc': text_acc, 'audio_acc': audio_acc, 'joint_acc': joint_acc}
 
 train_metrics = []
 log_every = config['device'].get('commit_every_nsteps', 50)
 time_elapsed = []
+num_batch = 0
 
 # the + 1 is because for some reason it crashes at the end otherwise. why? idk/
 for n in range(config['optimizer']['num_train_steps']+100):
     st = time.time()
     id_, batch = next(ds_train_iter)
+    # print("~~~~~~BATCH", num_batch)
+    # print("-----------------------------------ID:", id_)
+    num_batch += 1
     state, loss_info = p_train_step(state, batch)
 
     if jax.process_index() == 0:
@@ -384,16 +390,19 @@ for n in range(config['optimizer']['num_train_steps']+100):
         step_for_logging = n - log_every
         if step_for_logging >= 0:
             train_metrics[step_for_logging] = {k: float(v) for k, v in train_metrics[step_for_logging].items()}
-            # wandb.log(train_metrics[step_for_logging], step=step_for_logging, commit=(n + 1) % log_every == 0)
+            if wandb is not None:
+                wandb.log(train_metrics[step_for_logging], step=step_for_logging, commit=True) #(n + 1) % log_every == 0)
 
-        if (n + 1) % config['device']['iterations_per_loop'] == 0:
-            print("Done 1 epoch", flush=True)
+        # if (n + 1) % config['device']['iterations_per_loop'] == 0:
+        if (n + 1) % 500 == 0: # do val every 500 steps
+            print("Done 500 steps, doing validation", flush=True)
 
             save_checkpoint(state, path=config['device']['output_dir'], no_optimizer=True)
-            # val_info = val_epoch(state)
-            # print(f"Saving @iter {n:03d}.\nInfo: {pd.Series(val_info)}\n~\n", flush=True)
-            # if wandb is not None:
-            #     wandb.log({k + '_val': v for k, v in val_info.items()}, step=step_for_logging, commit=True)
+            val_info = val_epoch(state)
+            print(f"Saving @iter {n:03d}.\nInfo: {pd.Series(val_info)}\n~\n", flush=True)
+            if wandb is not None:
+                wandb.log({'joint_acc_val': val_info['joint_acc']}, step=step_for_logging, commit=True)
+                # wandb.log({k + '_val': v for k, v in val_info.items()}, step=step_for_logging, commit=True)
 
         time_elapsed.append(time.time() - st)
         if len(time_elapsed) >= 100:

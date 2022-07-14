@@ -1,0 +1,14 @@
+program: /home/sheryl/merlot_reserve/finetune/tvqa/siq_finetune.py
+method: grid
+metric:
+  goal: maximize
+  name: joint_acc
+parameters:
+  lr:
+    values:
+    - 7e-6
+    - 8e-6
+    - 9e-6
+    - 1e-5
+    - 2e-5
+    - 3e-5
