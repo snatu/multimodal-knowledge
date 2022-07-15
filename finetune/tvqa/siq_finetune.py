@@ -4,6 +4,7 @@ Finetunes TVQA.
 I used a v3-32 for this (it's more expensive than VCR due to the use of video + sound data)
 """
 
+import shutil
 import sys
 
 sys.path.append('../../')
@@ -38,24 +39,24 @@ load_dotenv('../../.env')
 
 jax.config.update('jax_log_compiles', True)
 is_on_gpu = any([x.platform == 'gpu' for x in jax.local_devices()])
-# print('JAX process: {} / {}. Local devices {}. Using {}'.format(jax.process_index(), jax.process_count(), jax.local_devices(), 'GPU' if is_on_gpu else 'TPU'), flush=True)
+print('JAX process: {} / {}. Local devices {}. Using {}'.format(jax.process_index(), jax.process_count(), jax.local_devices(), 'GPU' if is_on_gpu else 'TPU'), flush=True)
 
 parser = argparse.ArgumentParser(description='Train model!')
 
 parser.add_argument(
-    'pretrain_config_file',
+    '-pretrain_config_file',
     help='Where the config.yaml is located',
     type=str,
     default="../../pretrain/configs/base.yaml",
 )
 parser.add_argument(
-    'ckpt',
+    '-ckpt',
     help='checkpoint to use',
     type=str,
     default="../../base.ckpt",
 )
 parser.add_argument(
-    '-lr',
+    '--lr',
     help='lr',
     type=float,
     default=5e-6,
@@ -64,7 +65,7 @@ parser.add_argument(
     '-ne',
     help='ne',
     type=int,
-    default=10,
+    default=20,
 )
 parser.add_argument(
     '-output_grid_h',
@@ -157,7 +158,7 @@ if args.output_name != '':
     tags.append(args.output_name)
 # if (jax.process_index() == 0):
 #     import wandb
-wandb.init(config=config, project=args.wandb_name, entity='sherylm', notes=f'Loaded from {cfg_name}', tags=tags)
+wandb.init(config=config, project=args.wandb_name, entity='sherylm', notes="Loaded from "+cfg_name, tags=tags)
 # else:
 # wandb = None
 
@@ -402,6 +403,7 @@ for n in range(config['optimizer']['num_train_steps']+100):
             if wandb is not None:
                 wandb.log({'joint_acc_val': val_info['joint_acc']}, step=step_for_logging, commit=True)
                 # wandb.log({k + '_val': v for k, v in val_info.items()}, step=step_for_logging, commit=True)
+            shutil.rmtree("/home/sheryl/out/base.yaml/")
 
         time_elapsed.append(time.time() - st)
         if len(time_elapsed) >= 100:
