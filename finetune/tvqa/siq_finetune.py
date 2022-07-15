@@ -38,8 +38,7 @@ load_dotenv('../../.env')
 
 jax.config.update('jax_log_compiles', True)
 is_on_gpu = any([x.platform == 'gpu' for x in jax.local_devices()])
-print('JAX process: {} / {}. Local devices {}. Using {}'.format(
-    jax.process_index(), jax.process_count(), jax.local_devices(), 'GPU' if is_on_gpu else 'TPU'), flush=True)
+# print('JAX process: {} / {}. Local devices {}. Using {}'.format(jax.process_index(), jax.process_count(), jax.local_devices(), 'GPU' if is_on_gpu else 'TPU'), flush=True)
 
 parser = argparse.ArgumentParser(description='Train model!')
 
@@ -65,7 +64,7 @@ parser.add_argument(
     '-ne',
     help='ne',
     type=int,
-    default=3,
+    default=10,
 )
 parser.add_argument(
     '-output_grid_h',
@@ -298,8 +297,8 @@ def train_loss_fn(state, params, batch):
     is_right_audio = (jnp.argmax(logits_from_audio, -1) == batch['labels']).astype(jnp.float32).mean()
     is_right_text = (jnp.argmax(logits_from_text, -1) == batch['labels']).astype(jnp.float32).mean()
 
-    return loss, {'is_right_audio': is_right_audio, 'is_right_text': is_right_text,
-                  'loss_audio': loss_audio, 'loss_text': loss_text,}
+    return loss, {'train_audio_acc': is_right_audio, 'train_text_acc': is_right_text,
+                  'train_audio_loss': loss_audio, 'train_text_loss': loss_text,}
 
 
 p_train_step = jax.pmap(functools.partial(finetune_train_step, loss_fn=train_loss_fn, tx_fns=tx_fns, scan_minibatch=args.scan_minibatch),
@@ -366,7 +365,7 @@ def val_epoch(state: train_state.TrainState):
     joint_preds = pd.DataFrame(joint_preds)
     joint_preds['is_right'] = joint_preds['pred'] == joint_preds['label']
     joint_acc = joint_preds['is_right'].mean()
-    wandb.log({'joint_acc': joint_acc, 'text_acc': text_acc, 'audio_acc': audio_acc})
+    wandb.log({'val_joint_acc': joint_acc, 'val_text_acc': text_acc, 'val_audio_acc': audio_acc})
     return {'text_acc': text_acc, 'audio_acc': audio_acc, 'joint_acc': joint_acc}
 
 train_metrics = []
