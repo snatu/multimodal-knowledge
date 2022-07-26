@@ -15,7 +15,7 @@ def make_json_for(vids, file_name):
         vid_length = subprocess.check_output(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=duration', '-of', 'default=noprint_wrappers=1:nokey=1', os.path.join("/home/sheryl/raw/vision/raw", vid_name)])
         
         vid_filename = os.path.join("/home/sheryl/raw/qa", vid + "_trimmed.txt")
-        vid_file = open(vid_filename, "r") #
+        vid_file = open(vid_filename, "r") 
 
         file_end = False
 
@@ -74,16 +74,26 @@ def make_json_for(vids, file_name):
                             print(vid_dict['qid'])
                             vid_file.seek(pos)
                             break
-                        for ans in all_correct_ans:
-                            all_answers = []
-                            all_answers.extend(all_incorrect_ans)
-                            all_answers.append(ans)
-                            random.shuffle(all_answers)
-                            for j in range(4):
-                                curr_ans = all_answers.pop(0)
-                                vid_dict["a"+str(j)] = curr_ans
-                                if curr_ans in all_correct_ans:
-                                    vid_dict['answer_idx'] = j
+                        # for ans in all_correct_ans:
+                        #     all_answers = []
+                        #     all_answers.extend(all_incorrect_ans)
+                        #     all_answers.append(ans)
+                        #     random.shuffle(all_answers)
+                        #     for j in range(4):
+                        #         curr_ans = all_answers.pop(0)
+                        #         vid_dict["a"+str(j)] = curr_ans
+                        #         if curr_ans in all_correct_ans:
+                        #             vid_dict['answer_idx'] = j
+                        #         file_name.write(json.dumps(vid_dict) + "\n")
+                        product = [[a, b] for a in all_correct_ans for b in all_incorrect_ans]
+                        for answers in product: 
+                            random.shuffle(answers)                           
+                            vid_dict["a0"] = answers[0]
+                            vid_dict["a1"] = answers[1]
+                            if answers[0] in all_correct_ans:
+                                vid_dict['answer_idx'] = 0
+                            else:
+                                vid_dict['answer_idx'] = 1
                             file_name.write(json.dumps(vid_dict) + "\n")
                             # print(vid_dict)
                         vid_file.seek(pos)
