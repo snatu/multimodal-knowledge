@@ -29,11 +29,12 @@ from scipy.io import wavfile
 import torchvision.models as models
 import torch
 import torchvision.transforms as transforms
-import zstandard
+# import zstandard
 import io
 import regex as re
 from data.clean_text import clean_text
 from google.cloud import storage
+import pysrt
 
 
 parser = argparse.ArgumentParser(description='Convert downloaded files to TFRecord format')
@@ -53,21 +54,21 @@ parser.add_argument(
 parser.add_argument(
     '-num_folds',
     dest='num_folds',
-    default=32768,
+    default=25,
     type=int,
     help='Number of folds (corresponding to both the number of training files and the number of testing files)',
 )
 parser.add_argument(
     '-ids_fn',
     dest='ids_fn',
-    default='test_ids_fn.csv',
+    default='../../house_videos/house-ids.csv',
     type=str,
     help='We will use these IDs. you probably should filter them to mkae sure they all at least have the right files. can start with gs://'
 )
 parser.add_argument(
     '-out_folder',
     dest='out_folder',
-    default="./",
+    default="../../tvqa_records",
     type=str,
     help='Output folder to use. You can start this with gs:// and we\'ll put it on google cloud.'
 )
@@ -96,7 +97,7 @@ parser.add_argument(
     dest='seed',
     default=123456,
     type=int,
-    help='Number of chunks in each tfrecord',
+    help='seed',
 )
 parser.add_argument(
     '-log_folder',
@@ -108,7 +109,7 @@ parser.add_argument(
 parser.add_argument(
     '-ckpt',
     dest='ckpt',
-    default='mobilenetv2_filter_model_coco_82ptacc.pth.tar',
+    # default='mobilenetv2_filter_model_coco_82ptacc.pth.tar',
     type=str,
     help='checkpoint location. The checkpoint we used is at gs://merlot/video_filter_cnn/mobilenetv2_filter_model_coco_82ptacc.pth.tar - you might want to download that first'
 )
@@ -143,8 +144,8 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-gclient = storage.Client()
-bucket = gclient.get_bucket(args.bucket)
+# gclient = storage.Client()
+# bucket = gclient.get_bucket(args.bucket)
 encoder = get_encoder()
 
 NUM_CHUNKS = args.num_chunks
@@ -179,25 +180,25 @@ MIN_TOKS_WINDOW = 8
 OK_TOKS_MULTIWINDOW = 16 # If N windows have this many tokens then break
 
 
-if args.ckpt is not None:
-    # Load mobilenet model
-    model = models.MobileNetV2(num_classes=81)
-    model.load_state_dict({k[7:]: v for k, v in torch.load(args.ckpt,
-                                                           map_location=torch.device('cpu'))['state_dict'].items()})
-    model.features[0][0].padding = (0, 0)
-    model.features[0][0].stride = (1, 1)  # Now it expects [114, 114] images
-    model.eval()
+# if args.ckpt is not None:
+# Load mobilenet model
+model = models.MobileNetV2(num_classes=81)
+# model.load_state_dict({k[7:]: v for k, v in torch.load(args.ckpt,
+                                                        # map_location=torch.device('cpu'))['state_dict'].items()})
+model.features[0][0].padding = (0, 0)
+model.features[0][0].stride = (1, 1)  # Now it expects [114, 114] images
+model.eval()
 
 
-STORAGE_DIR = tempfile.mkdtemp()
+# STORAGE_DIR = tempfile.mkdtemp()
 
 
-def _cleanup():
-    if os.path.exists(STORAGE_DIR):
-        shutil.rmtree(STORAGE_DIR)
+# def _cleanup():
+#     if os.path.exists(STORAGE_DIR):
+#         shutil.rmtree(STORAGE_DIR)
 
 
-atexit.register(_cleanup)
+# atexit.register(_cleanup)
 
 
 def load_video(video_id):
@@ -207,71 +208,83 @@ def load_video(video_id):
     :return: a video OR none
     """
     start = time.time()
-    try:
-        info_fn = os.path.join(STORAGE_DIR, 'info.json.gz')
-        iblob = bucket.blob(f'youtube_dump/{video_id}/{video_id}.v2.info.json.gz')
-        if not iblob.exists():
-            return None
-        iblob.download_to_filename(info_fn)
-        with gzip.open(info_fn, 'r') as f:
-            item = json.load(f)
+    # try:
+        # info_fn = os.path.join(STORAGE_DIR, 'info.json.gz')
+        # iblob = bucket.blob(f'youtube_dump/{video_id}/{video_id}.v2.info.json.gz')
+        # if not iblob.exists():
+        #     return None
+        # iblob.download_to_filename(info_fn)
+        # with gzip.open(info_fn, 'r') as f:
+        #     item = json.load(f)
+    item = {}
+    item['title'] = video_id
+    # if 'title' not in item:
+    #     raise ValueError(f"'title' not in item \n{item}")
 
-        if 'title' not in item:
-            raise ValueError(f"'title' not in item \n{item}")
+    # Get transcript - not using Grover for now
+    # if 'transcripts' not in item:
+    #     return None
+    # transcripts = {}
+    # for k, v in item['transcripts'].items():
+    #     try:
+    #         ts_k = read_vtt_text(v.splitlines(), skip_if_no_timing_info=True)
+    #         if ts_k is not None:
+    #             transcripts[k] = clean_subtitle_tuples(ts_k)
+    #     except (ValueError, KeyError, AttributeError) as e:
+    #         print(str(e))
+    # if 'en' not in transcripts:
+    #     raise ValueError(f"'en' not in item['transcripts'] \n{item}")
+    # item['transcripts'] = transcripts
+    sub_fn = os.path.join('/data/tvqa_full/tvqa_subtitles', video_id[:-3] + 'srt')
+    subs = pysrt.open(sub_fn)
+    data = {"time": [], "lines": []}
+    for sub in subs:
+        lines = sub.text
+        times = sub.duration
+        data["time"].append(times.to_time())
+        data["lines"].append(lines)
 
-        # Get transcript - not using Grover for now
-        if 'transcripts' not in item:
-            return None
-        transcripts = {}
-        for k, v in item['transcripts'].items():
-            try:
-                ts_k = read_vtt_text(v.splitlines(), skip_if_no_timing_info=True)
-                if ts_k is not None:
-                    transcripts[k] = clean_subtitle_tuples(ts_k)
-            except (ValueError, KeyError, AttributeError) as e:
-                print(str(e))
-        if 'en' not in transcripts:
-            raise ValueError(f"'en' not in item['transcripts'] \n{item}")
-        item['transcripts'] = transcripts
+    item['transcripts'] = data
 
-        vtt = pd.DataFrame(item['transcripts']['en'])
-        if (vtt.shape[0] == 0) or ('word' not in vtt.columns):
-            raise ValueError(f"'Word' not in item['transcripts'] \n{item}")
+    # vtt = pd.DataFrame(item['transcripts']['en'])
+    vtt = pd.DataFrame(item['transcripts'])
+    # if (vtt.shape[0] == 0) or ('word' not in vtt.columns):
+    #     raise ValueError(f"'Word' not in item['transcripts'] \n{item}")
 
-        # A few times we failed to download automatic subtitles, or downloaded manual ones instead, due to a bug in the script
-        # they usually suck, e.g. https://www.youtube.com/watch?v=DqqzX-3bW6A, let's take out the bad ones
-        def _token_is_good(tok):
-            if len(tok) > 1 and tok.isupper():
-                return False
-            if '\n' in tok:
-                return False
-            if ' ' in tok:
-                return False
-            return True
-        tok_is_good = vtt['word'].apply(_token_is_good)
-        if tok_is_good.mean() < 0.6:
-            raise ValueError("{} has jarbled tokens".format(item['id']))
-        len_variance = vtt['word'].apply(len).var()
-        if len_variance > 10.0:
-            raise ValueError("{} has a length variance of {:.3f}".format(item['id'], len_variance))
-        item['transcript_vtt'] = vtt
+    # A few times we failed to download automatic subtitles, or downloaded manual ones instead, due to a bug in the script
+    # they usually suck, e.g. https://www.youtube.com/watch?v=DqqzX-3bW6A, let's take out the bad ones
+    # def _token_is_good(tok):
+    #     if len(tok) > 1 and tok.isupper():
+    #         return False
+    #     if '\n' in tok:
+    #         return False
+    #     if ' ' in tok:
+    #         return False
+    #     return True
+    # tok_is_good = vtt['word'].apply(_token_is_good)
+    # if tok_is_good.mean() < 0.6:
+    #     raise ValueError("{} has jarbled tokens".format(item['id']))
+    # len_variance = vtt['word'].apply(len).var()
+    # if len_variance > 10.0:
+    #     raise ValueError("{} has a length variance of {:.3f}".format(item['id'], len_variance))
+    item['transcript_vtt'] = vtt
 
-        video_fn = os.path.join(STORAGE_DIR, 'video.mp4')
-        vblob = bucket.blob(f'youtube_dump/{video_id}/{video_id}.mp4')
-        if not vblob.exists():
-            return None
-        vblob.download_to_filename(video_fn)
+    video_fn = os.path.join("../../house_videos", video_id) #os.path.join(STORAGE_DIR, 'video.mp4')
+    # vblob = bucket.blob(f'youtube_dump/{video_id}/{video_id}.mp4')
+    # if not vblob.exists():
+    #     return None
+    # vblob.download_to_filename(video_fn)
 
-        # Make sure if we have audio
-        stream_txt = subprocess.run(f'ffprobe -i {video_fn} -show_streams -select_streams a -loglevel error',
-                                    capture_output=True, shell=True, text=True).stdout
-        if len(stream_txt) == 0 or 'codec_type=audio' not in stream_txt:
-            return None
-        item['_te'] = time.time() - start
-        return item
-    except (Exception, StopIteration) as e:
-        print(str(e), flush=True)
+    # Make sure if we have audio
+    stream_txt = subprocess.run(f'ffprobe -i {video_fn} -show_streams -select_streams a -loglevel error',
+                                capture_output=True, shell=True, text=True).stdout
+    if len(stream_txt) == 0 or 'codec_type=audio' not in stream_txt:
         return None
+    item['_te'] = time.time() - start
+    return item
+    # except (Exception, StopIteration) as e:
+    #     print(str(e), flush=True)
+    #     return None
 
 
 def video_iterator():
@@ -400,8 +413,8 @@ def video_chunk_iterator():
             continue
 
         # Load audio in background
-        audio_fn = os.path.join(STORAGE_DIR, 'audio.wav')
-        video_fn = os.path.join(STORAGE_DIR, 'video.mp4')
+        audio_fn = os.path.join("/data/tvqa_full/tvqa_audios/uncompressed/house/house_audios", item['id'][:-3] + "mp3") # os.path.join(STORAGE_DIR, 'audio.wav')
+        video_fn = os.path.join("../../house_videos", item['id']) # os.path.join(STORAGE_DIR, 'video.mp4')
         ffmpeg_process = subprocess.Popen(['ffmpeg', '-y', '-i', video_fn, '-ac', '1', '-ar', '22050',
                                            audio_fn,
                                            ],
@@ -410,7 +423,7 @@ def video_chunk_iterator():
         timesteps = [(x['start_time'] + x['end_time']) / 2.0 for x in chunks]
 
         # Extract frames at each chunk
-        frames = extract_frames_from_video(video_file=os.path.join(STORAGE_DIR, 'video.mp4'),
+        frames = extract_frames_from_video(video_file=video_fn,
                                            times=timesteps, use_multithreading=True, info=item)
         if frames is None:
             print("Couldn't extract frames from video {}".format(item['id']), flush=True)
@@ -426,7 +439,7 @@ def video_chunk_iterator():
         ############################
         # Now load audio
         # # Extract audio frames
-        audio_fn = os.path.join(STORAGE_DIR, 'audio.wav')
+        # audio_fn = os.path.join(STORAGE_DIR, 'audio.wav')
         try:
             stdout, stderr = ffmpeg_process.communicate(None, timeout=5.0)
         except subprocess.TimeoutExpired:
@@ -577,14 +590,14 @@ def grouped_iterator(iterator, group_size, max_items=100, pop_from_front_prob=0.
         if x is not None:
             yield x
 
-if args.ckpt is not None:
-    my_transform = transforms.Compose([
-        transforms.Resize((90, 120)),
-        transforms.CenterCrop((82, 114)),
-        transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                             std=[0.229, 0.224, 0.225]),
-    ])
+# if args.ckpt is not None:
+my_transform = transforms.Compose([
+    transforms.Resize((90, 120)),
+    transforms.CenterCrop((82, 114)),
+    transforms.ToTensor(),
+    transforms.Normalize(mean=[0.485, 0.456, 0.406],
+                            std=[0.229, 0.224, 0.225]),
+])
 
 def _allpairs_cosine_similarity(x):
     """ for a matrix of size [n, d] we will compute all pairs cosine similarity and get [n,n]"""
@@ -594,100 +607,100 @@ def _allpairs_cosine_similarity(x):
     cosine_sim = pairwise_numerator / denominator
     return cosine_sim
 
-def text_iterator(num_seqs = 4, text_len=512):
-    """
-    This is for downloading the pile, jointly with the rest
-    if not using the pile you don't need this function
-    :param num_seqs:
-    :param text_len:
-    :return:
-    """
-    zst_fn = os.path.join(STORAGE_DIR, 'txt.jsonl.zst')
-    file_id = args.fold % 16410
+# def text_iterator(num_seqs = 4, text_len=512):
+#     """
+#     This is for downloading the pile, jointly with the rest
+#     if not using the pile you don't need this function
+#     :param num_seqs:
+#     :param text_len:
+#     :return:
+#     """
+#     zst_fn = os.path.join(STORAGE_DIR, 'txt.jsonl.zst')
+#     file_id = args.fold % 16410
 
-    NUM_SKIPEVERY = args.num_folds // 16410 + 1
+#     NUM_SKIPEVERY = args.num_folds // 16410 + 1
 
-    skip_every = (args.fold // 16410) % NUM_SKIPEVERY
-    blob = bucket.blob(f'thepile/fold{file_id:05d}of16410.jsonl.zst')
-    blob.download_to_filename(zst_fn)
+#     skip_every = (args.fold // 16410) % NUM_SKIPEVERY
+#     # blob = bucket.blob(f'thepile/fold{file_id:05d}of16410.jsonl.zst')
+#     # blob.download_to_filename(zst_fn)
 
-    def sub_iterator():
-        current = []
-        ok_sources = set(['Pile-CC', 'FreeLaw', 'StackExchange', 'PubMed Abstracts', 'OpenWebText2', 'Wikipedia (en)',
-                      'HackerNews', 'NIH ExPorter', 'USPTO Backgrounds', 'OpenSubtitles', 'Books3', 'Gutenberg (PG-19)',
-                      'BookCorpus2'])
+#     def sub_iterator():
+#         current = []
+#         ok_sources = set(['Pile-CC', 'FreeLaw', 'StackExchange', 'PubMed Abstracts', 'OpenWebText2', 'Wikipedia (en)',
+#                       'HackerNews', 'NIH ExPorter', 'USPTO Backgrounds', 'OpenSubtitles', 'Books3', 'Gutenberg (PG-19)',
+#                       'BookCorpus2'])
 
-        with open(zst_fn, 'rb') as fh:
-            dctx = zstandard.ZstdDecompressor()
-            with dctx.stream_reader(fh, read_size=16384) as reader:
-                text_stream = io.TextIOWrapper(reader, encoding='utf-8', errors='ignore')
-                for j, line in enumerate(text_stream):
-                    if (j % NUM_SKIPEVERY) == skip_every:
-                        try:
-                            X = json.loads(line)
-                        except json.decoder.JSONDecodeError:
-                            print("ERROR JSON DECODE", flush=True)
-                            continue
+#         with open(zst_fn, 'rb') as fh:
+#             dctx = zstandard.ZstdDecompressor()
+#             with dctx.stream_reader(fh, read_size=16384) as reader:
+#                 text_stream = io.TextIOWrapper(reader, encoding='utf-8', errors='ignore')
+#                 for j, line in enumerate(text_stream):
+#                     if (j % NUM_SKIPEVERY) == skip_every:
+#                         try:
+#                             X = json.loads(line)
+#                         except json.decoder.JSONDecodeError:
+#                             print("ERROR JSON DECODE", flush=True)
+#                             continue
 
-                        # Options ['Pile-CC', 'FreeLaw', 'StackExchange', 'YoutubeSubtitles', 'Github',
-                        # 'PubMed Abstracts', 'PubMed Central', 'OpenWebText2', 'Wikipedia (en)', 'HackerNews',
-                        # 'NIH ExPorter', 'USPTO Backgrounds', 'ArXiv', 'Enron Emails', 'DM Mathematics',
-                        # 'OpenSubtitles', 'Books3', 'Gutenberg (PG-19)', 'Ubuntu IRC', 'EuroParl', 'PhilPapers',
-                        # 'BookCorpus2']
+#                         # Options ['Pile-CC', 'FreeLaw', 'StackExchange', 'YoutubeSubtitles', 'Github',
+#                         # 'PubMed Abstracts', 'PubMed Central', 'OpenWebText2', 'Wikipedia (en)', 'HackerNews',
+#                         # 'NIH ExPorter', 'USPTO Backgrounds', 'ArXiv', 'Enron Emails', 'DM Mathematics',
+#                         # 'OpenSubtitles', 'Books3', 'Gutenberg (PG-19)', 'Ubuntu IRC', 'EuroParl', 'PhilPapers',
+#                         # 'BookCorpus2']
 
-                        # for k, vs in story_by_meta.items():
-                        #     print(k + '\n=========\n')
-                        #     for v_i, v in enumerate(vs[:10]):
-                        #         print(f"{v_i}) {clean_text(v)[:128]}", flush=True)
-                        #     print('\n\n')
+#                         # for k, vs in story_by_meta.items():
+#                         #     print(k + '\n=========\n')
+#                         #     for v_i, v in enumerate(vs[:10]):
+#                         #         print(f"{v_i}) {clean_text(v)[:128]}", flush=True)
+#                         #     print('\n\n')
 
-                        # story_by_meta[X['meta']['pile_set_name']].append(X['text'])
-                        if X['meta']['pile_set_name'] not in ok_sources:
-                            continue
+#                         # story_by_meta[X['meta']['pile_set_name']].append(X['text'])
+#                         if X['meta']['pile_set_name'] not in ok_sources:
+#                             continue
 
-                        text = clean_text(X['text'])
+#                         text = clean_text(X['text'])
 
-                        x_enc = [encoder.token_to_id('<|START|>')] + encoder.encode(text).ids
-                        x_enc.append(encoder.token_to_id('<|END|>'))
-                        current.extend(x_enc)
+#                         x_enc = [encoder.token_to_id('<|START|>')] + encoder.encode(text).ids
+#                         x_enc.append(encoder.token_to_id('<|END|>'))
+#                         current.extend(x_enc)
 
-                        while len(current) >= text_len:
-                            yield current[:text_len]
-                            current = current[text_len:]
+#                         while len(current) >= text_len:
+#                             yield current[:text_len]
+#                             current = current[text_len:]
 
-                        if len(current) <= (text_len // 8):
-                            current = []
+#                         if len(current) <= (text_len // 8):
+#                             current = []
 
-    buffer = []
-    for seq in sub_iterator():
-        buffer.append(seq)
-        if len(buffer) == num_seqs:
-            yield buffer
-            buffer = []
+#     buffer = []
+#     for seq in sub_iterator():
+#         buffer.append(seq)
+#         if len(buffer) == num_seqs:
+#             yield buffer
+#             buffer = []
 
-    raise ValueError("Consumed text iterator too early")
+#     raise ValueError("Consumed text iterator too early")
 
 def buffered_chunk_iterator():
     for chunk_group in grouped_iterator(video_chunk_iterator, group_size=NUM_CHUNKS, max_items=NUM_CHUNKS * 10):
         # Simple img recognizer
-        if args.ckpt is not None:
-            if random.random() > 0.9:
-                with torch.no_grad():
-                    imgs = torch.stack([my_transform(x['frame']) for x in chunk_group[::2]], 0)
-                    features = model.features(imgs).mean([2,3])
-                    cosine_sim = _allpairs_cosine_similarity(features).numpy()
-                    objects = torch.sigmoid(model.classifier(features)).numpy()
-                    avg_cosine_sim = float(np.tril(cosine_sim, -1).sum()) / (len(imgs) * (len(imgs) - 1.0) / 2.0)
-                    youtube_id = chunk_group[0]['youtube_id']
-                    if avg_cosine_sim > args.max_acs:
-                        print(f"breaking ACS is {avg_cosine_sim} on {youtube_id}", flush=True)
-                        continue
-                    num_coco_objects_expectation = objects.max(0)
-                    num_coco_objects_expectation = float(
-                        num_coco_objects_expectation[num_coco_objects_expectation > 0.3].sum())
-                    if num_coco_objects_expectation < args.min_nco:
-                        print(f"breaking NCO is {num_coco_objects_expectation} on {youtube_id}", flush=True)
-                        continue
+        # if args.ckpt is not None:
+        if random.random() > 0.9:
+            with torch.no_grad():
+                imgs = torch.stack([my_transform(x['frame']) for x in chunk_group[::2]], 0)
+                features = model.features(imgs).mean([2,3])
+                cosine_sim = _allpairs_cosine_similarity(features).numpy()
+                objects = torch.sigmoid(model.classifier(features)).numpy()
+                avg_cosine_sim = float(np.tril(cosine_sim, -1).sum()) / (len(imgs) * (len(imgs) - 1.0) / 2.0)
+                youtube_id = chunk_group[0]['youtube_id']
+                if avg_cosine_sim > args.max_acs:
+                    print(f"breaking ACS is {avg_cosine_sim} on {youtube_id}", flush=True)
+                    continue
+                num_coco_objects_expectation = objects.max(0)
+                num_coco_objects_expectation = float(
+                    num_coco_objects_expectation[num_coco_objects_expectation > 0.3].sum())
+                if num_coco_objects_expectation < args.min_nco:
+                    print(f"breaking NCO is {num_coco_objects_expectation} on {youtube_id}", flush=True)
+                    continue
         yield chunk_group
 
 train_file = os.path.join(args.out_folder,
@@ -698,7 +711,8 @@ video_set = set()
 tokens_written = []
 st = time.time()
 with GCSTFRecordWriter(train_file, buffer_size=10000, auto_close=False) as train_writer:
-    for chunks, txt in zip(buffered_chunk_iterator(), text_iterator(num_seqs=args.num_text_seqs, text_len=args.text_len)):
+    # for chunks, txt in zip(buffered_chunk_iterator(), text_iterator(num_seqs=args.num_text_seqs, text_len=args.text_len)):
+    for chunks in buffered_chunk_iterator():
         feats = {}
         video_idx = -1
         for i, c_i in enumerate(chunks):
@@ -739,7 +753,7 @@ with GCSTFRecordWriter(train_file, buffer_size=10000, auto_close=False) as train
                 'tok_start_times': float_list_feature(c_i['tok_start_times']),
                 'tok_end_times': float_list_feature(c_i['tok_end_times']),
 
-                'random_text': int64_list_feature(txt[i] if i < args.num_text_seqs else []),
+                # 'random_text': int64_list_feature(txt[i] if i < args.num_text_seqs else []),
             }
             for k, v in current_feats.items():
                 feats[f'c{i:02d}/{k}'] = v
@@ -772,7 +786,7 @@ with open('log.csv', 'w') as f:
 
 log_file_out = os.path.join(args.log_folder,
                           '{}{:05d}of{:05d}.csv'.format(args.split_name, args.fold, args.num_folds))
-if log_file_out.startswith('gs://' + args.bucket_name):
-    blob_fn = '/'.join(log_file_out.split('/')[3:])
-    print(f"Uploading to {blob_fn}", flush=True)
-    bucket.blob(blob_fn).upload_from_filename('log.csv')
+# if log_file_out.startswith('gs://' + args.bucket_name):
+#     blob_fn = '/'.join(log_file_out.split('/')[3:])
+#     print(f"Uploading to {blob_fn}", flush=True)
+#     bucket.blob(blob_fn).upload_from_filename('log.csv')
