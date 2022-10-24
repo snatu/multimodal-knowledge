@@ -53,7 +53,7 @@ parser.add_argument(
     '-ckpt',
     help='checkpoint to use',
     type=str,
-    default="../../base.ckpt",
+    default="../../../base_resadapt",
 )
 parser.add_argument(
     '--lr',

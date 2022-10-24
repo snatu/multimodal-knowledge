@@ -33,6 +33,7 @@ from mreserve.lowercase_encoder import START
 import pysrt
 from unidecode import unidecode
 import ftfy
+import pickle
 
 
 parser = create_base_parser()
@@ -105,7 +106,7 @@ drwxrwxr-x 1 rowan rowan       4096 Sep 14 08:06 tvqa_frames
 """
 
 args = parser.parse_args()
-# args.seed = 1337
+args.seed = 1337
 random.seed(args.seed)
 
 # temp_base_fn = "/home/sheryl/raw"
@@ -141,7 +142,12 @@ with open(split_fn, 'r') as f:
 ts_lens = [x['ts'][1] - x['ts'][0] for x in data]
 max_end = max([x['ts'][1] for x in data])
 
+speaker_diar_file = open("../../../raw/speaker_diar.pk", 'rb')
+speaker_diar = pickle.load(speaker_diar_file)
+
 def parse_item(item):
+    using_speaker_turns = False
+
     answer_num = 0
     answer_choices = []
     while f"a{answer_num}" in item:
@@ -165,38 +171,82 @@ def parse_item(item):
 
     # Midpoint will be the middle of the (middle) chunk, so round it to the nearest 1/3rd
     # because that's when frames were extracted
-    midpoint = (ts0 + ts1) / 2.0
-    midpoint = round(midpoint * 3) / 3
+    if not using_speaker_turns:
+        midpoint = (ts0 + ts1) / 2.0
+        midpoint = round(midpoint * 3) / 3
 
-    t_start = midpoint - segment_size * 0.5
-    t_end = midpoint + segment_size * 0.5
+        t_start = midpoint - segment_size * 0.5
+        t_end = midpoint + segment_size * 0.5
+
+        # Try to extend by 3 segments in either direction of the middle
+        times_used0 = [{'start_time': t_start, 'end_time': t_end}]
+        for i in range(6):
+            for delta in [-segment_size, segment_size]:
+                t0 = t_start + delta * (i+1)
+                t1 = t_end + delta * (i+1)
+
+                t0 = round(t0 * 3) / 3
+                t1 = round(t1 * 3) / 3
+
+                if t1 < 0:
+                    continue
+                if t0 > max_time:
+                    continue
+                if len(times_used0) < 7:
+                    times_used0.append({'start_time': t0, 'end_time': t1})
+        times_used0 = sorted(times_used0, key=lambda x: x['start_time'])
+    else:
+        # Add start and end time for each speaker turn interval
+        times_used0 = []
+        intervals = speaker_diar[item['vid_name']]
+        for interval in intervals:
+            start_time = interval[0]
+            end_time = interval[1]
+            speaker_num = interval[2]
+            times_used0.append({'start_time': start_time, 'end_time': end_time, 'speaker': speaker_num})
+
+        ts0 = max(intervals[0][0], 0)
+        ts1 = min(ts1, intervals[len(intervals)-1][1])
 
     # Try to extend by 3 segments in either direction of the middle
-    times_used0 = [{'start_time': t_start, 'end_time': t_end}]
-    for i in range(6):
-        for delta in [-segment_size, segment_size]:
-            t0 = t_start + delta * (i+1)
-            t1 = t_end + delta * (i+1)
+    # times_used0 = [{'start_time': t_start, 'end_time': t_end}]
+    # for i in range(6):
+    #     for delta in [-segment_size, segment_size]:
+    #         t0 = t_start + delta * (i+1)
+    #         t1 = t_end + delta * (i+1)
 
-            t0 = round(t0 * 3) / 3
-            t1 = round(t1 * 3) / 3
+    #         t0 = round(t0 * 3) / 3
+    #         t1 = round(t1 * 3) / 3
 
-            if t1 < 0:
-                continue
-            if t0 > max_time:
-                continue
-            if len(times_used0) < 7:
-                times_used0.append({'start_time': t0, 'end_time': t1})
-    times_used0 = sorted(times_used0, key=lambda x: x['start_time'])
+    #         if t1 < 0:
+    #             continue
+    #         if t0 > max_time:
+    #             continue
+    #         if len(times_used0) < 7:
+    #             times_used0.append({'start_time': t0, 'end_time': t1})
+    # times_used0 = sorted(times_used0, key=lambda x: x['start_time'])
 
     ###
     frames = []
     times_used = []
+    speakers = []
     for trow in times_used0:
         t_midframe = (trow['start_time'] + trow['end_time']) / 2.0
         t_mid_3ps_idx = int(round(t_midframe * 3.0)) + 1
         t_mid_3ps_idx = max(t_mid_3ps_idx, 1)
         t_mid_3ps_idx = min(t_mid_3ps_idx, max_frame_no)
+
+        # # find interval that t_mid_3ps_idx is in
+        # intervals = speaker_diar[item['vid_name']]
+        # speaker_in_frame = 0
+        # for interval in intervals:
+        #     start_time = interval[0]
+        #     end_time = interval[1]
+        #     speaker_num = interval[2]
+        #     speaker_in_frame = speaker_num
+        #     if t_mid_3ps_idx >= start_time and t_mid_3ps_idx <= end_time:
+        #         speaker_in_frame = speaker_num
+        if using_speaker_turns: speakers.append(trow['speaker'])        
 
         fn = os.path.join(frames_path, item['vid_name'] + "_trimmed-out_" + f'{t_mid_3ps_idx:03d}.jpg')
         if os.path.exists(fn):
@@ -294,13 +344,20 @@ def parse_item(item):
     qa_item['_mp3_fn'] = audio_fn_mp3
     qa_item['_frames_path'] = frames_path
     qa_item['_time_interval'] = [ts0, ts1]
+    if using_speaker_turns: qa_item['speakers'] = speakers
 
 
     # Pad to 7
-    for i in range(7 - len(frames)):
-        frames.append(frames[-1])
-        spectrograms.append(spectrograms[-1])
-        times_used.append({'start_time': -1, 'end_time': -1, 'sub': ''})
+    if using_speaker_turns:
+        for i in range(20 - len(frames)):
+            frames.append(frames[-1])
+            spectrograms.append(spectrograms[-1])
+            times_used.append({'start_time': -1, 'end_time': -1, 'speaker': -1, 'sub': ''})
+    else:
+        for i in range(7):
+            frames.append(frames[-1])
+            spectrograms.append(spectrograms[-1])
+            times_used.append({'start_time': -1, 'end_time': -1, 'sub': ''})
 
     return qa_item, frames, spectrograms, times_used
 
@@ -323,6 +380,7 @@ with GCSTFRecordWriter(out_fn, auto_close=False) as tfrecord_writer:
             'qa_query': int64_list_feature(query_enc),
             'qa_label': int64_feature(qa_item['qa_label']),
             'num_frames': int64_feature(qa_item['num_frames']),
+            # 'speakers': float_list_feature(qa_item['speakers']),
         }
 
         max_query = 0

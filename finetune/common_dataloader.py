@@ -150,6 +150,7 @@ def preprocess_tvqa(record, config):
         'qa_query': tf.io.VarLenFeature(tf.int64),
         'qa_label': tf.io.FixedLenFeature((), tf.int64, 1),
         'num_frames': tf.io.FixedLenFeature((), tf.int64, 1),
+        'speakers': tf.io.VarLenFeature(tf.float32),
     }
     for i in range(config['num_answers']):
         k2f[f'qa_choice_{i}'] = tf.io.VarLenFeature(tf.int64)
