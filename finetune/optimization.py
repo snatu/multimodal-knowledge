@@ -48,7 +48,7 @@ def _shard_opt(x):
     # Manual replicate
     devices = jax.local_devices()
     x = x.reshape(x_shape2)
-    x = device_put_sharded([x[i] for i in range(8)], devices)
+    x = device_put_sharded([x[i] for i in range(1)], devices)
     return x
 
 

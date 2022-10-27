@@ -1,0 +1,16 @@
+~~~~~~~~~~~ Example 0 W_GrHtwZez8_q2~W_GrHtwZez8 ~~~~~~~~
+ -39 to 140<|START|> how does the man on the phone feel about the questions?
+0   )  he thinks they are fair questions and is answering them.     (11tok)
+1 GT)  he loves to answer them     (5tok)
+~~~~~~~~~~~ Example 1 E0TBOKN8J2E_q11~E0TBOKN8J2E ~~~~~~~~
+ -40 to 141<|START|> why does the man with the bowtie seem concerned?
+0 GT)  the man on the far right is pointing out problems that may affect the bowtie man.     (17tok)
+1   )  the bowtie man is concerned because he does not like the person talking.     (14tok)
+~~~~~~~~~~~ Example 2 g8cyMIFcC_g_q3~g8cyMIFcC_g ~~~~~~~~
+ -32 to 132<|START|> how are the two people acting?
+0 GT)  they are acting friendly and being nice to each other.     (11tok)
+1   )  they are acting hostile towards each other and cannot stop bickering.     (14tok)
+~~~~~~~~~~~ Example 3 lC8nM75AqUk_q12~lC8nM75AqUk ~~~~~~~~
+ -41 to 140<|START|> does the man on the right agree with the woman on the left?
+0 GT)  yes, nods when she speaks.     (8tok)
+1   )  no because he is abruptly cutting her off when he talks showing disinterest     (14tok)

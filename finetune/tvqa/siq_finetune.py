@@ -34,6 +34,7 @@ import time
 import os
 from dotenv import load_dotenv
 import wandb
+from mreserve.modeling import PretrainedMerlotReserve
 
 load_dotenv('../../.env')
 
@@ -108,8 +109,8 @@ args = parser.parse_args()
 # print(f"Loading from {args.config_file}", flush=True)
 with open(args.pretrain_config_file, 'r') as f:
     config = yaml.load(f, yaml.FullLoader)
-
-
+os.environ["TFRECORDS_PATH"] =  "/data/raw/siq"
+os.environ["OUTPUT_PATH"] = "/data/raw/models"
 config['data']['train_fns'] = os.path.join(os.environ["TFRECORDS_PATH"], "train{:03d}of833.tfrecord")
 config['data']['num_train_files'] = 833
 config['data']['num_answers'] = 4
@@ -134,7 +135,7 @@ config['optimizer'] = {
     'weight_decay_rate': 0.1,
     'do_bias_correction': True,
 }
-
+print(args.ckpt)
 config['device']['iterations_per_loop'] = steps_per_epoch
 config['data']['lang_seq_len'] = 256
 cfg_name = args.pretrain_config_file.split('/')[-1]
@@ -158,7 +159,7 @@ if args.output_name != '':
     tags.append(args.output_name)
 # if (jax.process_index() == 0):
 #     import wandb
-wandb.init(config=config, project=args.wandb_name, entity='sherylm', notes="Loaded from "+cfg_name, tags=tags)
+#wandb.init(config=config, project=args.wandb_name, entity='sherylm', notes="Loaded from "+cfg_name, tags=tags)
 # else:
 # wandb = None
 
@@ -267,7 +268,8 @@ class MerlotReserveTVQA(MerlotReserve):
 
 
 model = MerlotReserveTVQA.from_config(config)
-
+grid_size = (12, 20)
+#pretrained_model = PretrainedMerlotReserve.from_pretrained(model_name='large', image_grid_size=grid_size)
 # if args.ckpt == '':
 #     params = model.init_from_dummy_batch(dummy_batch).unfreeze()
 # else:

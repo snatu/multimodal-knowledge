@@ -987,7 +987,8 @@ class PretrainedMerlotReserve:
                     for chunk in r.iter_content(chunk_size=1000):
                         f.write(chunk)
             print("Done downloading")
-
+        print(cache_path)
+        print("above is cache_path")
         params = load_checkpoint(cache_path)['params']
 
         config_fn = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'pretrain', 'configs', f'{model_name}.yaml')

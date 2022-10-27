@@ -1,0 +1,17 @@
+~~~~~~~~~~~ Example 0 W_GrHtwZez8_q2~W_GrHtwZez8 ~~~~~~~~
+ -39 to 140<|START|> how does the man on the phone feel about the questions?
+0   )  the man on the phone has extremely negative feelings about the questions because he finds them extremely and very offensive     (20tok)
+1 GT)  he loves to answer them     (5tok)
+/data/raw/transcript/g67e0hDT1oQ-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 g67e0hDT1oQ_q1~g67e0hDT1oQ ~~~~~~~~
+ -41 to 142<|START|> why does the man with glasses keep interrupting the man wearing a hat?
+0 GT)  he is distracted and in awe by the cheetah that he cannot help himself.     (15tok)
+1   )  he does not respect the man with the hat on.     (11tok)
+~~~~~~~~~~~ Example 2 g8cyMIFcC_g_q3~g8cyMIFcC_g ~~~~~~~~
+ -32 to 132<|START|> how are the two people acting?
+0 GT)  they are acting friendly and being nice to each other.     (11tok)
+1   )  they are too excited     (4tok)
+~~~~~~~~~~~ Example 3 lC8nM75AqUk_q12~lC8nM75AqUk ~~~~~~~~
+ -41 to 140<|START|> does the man on the right agree with the woman on the left?
+0   )  no, he talks about himself a lot and not enough about her.     (14tok)
+1 GT)  yes, nods when she speaks.     (8tok)
