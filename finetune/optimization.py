@@ -40,10 +40,10 @@ def _shard_opt(x):
     :param x:
     :return:
     """
-    if (x.ndim == 0) or (x.shape[0] % 8 != 0):
+    if (x.ndim == 0) or (x.shape[0] % 1 != 0):
         return jax_utils.replicate(x)
     else:
-        x_shape2 = [8, x.shape[0] // 8] + list(x.shape[1:])
+        x_shape2 = [1, x.shape[0] // 1] + list(x.shape[1:])
 
     # Manual replicate
     devices = jax.local_devices()
@@ -146,11 +146,11 @@ def finetune_train_step(state: train_state.TrainState, batch,
     # ##################
     # Adam sharding
     def _idx_grad(x):
-        if x.shape[0] % 8 != 0:
+        if x.shape[0] % 1 != 0:
             return x
         else:
-            x = jnp.reshape(x, [8, x.shape[0] // 8] + list(x.shape[1:]))
-            idx = jax.lax.axis_index('batch') % 8
+            x = jnp.reshape(x, [1, x.shape[0] // 1] + list(x.shape[1:]))
+            idx = jax.lax.axis_index('batch') % 1
             return x[idx]
     updates = jax.tree_map(_idx_grad, grads)
     updates = bf16_to_f32(updates)
@@ -165,7 +165,7 @@ def finetune_train_step(state: train_state.TrainState, batch,
         if update.shape == param.shape:
             return update
         else:
-            aig = [[(j * 8 + i) for i in range(8)] for j in range(jax.device_count() // 8)]
+            aig = [[(j * 1 + i) for i in range(1)] for j in range(jax.device_count() // 1)]
             update = jax.lax.all_gather(update, axis_name='batch', axis_index_groups=aig)
             return jnp.reshape(update, param.shape)
     updates = jax.tree_multimap(_fix_grad, updates, state.params)
