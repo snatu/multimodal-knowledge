@@ -8,7 +8,8 @@ from mreserve.preprocess import video_to_segments, preprocess_video, encoder, MA
 from mreserve.modeling import PretrainedMerlotReserve
 import jax
 import jax.numpy as jnp
-
+import os
+os.environ["PATH"] += ":/usr/local/bin/ffmpeg"
 # This handles loading the model and getting the checkpoints.
 grid_size = (18, 32)
 model = PretrainedMerlotReserve.from_pretrained(model_name='large', image_grid_size=grid_size)

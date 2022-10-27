@@ -4,17 +4,21 @@ import re
 import subprocess
 import sys
 import random
+import os
+print(os.environ["PATH"])
 
-sys.path.append("/home/sheryl")
 
-from raw import socialiq_std_folds
+sys.path.append("/home/ec2-user")
+os.environ["PATH"] += ":/usr/local/bin/ffmpeg"
+
+import socialiq_std_folds
 
 def make_json_for(vids, file_name):
     for vid in vids:
         vid_name = vid + "_trimmed-out.mp4"
-        vid_length = subprocess.check_output(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=duration', '-of', 'default=noprint_wrappers=1:nokey=1', os.path.join("/home/sheryl/raw/vision/raw", vid_name)])
+        vid_length = subprocess.check_output(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=duration', '-of', 'default=noprint_wrappers=1:nokey=1', os.path.join("/data/raw/vision/raw", vid_name)])
         
-        vid_filename = os.path.join("/home/sheryl/raw/qa", vid + "_trimmed.txt")
+        vid_filename = os.path.join("/data/raw/qa", vid + "_trimmed.txt")
         vid_file = open(vid_filename, "r") 
 
         file_end = False
@@ -102,10 +106,10 @@ def make_json_for(vids, file_name):
 train_vids = socialiq_std_folds.standard_train_fold
 val_vids = socialiq_std_folds.standard_valid_fold
 
-all_vids = os.listdir("/home/sheryl/raw/vision/raw")
+all_vids = os.listdir("/data/raw/vision/raw")
 
-train_file = open("/home/sheryl/raw/siq_train.jsonl", "w")
-val_file = open("/home/sheryl/raw/siq_val.jsonl", "w")
+train_file = open("/data/raw/siq_train.jsonl", "w")
+val_file = open("/data/raw/siq_val.jsonl", "w")
 
 make_json_for(train_vids, train_file)
 make_json_for(val_vids, val_file)

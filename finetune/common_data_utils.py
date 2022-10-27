@@ -171,7 +171,7 @@ def create_base_parser():
     parser.add_argument(
         '-base_fn',
         dest='base_fn',
-        default='/home/sheryl/raw',
+        default='/data/raw',
         type=str,
         help='Base filename to use. You can start this with gs:// and we\'ll put it on google cloud.'
     )

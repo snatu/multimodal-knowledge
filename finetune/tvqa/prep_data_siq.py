@@ -3,7 +3,7 @@ Convert TVQA into tfrecords
 """
 import sys
 
-sys.path.append('/home/sheryl/merlot_reserve')
+sys.path.append('/data/merlot_reserve')
 import argparse
 import hashlib
 import io
@@ -40,7 +40,7 @@ parser = create_base_parser()
 parser.add_argument(
     '-data_dir',
     dest='data_dir',
-    default='/home/sheryl/raw/',
+    default='/data/raw/',
     type=str,
     help='Image directory.'
 )
@@ -142,8 +142,8 @@ with open(split_fn, 'r') as f:
 ts_lens = [x['ts'][1] - x['ts'][0] for x in data]
 max_end = max([x['ts'][1] for x in data])
 
-speaker_diar_file = open("../../../raw/speaker_diar.pk", 'rb')
-speaker_diar = pickle.load(speaker_diar_file)
+#speaker_diar_file = open("../../../raw/speaker_diar.pk", 'rb')
+#speaker_diar = pickle.load(speaker_diar_file)
 
 def parse_item(item):
     using_speaker_turns = False
@@ -311,8 +311,8 @@ def parse_item(item):
     sub_fn = os.path.join(args.data_dir, 'transcript', show_subname + '.en.vtt')
     if not os.path.exists(sub_fn):
         print(sub_fn)
-        import ipdb
-        ipdb.set_trace()
+        #import ipdb
+        #ipdb.set_trace()
 
     def _parse_ts(ts):
         sec = ts.hours * 3600 + ts.minutes * 60 + ts.seconds + ts.milliseconds / 1000.0
@@ -321,13 +321,14 @@ def parse_item(item):
         ts['sub'] = []
 
     bounds = np.array([x['start_time'] for x in times_used] + [times_used[-1]['end_time']])
-    for sub_item in pysrt.open(sub_fn):
-        start_time = _parse_ts(sub_item.start)
-        end_time = _parse_ts(sub_item.end)
-        mid_time = (start_time + end_time) / 2.0
-        pos = np.searchsorted(bounds, mid_time)
-        if (pos > 0) and (pos <= len(times_used)):
-            times_used[pos-1]['sub'].append(sub_item.text)
+    if os.path.exists(sub_fn):
+       for sub_item in pysrt.open(sub_fn):
+           start_time = _parse_ts(sub_item.start)
+           end_time = _parse_ts(sub_item.end)
+           mid_time = (start_time + end_time) / 2.0
+           pos = np.searchsorted(bounds, mid_time)
+           if (pos > 0) and (pos <= len(times_used)):
+               times_used[pos-1]['sub'].append(sub_item.text)
 
     for ts in times_used:
         ts['sub'] = ' '.join(ts['sub'])

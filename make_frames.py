@@ -3,7 +3,8 @@ import subprocess
 
 def video_to_frames(data_dir):
     vid_names = os.listdir(data_dir)
-    frame_dir = "raw/frames"
+    print(len(vid_names))
+    frame_dir = "/data/raw/frames"
     for vid in vid_names:
         print("MAKING THIS VIDEO INTO MANY PICTURES (FRAMES): ", vid)
         vid_name = os.path.splitext(vid)[0]
@@ -15,4 +16,4 @@ def video_to_frames(data_dir):
 
     print("Finished extracting frames.")
 
-video_to_frames("raw/vision/raw")
+video_to_frames("/data/raw/vision/raw")
