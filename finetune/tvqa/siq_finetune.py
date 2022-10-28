@@ -342,7 +342,7 @@ def val_epoch(state: train_state.TrainState):
     joint_preds = []
     batch_num = 0
     for ids, batch in val_iter:
-        if batch_num % 50 = 0:
+        if batch_num % 50 == 0:
             print("~~~~VAL_BATCH", batch_num)
         batch_num+=1
         val_pred = p_pred_step(state, batch)
