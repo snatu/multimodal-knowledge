@@ -161,7 +161,7 @@ if args.output_name != '':
 #     import wandb
 #wandb.init(config=config, project=args.wandb_name, entity='sherylm', notes="Loaded from "+cfg_name, tags=tags)
 # else:
-# wandb = None
+wandb = None
 
 class MerlotReserveTVQA(MerlotReserve):
     def setup(self):
@@ -368,7 +368,8 @@ def val_epoch(state: train_state.TrainState):
     joint_preds = pd.DataFrame(joint_preds)
     joint_preds['is_right'] = joint_preds['pred'] == joint_preds['label']
     joint_acc = joint_preds['is_right'].mean()
-    wandb.log({'val_joint_acc': joint_acc, 'val_text_acc': text_acc, 'val_audio_acc': audio_acc})
+    if wandb is not None:
+       wandb.log({'val_joint_acc': joint_acc, 'val_text_acc': text_acc, 'val_audio_acc': audio_acc})
     return {'text_acc': text_acc, 'audio_acc': audio_acc, 'joint_acc': joint_acc}
 
 train_metrics = []
@@ -380,8 +381,8 @@ num_batch = 0
 for n in range(config['optimizer']['num_train_steps']+100):
     st = time.time()
     id_, batch = next(ds_train_iter)
-    # print("~~~~~~BATCH", num_batch)
-    # print("-----------------------------------ID:", id_)
+    print("~~~~~~BATCH", num_batch)
+    print("-----------------------------------ID:", id_)
     num_batch += 1
     state, loss_info = p_train_step(state, batch)
 

@@ -11,8 +11,8 @@ import jax.numpy as jnp
 import os
 os.environ["PATH"] += ":/usr/local/bin/ffmpeg"
 # This handles loading the model and getting the checkpoints.
-grid_size = (18, 32)
-model = PretrainedMerlotReserve.from_pretrained(model_name='large', image_grid_size=grid_size)
+grid_size = (12,20)
+model = PretrainedMerlotReserve.from_pretrained(model_name='base', image_grid_size=grid_size)
 
 ## First open the video and break it up into segments. you can only have 8.
 # Each segment is 5 seconds so it corresponds to seconds 15 - 55 of the video
