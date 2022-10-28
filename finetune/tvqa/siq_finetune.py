@@ -342,7 +342,8 @@ def val_epoch(state: train_state.TrainState):
     joint_preds = []
     batch_num = 0
     for ids, batch in val_iter:
-        print(batch_num)
+        if batch_num % 50 = 0:
+            print("~~~~VAL_BATCH", batch_num)
         batch_num+=1
         val_pred = p_pred_step(state, batch)
         preds_joint = val_pred['preds_joint'].reshape(-1)
@@ -383,7 +384,8 @@ num_batch = 0
 for n in range(config['optimizer']['num_train_steps']+100):
     st = time.time()
     id_, batch = next(ds_train_iter)
-    print("~~~~~~BATCH", num_batch)
+    if num_batch % 50 == 0:
+        print("~~~~~~BATCH", num_batch)
     num_batch += 1
     state, loss_info = p_train_step(state, batch)
 
@@ -398,7 +400,7 @@ for n in range(config['optimizer']['num_train_steps']+100):
                 wandb.log(train_metrics[step_for_logging], step=step_for_logging, commit=True) #(n + 1) % log_every == 0)
 
         # if (n + 1) % config['device']['iterations_per_loop'] == 0:
-        if (n + 1) % 5 == 0: # do val every 500 steps
+        if (n + 1) % 500 == 0: # do val every 500 steps
             print("Done 500 steps, doing validation", flush=True)
 
             save_checkpoint(state, path=config['device']['output_dir'], no_optimizer=True)
