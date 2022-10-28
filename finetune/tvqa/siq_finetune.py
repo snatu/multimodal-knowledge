@@ -340,8 +340,10 @@ def val_epoch(state: train_state.TrainState):
     text_preds = []
     audio_preds = []
     joint_preds = []
-
+    batch_num = 0
     for ids, batch in val_iter:
+        print(batch_num)
+        batch_num+=1
         val_pred = p_pred_step(state, batch)
         preds_joint = val_pred['preds_joint'].reshape(-1)
         preds_audio = val_pred['preds_audio'].reshape(-1)
@@ -382,7 +384,6 @@ for n in range(config['optimizer']['num_train_steps']+100):
     st = time.time()
     id_, batch = next(ds_train_iter)
     print("~~~~~~BATCH", num_batch)
-    print("-----------------------------------ID:", id_)
     num_batch += 1
     state, loss_info = p_train_step(state, batch)
 
@@ -397,7 +398,7 @@ for n in range(config['optimizer']['num_train_steps']+100):
                 wandb.log(train_metrics[step_for_logging], step=step_for_logging, commit=True) #(n + 1) % log_every == 0)
 
         # if (n + 1) % config['device']['iterations_per_loop'] == 0:
-        if (n + 1) % 500 == 0: # do val every 500 steps
+        if (n + 1) % 5 == 0: # do val every 500 steps
             print("Done 500 steps, doing validation", flush=True)
 
             save_checkpoint(state, path=config['device']['output_dir'], no_optimizer=True)
@@ -406,7 +407,7 @@ for n in range(config['optimizer']['num_train_steps']+100):
             if wandb is not None:
                 wandb.log({'joint_acc_val': val_info['joint_acc']}, step=step_for_logging, commit=True)
                 # wandb.log({k + '_val': v for k, v in val_info.items()}, step=step_for_logging, commit=True)
-            shutil.rmtree("/home/sheryl/out/base.yaml/")
+            #shutil.rmtree("/data/merlot_reserve/out/base.yaml/")
 
         time_elapsed.append(time.time() - st)
         if len(time_elapsed) >= 100:
