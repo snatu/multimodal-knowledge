@@ -1,0 +1,27 @@
+~~~~~~~~~~~ Example 0 E0TBOKN8J2E_q1~E0TBOKN8J2E ~~~~~~~~
+ -40 to 141<|START|> why does the man with the blue tie nod?
+0 GT)  he understands what is being said.     (7tok)
+1   )  he is listening to good music and cannot stop bobbing his head to it.     (16tok)
+/data/raw/transcript/vC63_bemI2I-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 vC63_bemI2I_q4~vC63_bemI2I ~~~~~~~~
+ -41 to 142<|START|> why does the man with the long beard constantly move his left hand up and down
+0   )  to get the man in the black shirt to get away from him.     (14tok)
+1 GT)  because he is being defensive and trying to get his point across     (12tok)
+~~~~~~~~~~~ Example 2 FWBCTZiijEM_q8~FWBCTZiijEM ~~~~~~~~
+ -35 to 135<|START|> does the man like the game?
+0 GT)  he seems to be having fun.     (7tok)
+1   )  no, because he finds the game to be silly and immature.     (13tok)
+~~~~~~~~~~~ Example 3 yRtPan09Ek0_q4~yRtPan09Ek0 ~~~~~~~~
+ -39 to 140<|START|> how does the man on the right feel about the man on the left?
+0   )  the man on the right thinks the man on the left dislikes his daughter     (14tok)
+1 GT)  the man on the right thinks the man on the left is a fun conversationalist     (17tok)
+/data/raw/transcript/ZeYarFkvoGw-trimmed.en.vtt
+/data/raw/transcript/0a2lv4IwZFY-trimmed.en.vtt
+/data/raw/transcript/t-dmFuH7TyM-trimmed.en.vtt
+/data/raw/transcript/gbVOyKifrAo-trimmed.en.vtt
+/data/raw/transcript/GCZ5aagOddY-trimmed.en.vtt
+/data/raw/transcript/UUuXfyfCaL4-trimmed.en.vtt
+/data/raw/transcript/GK4_G33fXFU-trimmed.en.vtt
+/data/raw/transcript/xdiFzcpmmJc-trimmed.en.vtt
+/data/raw/transcript/j7cUdCFEpeU-trimmed.en.vtt
+Finished writing 63 questions; max len = 4461

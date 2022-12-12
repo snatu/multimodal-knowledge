@@ -1,0 +1,27 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q1~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> was the girl really sad or depressed when she cried?
+0 GT)  no, she is nostalgic, she uses the word miss... she is not depressed     (16tok)
+1   )  she didn't know why she was crying.     (9tok)
+~~~~~~~~~~~ Example 1 qh8JWHlIgcE_q6~qh8JWHlIgcE ~~~~~~~~
+ -40 to 140<|START|> what does the man feel towards the woman in a white dress?
+0 GT)  he is a good friend to her.     (8tok)
+1   )  he feels feelings of romantic attraction to the woman.     (10tok)
+~~~~~~~~~~~ Example 2 P8YRuxu8dQU_q12~P8YRuxu8dQU ~~~~~~~~
+ -40 to 141<|START|> how did the man on the phone react when the people in costumes told him how the disease commonly spreads?
+0   )  he got nervous, since they know of his unsanitary habits.     (14tok)
+1 GT)  he acknowledged what they said, but shrugged it off.     (12tok)
+~~~~~~~~~~~ Example 3 CoMz3JOnZFo_q4~CoMz3JOnZFo ~~~~~~~~
+ -39 to 140<|START|> why does the man in the pirate costume (with black hair) walking and talking awkwardly?
+0 GT)  because it's a part of his character.     (9tok)
+1   )  because he has a speech impairment that impacts how he talks.     (14tok)
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/nQqY3j8btbI-trimmed.en.vtt
+/data/raw/transcript/Yzq6fNeXf6w-trimmed.en.vtt
+/data/raw/transcript/QytntXWJIe8-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/8MK9frCMoWA-trimmed.en.vtt
+/data/raw/transcript/NR9v3PBJw8g-trimmed.en.vtt
+/data/raw/transcript/_zuODgCQ6O8-trimmed.en.vtt
+/data/raw/transcript/LD1RAPiT_7A-trimmed.en.vtt
+Finished writing 63 questions; max len = 4981

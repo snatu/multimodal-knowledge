@@ -1,0 +1,37 @@
+~~~~~~~~~~~ Example 0 W_GrHtwZez8_q4~W_GrHtwZez8 ~~~~~~~~
+ -39 to 140<|START|> why does the man make quotation marks with his fingers when he says the word "reporting" at the end of the video?
+0   )  the man speaking makes quotation to the man on the phone to show that he is not interested in him     (21tok)
+1 GT)  to make it less interesting     (5tok)
+/data/raw/transcript/g67e0hDT1oQ-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 g67e0hDT1oQ_q2~g67e0hDT1oQ ~~~~~~~~
+ -41 to 142<|START|> why does the man with glasses lift his hands up?
+0 GT)  he does not want to be attacked.     (8tok)
+1   )  the man is surrendering to the police.     (9tok)
+~~~~~~~~~~~ Example 2 g8cyMIFcC_g_q4~g8cyMIFcC_g ~~~~~~~~
+ -32 to 132<|START|> why did the man keep moving his hands while he was speaking?
+0 GT)  he points his hand to his brain when he says the word "symbolic" because the mapping between the symbol and what is represents happens in the brain.     (32tok)
+1   )  to distract the lady     (4tok)
+~~~~~~~~~~~ Example 3 lC8nM75AqUk_q14~lC8nM75AqUk ~~~~~~~~
+ -41 to 140<|START|> what is the dynamic between the two individuals?
+0 GT)  they don't know each other very well.     (9tok)
+1   )  the dynamic between the two individuals is combative and angry in nature.     (14tok)
+/data/raw/transcript/1akNUksCpRU-trimmed.en.vtt
+/data/raw/transcript/9eqze5JWNjY-trimmed.en.vtt
+/data/raw/transcript/i5YckMkwmm4-trimmed.en.vtt
+/data/raw/transcript/zWaV_PTlCxk-trimmed.en.vtt
+/data/raw/transcript/P3QEOJWxXI8-trimmed.en.vtt
+/data/raw/transcript/vjZDdaFTubE-trimmed.en.vtt
+/data/raw/transcript/OLw7cIJApMI-trimmed.en.vtt
+/data/raw/transcript/UCW_UH-k-ec-trimmed.en.vtt
+/data/raw/transcript/RtjJBtFXJaI-trimmed.en.vtt
+/data/raw/transcript/ASqnnZpsX1M-trimmed.en.vtt
+/data/raw/transcript/09j-Mg5guGg-trimmed.en.vtt
+/data/raw/transcript/PQW7zw2URes-trimmed.en.vtt
+/data/raw/transcript/ZuYTtKZUkJc-trimmed.en.vtt
+/data/raw/transcript/h35dZhHkuFM-trimmed.en.vtt
+/data/raw/transcript/iDgaqD7CWXU-trimmed.en.vtt
+/data/raw/transcript/p6IwwFevo7o-trimmed.en.vtt
+/data/raw/transcript/qN-ZCqaSHHk-trimmed.en.vtt
+/data/raw/transcript/ZMJw752P7z8-trimmed.en.vtt
+/data/raw/transcript/jtl5XK7QP38-trimmed.en.vtt
+Finished writing 64 questions; max len = 4665

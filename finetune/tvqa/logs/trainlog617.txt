@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 LTUojzYVUUI_q2~LTUojzYVUUI ~~~~~~~~
+ -37 to 137<|START|> why does the audience laugh when the man with square-framed glasses says "you don't know how many elves he's killed in his workshop"?
+0 GT)  people can't imagine santa killing elves and think it is silly.     (13tok)
+1   )  they are nervous that the man who said it is crazy.     (12tok)
+~~~~~~~~~~~ Example 1 YIZpD3fEfgs_q4~YIZpD3fEfgs ~~~~~~~~
+ -40 to 140<|START|> do the other men take the first man who speaks seriously?
+0   )  the viewer can't guess if they take each other seriously.     (12tok)
+1 GT)  the other men think the man's message is true but his points are humorous.     (16tok)
+~~~~~~~~~~~ Example 2 gKuBUQVcDJM_q5~gKuBUQVcDJM ~~~~~~~~
+ -41 to 141<|START|> describe the overall tone of the video
+0 GT)  the overall tone is very friendly and warm     (8tok)
+1   )  funereal and sad     (5tok)
+~~~~~~~~~~~ Example 3 G3xzem7HSME_q6~G3xzem7HSME ~~~~~~~~
+ -38 to 138<|START|> how does the woman at the beginning of the video feel about the students playing at wembley?
+0   )  she is mad because the girls' soccer team did not qualify.     (13tok)
+1 GT)  she is proud of the soccer boys' achievements.     (10tok)
+/data/raw/transcript/Yzq6fNeXf6w-trimmed.en.vtt
+/data/raw/transcript/QytntXWJIe8-trimmed.en.vtt
+/data/raw/transcript/8MK9frCMoWA-trimmed.en.vtt
+/data/raw/transcript/jP2HuCwfKFA-trimmed.en.vtt
+/data/raw/transcript/C6RMS4F6LDc-trimmed.en.vtt
+/data/raw/transcript/wbmW_Z1oPJw-trimmed.en.vtt
+/data/raw/transcript/pMGhqE76kQA-trimmed.en.vtt
+/data/raw/transcript/iBL0FcUTFT8-trimmed.en.vtt
+Finished writing 63 questions; max len = 3303

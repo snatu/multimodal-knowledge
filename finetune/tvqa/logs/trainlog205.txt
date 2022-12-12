@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 qr69jLeQdRA_q5~qr69jLeQdRA ~~~~~~~~
+ -41 to 141<|START|> how does the host feel about the woman's name?
+0 GT)  he thinks it's confusing and unusual.     (8tok)
+1   )  the host feels disgusted by the woman's name     (9tok)
+~~~~~~~~~~~ Example 1 QQpIBRLlJzo_q2~QQpIBRLlJzo ~~~~~~~~
+ -38 to 139<|START|> what did the man with glasses think about the attraction he used to run at the carnival?
+0   )  he didn't mind it, since he didn't have to do much due to the low traffic.     (20tok)
+1 GT)  there would be up to 30 minutes between waves of people visiting his attraction, so it was not always busy.     (22tok)
+~~~~~~~~~~~ Example 2 k5bk1efKBSI_q4~k5bk1efKBSI ~~~~~~~~
+ -34 to 135<|START|> why is there laughter after the people repeat the same word over and over again?
+0   )  they laugh because they are happy to see the man humiliated     (12tok)
+1 GT)  they laugh because the man cannot say the other's name     (11tok)
+~~~~~~~~~~~ Example 3 _tBXwqueWcg_q4~_tBXwqueWcg ~~~~~~~~
+ -35 to 135<|START|> what does the woman think the wellness training institute teaches people to feel?
+0 GT)  it makes people feel internally motivated to change themselves.     (10tok)
+1   )  to feel less hungry at all times.     (8tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/pK1WAx4jJzE-trimmed.en.vtt
+/data/raw/transcript/U4r9ePA6RkQ-trimmed.en.vtt
+/data/raw/transcript/oY6BfHkNFPY-trimmed.en.vtt
+/data/raw/transcript/jYL4gMsGZgE-trimmed.en.vtt
+/data/raw/transcript/DZsBei4nCkU-trimmed.en.vtt
+/data/raw/transcript/LtxWWUBt7ro-trimmed.en.vtt
+/data/raw/transcript/7Oum_c5Seis-trimmed.en.vtt
+/data/raw/transcript/96YOZOU7ggo-trimmed.en.vtt
+/data/raw/transcript/dACF-Mz-X8M-trimmed.en.vtt
+/data/raw/transcript/qow_n-oNEt8-trimmed.en.vtt
+/data/raw/transcript/5fy7S3jCyAg-trimmed.en.vtt
+Finished writing 64 questions; max len = 4203

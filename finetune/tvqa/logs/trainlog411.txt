@@ -1,0 +1,37 @@
+~~~~~~~~~~~ Example 0 B6p6X1LSjiA_q14~B6p6X1LSjiA ~~~~~~~~
+ -40 to 139<|START|> how does the man react when asked a question by the man in the bright red tie?
+0   )  he is angry that the other person feels like they need to know more.     (15tok)
+1 GT)  the man on the left nods his understanding of the question     (12tok)
+/data/raw/transcript/ofvOXABptcY-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 ofvOXABptcY_q4~ofvOXABptcY ~~~~~~~~
+ -41 to 141<|START|> why does the man suddenly make eye contact in the beginning?
+0 GT)  the man feels that his answer is funny, gains confidence looks     (12tok)
+1   )  the man is actaully suddenly friends wit the own, so looks up     (15tok)
+~~~~~~~~~~~ Example 2 JW2HHfQiGVs_q2~JW2HHfQiGVs ~~~~~~~~
+ -39 to 140<|START|> describe the man's reactions to the woman's speech and what this suggests
+0   )  the man reacts to the woman's speech by not paying attention     (12tok)
+1 GT)  he seems to be agreeing with what she's saying suggesting they share similar opinions     (15tok)
+~~~~~~~~~~~ Example 3 pc3__b1uF4Q_q4~pc3__b1uF4Q ~~~~~~~~
+ -41 to 141<|START|> why does the man on the right have to explain why he is interested in the upcoming us presidential election?
+0   )  he is explaining research he is doing in american government.     (11tok)
+1 GT)  he has to explain this because he thinks some people will not understand why he cares about what happens in the us.     (23tok)
+/data/raw/transcript/Iu6_k2ok00U-trimmed.en.vtt
+/data/raw/transcript/-daGjyKKNio-trimmed.en.vtt
+/data/raw/transcript/_s42gOg2WSU-trimmed.en.vtt
+/data/raw/transcript/rVWZuXDkc4A-trimmed.en.vtt
+/data/raw/transcript/MM0YOB-cSWA-trimmed.en.vtt
+/data/raw/transcript/B1VB7vVQNQg-trimmed.en.vtt
+/data/raw/transcript/xWRNBOXoLf8-trimmed.en.vtt
+/data/raw/transcript/3qp3AeWmt38-trimmed.en.vtt
+/data/raw/transcript/_KE_-EdMhDI-trimmed.en.vtt
+/data/raw/transcript/bT_DEZz99VQ-trimmed.en.vtt
+/data/raw/transcript/3zjz6ryPvIg-trimmed.en.vtt
+/data/raw/transcript/atEkAkPfpUY-trimmed.en.vtt
+/data/raw/transcript/aDJJBMXiwiI-trimmed.en.vtt
+/data/raw/transcript/6xQv6ozrz90-trimmed.en.vtt
+/data/raw/transcript/erOpqmubBL4-trimmed.en.vtt
+/data/raw/transcript/KpljzfIVBDM-trimmed.en.vtt
+/data/raw/transcript/YIJ0mZYi1O4-trimmed.en.vtt
+/data/raw/transcript/Mf76yyTY7Ss-trimmed.en.vtt
+/data/raw/transcript/KzN6XWDEmXI-trimmed.en.vtt
+Finished writing 63 questions; max len = 906

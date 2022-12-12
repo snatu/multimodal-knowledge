@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q6~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> what is the role of the woman?
+0 GT)  she shares information from both sides.     (7tok)
+1   )  she is meant to provoke the other people.     (9tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q4~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> describe the nature of the relationship between the two men in the black and white video
+0   )  the two men have a romantic relationship because they enjoy being intimate with each other.     (16tok)
+1 GT)  the two men have a professional relationship.     (8tok)
+~~~~~~~~~~~ Example 2 o6DEc3OYQfU_q19~o6DEc3OYQfU ~~~~~~~~
+ -41 to 141<|START|> what does the man in the tie feel about the thing he is tasked with?
+0 GT)  he feels positive towards the task he is completing.     (10tok)
+1   )  the man in the tie feels negatively about the task he is doing.     (14tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q4~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> does the man in black remember his childhood fondly?
+0 GT)  yes, he remembers his childhood fondly     (8tok)
+1   )  no, he disliked his childhood.     (8tok)
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/n5_HdNzf03Q-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/AQX2Q-V2Uh8-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+/data/raw/transcript/RAUSVB_Nu9k-trimmed.en.vtt
+/data/raw/transcript/oYM9bFGb8B8-trimmed.en.vtt
+/data/raw/transcript/KWSDwS4S6Ss-trimmed.en.vtt
+Finished writing 63 questions; max len = 5230

@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 vKkpvQlHEG8_q1~vKkpvQlHEG8 ~~~~~~~~
+ -40 to 140<|START|> does the pink-haired woman think that the other woman has malicious intent?
+0 GT)  no, she is surprised by the award.     (9tok)
+1   )  yes, she thinks she's playing a mean joke on her     (12tok)
+~~~~~~~~~~~ Example 1 72ltfGTYqpQ_q3~72ltfGTYqpQ ~~~~~~~~
+ -38 to 138<|START|> does the man think transit has enough financial support?
+0 GT)  no, he says more and more money is deferred to transit costs.     (15tok)
+1   )  the man thinks that transit has great revenue now, but that it will decrease in the future.     (19tok)
+~~~~~~~~~~~ Example 2 4yr_etbfZtQ_q4~4yr_etbfZtQ ~~~~~~~~
+ -35 to 135<|START|> how did the lady who stirring the pot look towards the other lady?
+0   )  the lady tasting wine said something strange.     (8tok)
+1 GT)  the lady stirring the pot asks the other to stir the pot for her.     (15tok)
+~~~~~~~~~~~ Example 3 97AUfvzQ_1E_q3~97AUfvzQ_1E ~~~~~~~~
+ -40 to 140<|START|> how does the man in the gray shirt feel about the other man?
+0 GT)  he is friendly to him but is largely ambivalent     (11tok)
+1   )  he thinks he is the best person he's never met     (11tok)
+/data/raw/transcript/7bc_qfRmPK0-trimmed.en.vtt
+/data/raw/transcript/2XFVnzr4Vho-trimmed.en.vtt
+/data/raw/transcript/3nUKwvFsjA4-trimmed.en.vtt
+/data/raw/transcript/Vlh0sMMjU04-trimmed.en.vtt
+/data/raw/transcript/A3WbCRfad-w-trimmed.en.vtt
+/data/raw/transcript/ElghrCC2Rbs-trimmed.en.vtt
+/data/raw/transcript/deKPBy_uLkg-trimmed.en.vtt
+/data/raw/transcript/IE6r8Pk91T0-trimmed.en.vtt
+/data/raw/transcript/Z7MknXjNJSg-trimmed.en.vtt
+/data/raw/transcript/N1fVL4AQEW8-trimmed.en.vtt
+/data/raw/transcript/QR43TImr0dQ-trimmed.en.vtt
+Finished writing 63 questions; max len = 3969

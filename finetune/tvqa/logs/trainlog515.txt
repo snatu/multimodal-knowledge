@@ -1,0 +1,22 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q6~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> what is the role of the woman?
+0   )  the role of the woman is to answer questions about her opinion on religion in politics.     (17tok)
+1 GT)  the woman's role is to present controversial topics for the the others to discuss.     (16tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q5~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> do the two men agree with each other?
+0 GT)  yes, because they do not argument.     (8tok)
+1   )  no, because the two men act hostile towards each other while conversing.     (15tok)
+~~~~~~~~~~~ Example 2 o6DEc3OYQfU_q21~o6DEc3OYQfU ~~~~~~~~
+ -41 to 141<|START|> what does the man in the tie think about the thing that the man in the black shirt is showing him?
+0   )  he thinks it is useless     (5tok)
+1 GT)  he thinks it is revolutionary.     (6tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q5~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> why does the man in black want to go to the ballpark?
+0   )  because he wants to overcome his fear of ballparks     (10tok)
+1 GT)  he wants to go to the ballpark because he wants to play a game there.     (16tok)
+/data/raw/transcript/eDqEcrIRxgQ-trimmed.en.vtt
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/n5_HdNzf03Q-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+Finished writing 63 questions; max len = 5248

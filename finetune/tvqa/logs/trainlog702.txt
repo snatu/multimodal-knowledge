@@ -1,0 +1,25 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q4~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> what is the women in the blue hair feeling about the video?
+0 GT)  she is invested in what the blonde woman has to say.     (12tok)
+1   )  she is not saying anything     (5tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q1~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> does the man without the tie seem confused once he is handed a boomerang?
+0   )  the man without the tie knew the boomerang was coming and was super offended     (14tok)
+1 GT)  he is slightly confused because the boomerang came out of nowhere     (11tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q1~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> why is the women smiling?
+0   )  the women found the man's joke funny so smiles     (10tok)
+1 GT)  the women is not understanding what is really going on, but can see that they are having a good time. that is infectious so is smiling     (28tok)
+~~~~~~~~~~~ Example 3 CoMz3JOnZFo_q16~CoMz3JOnZFo ~~~~~~~~
+ -39 to 140<|START|> is the girl in black shirt excited?
+0   )  no, because she doesn't know what's going on.     (12tok)
+1 GT)  the girl in the black shirt is very excited.     (10tok)
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/nQqY3j8btbI-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/LD1RAPiT_7A-trimmed.en.vtt
+Finished writing 63 questions; max len = 6259

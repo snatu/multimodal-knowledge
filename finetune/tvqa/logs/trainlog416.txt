@@ -1,0 +1,36 @@
+~~~~~~~~~~~ Example 0 B6p6X1LSjiA_q14~B6p6X1LSjiA ~~~~~~~~
+ -40 to 139<|START|> how does the man react when asked a question by the man in the bright red tie?
+0 GT)  the man on the left is happy to answer the question he is asked by the man in the bright red tie     (22tok)
+1   )  the man on the left dislikes the question he is asked by the man in the bright red tie     (19tok)
+/data/raw/transcript/ofvOXABptcY-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 ofvOXABptcY_q5~ofvOXABptcY ~~~~~~~~
+ -41 to 141<|START|> how does the women ask her first question?
+0 GT)  she is in slight disbelief  and amusement because her eyebrows are furrowed, one hand is on the other, she nods, and squints her eyes, all at the same time.     (40tok)
+1   )  the women asks the first question in a doubtful amnner, she doe snot believe the man, asks twice asnswe     (26tok)
+~~~~~~~~~~~ Example 2 JW2HHfQiGVs_q2~JW2HHfQiGVs ~~~~~~~~
+ -39 to 140<|START|> describe the man's reactions to the woman's speech and what this suggests
+0 GT)  the man reacts to the woman's speech by nodding     (11tok)
+1   )  he seems to be disagreeing with what she's saying suggesting he thinks she's wrong     (17tok)
+~~~~~~~~~~~ Example 3 pc3__b1uF4Q_q4~pc3__b1uF4Q ~~~~~~~~
+ -41 to 141<|START|> why does the man on the right have to explain why he is interested in the upcoming us presidential election?
+0 GT)  he has to explain this because he wants his viewers to understand the context of his question.     (18tok)
+1   )  the man on the right has to explain this because his audience is directly affected by what happens in the us.     (22tok)
+/data/raw/transcript/-daGjyKKNio-trimmed.en.vtt
+/data/raw/transcript/_s42gOg2WSU-trimmed.en.vtt
+/data/raw/transcript/rVWZuXDkc4A-trimmed.en.vtt
+/data/raw/transcript/MM0YOB-cSWA-trimmed.en.vtt
+/data/raw/transcript/xWRNBOXoLf8-trimmed.en.vtt
+/data/raw/transcript/3qp3AeWmt38-trimmed.en.vtt
+/data/raw/transcript/_KE_-EdMhDI-trimmed.en.vtt
+/data/raw/transcript/bT_DEZz99VQ-trimmed.en.vtt
+/data/raw/transcript/hnfkZx4jmpA-trimmed.en.vtt
+/data/raw/transcript/3zjz6ryPvIg-trimmed.en.vtt
+/data/raw/transcript/atEkAkPfpUY-trimmed.en.vtt
+/data/raw/transcript/aDJJBMXiwiI-trimmed.en.vtt
+/data/raw/transcript/6xQv6ozrz90-trimmed.en.vtt
+/data/raw/transcript/erOpqmubBL4-trimmed.en.vtt
+/data/raw/transcript/KpljzfIVBDM-trimmed.en.vtt
+/data/raw/transcript/YIJ0mZYi1O4-trimmed.en.vtt
+/data/raw/transcript/Mf76yyTY7Ss-trimmed.en.vtt
+/data/raw/transcript/KzN6XWDEmXI-trimmed.en.vtt
+Finished writing 63 questions; max len = 895

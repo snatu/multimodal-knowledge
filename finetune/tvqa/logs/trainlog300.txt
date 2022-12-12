@@ -1,0 +1,27 @@
+~~~~~~~~~~~ Example 0 vKkpvQlHEG8_q1~vKkpvQlHEG8 ~~~~~~~~
+ -40 to 140<|START|> does the pink-haired woman think that the other woman has malicious intent?
+0   )  yes, she thinks she's playing a mean joke on her     (12tok)
+1 GT)  no, even if the other woman is playing a joke, she thinks it's friendly     (17tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q14~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> what is the attitude of the woman with short blonde hair towards the girl with blindfold?
+0 GT)  she thought her description was insane     (6tok)
+1   )  she thought she was too quiet     (6tok)
+~~~~~~~~~~~ Example 2 4yr_etbfZtQ_q3~4yr_etbfZtQ ~~~~~~~~
+ -35 to 135<|START|> does the woman have a positive opinion of the second wine?
+0   )  she loves it.     (4tok)
+1 GT)  she prefers the first wine.     (6tok)
+~~~~~~~~~~~ Example 3 97AUfvzQ_1E_q2~97AUfvzQ_1E ~~~~~~~~
+ -40 to 140<|START|> is the man in the black hoodie sincere?
+0 GT)  the man in the black hoodie is sarcastic a lot.     (11tok)
+1   )  yes, he cares about the other man     (8tok)
+/data/raw/transcript/2XFVnzr4Vho-trimmed.en.vtt
+/data/raw/transcript/3nUKwvFsjA4-trimmed.en.vtt
+/data/raw/transcript/Vlh0sMMjU04-trimmed.en.vtt
+/data/raw/transcript/A3WbCRfad-w-trimmed.en.vtt
+/data/raw/transcript/ElghrCC2Rbs-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/IE6r8Pk91T0-trimmed.en.vtt
+/data/raw/transcript/Z7MknXjNJSg-trimmed.en.vtt
+/data/raw/transcript/N1fVL4AQEW8-trimmed.en.vtt
+Finished writing 63 questions; max len = 3972

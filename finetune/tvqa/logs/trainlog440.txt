@@ -1,0 +1,31 @@
+~~~~~~~~~~~ Example 0 8m_3eBsy22Y_q3~8m_3eBsy22Y ~~~~~~~~
+ -40 to 141<|START|> how do the women interact with each other?
+0 GT)  in a friendly manner, because they've been with each other for so long.     (16tok)
+1   )  they interact simply like they are people working together for a movie     (12tok)
+~~~~~~~~~~~ Example 1 YlVkBzXo0YM_q4~YlVkBzXo0YM ~~~~~~~~
+ -38 to 139<|START|> is the woman next to the man in the hoodie in denial?
+0 GT)  yes, she refuses to acknowledge that she needs help     (10tok)
+1   )  no, the woman is self-aware     (8tok)
+~~~~~~~~~~~ Example 2 JW2HHfQiGVs_q5~JW2HHfQiGVs ~~~~~~~~
+ -39 to 140<|START|> why does the man nod when the woman completes his sentence?
+0 GT)  the man nods when the woman completes his sentence because he approves of what she has said     (19tok)
+1   )  he wants her to think of a different word.     (10tok)
+~~~~~~~~~~~ Example 3 pc3__b1uF4Q_q6~pc3__b1uF4Q ~~~~~~~~
+ -41 to 141<|START|> how does the guest show he is listening and ingesting what the host is saying?
+0   )  the man on the left shows that he is listening to the man on the right by giving verbal confirmation.     (21tok)
+1 GT)  he nods to show the man on the right that he is listening.     (15tok)
+/data/raw/transcript/FkLblGfWAvY-trimmed.en.vtt
+/data/raw/transcript/DiaDblUd-lw-trimmed.en.vtt
+/data/raw/transcript/rVWZuXDkc4A-trimmed.en.vtt
+/data/raw/transcript/MM0YOB-cSWA-trimmed.en.vtt
+/data/raw/transcript/hnfkZx4jmpA-trimmed.en.vtt
+/data/raw/transcript/3zjz6ryPvIg-trimmed.en.vtt
+/data/raw/transcript/atEkAkPfpUY-trimmed.en.vtt
+/data/raw/transcript/6xQv6ozrz90-trimmed.en.vtt
+/data/raw/transcript/erOpqmubBL4-trimmed.en.vtt
+/data/raw/transcript/KpljzfIVBDM-trimmed.en.vtt
+/data/raw/transcript/Ham3IQQzoU8-trimmed.en.vtt
+/data/raw/transcript/BH8FUBW4IIE-trimmed.en.vtt
+/data/raw/transcript/QHGeDg6XX6U-trimmed.en.vtt
+/data/raw/transcript/TA3Xy53hMMY-trimmed.en.vtt
+Finished writing 63 questions; max len = 5695

@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q6~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> have the people gathered to send a strong message about the state of wisconsin and its authorities?
+0 GT)  yes, the people have gathered to protest a bill     (10tok)
+1   )  they mainly gathered through social media.     (7tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q3~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> what does the woman in black think about her show's new season?
+0   )  she's mostly neutral to it, as the treatment of the main character doesn't seem to improve.     (20tok)
+1 GT)  she's likes it because it is much happier than past seasons.     (13tok)
+~~~~~~~~~~~ Example 2 vqFmKLl2hq4_q5~vqFmKLl2hq4 ~~~~~~~~
+ -39 to 139<|START|> why does the man in the middle want a picture with people?
+0   )  the man in the middle wants pictures with people because he wants to blackmail them later.     (17tok)
+1 GT)  the man in the middle wants pictures with people because he thinks others would be delighted at the pictures he took.     (22tok)
+/data/raw/transcript/Q25kn317a2M-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 Q25kn317a2M_q6~Q25kn317a2M ~~~~~~~~
+ -41 to 142<|START|> why is the man who is being asked to sign the card so hesitant? is it because the task is very difficult
+0 GT)  the man is hesitant because even though the task is not very difficult, he is part of a trick, so there is more than meets the eye, so he wants to make sure that he has it right, and not mess up the trick     (48tok)
+1   )  the man is not very good at using a pen, or performing the actions he was asked     (18tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/MdG9Lkk8VWo-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/dACF-Mz-X8M-trimmed.en.vtt
+/data/raw/transcript/qow_n-oNEt8-trimmed.en.vtt
+/data/raw/transcript/5fy7S3jCyAg-trimmed.en.vtt
+/data/raw/transcript/1Za8BtLgKv8-trimmed.en.vtt
+Finished writing 64 questions; max len = 5153

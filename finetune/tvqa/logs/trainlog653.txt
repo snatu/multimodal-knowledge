@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 LTUojzYVUUI_q5~LTUojzYVUUI ~~~~~~~~
+ -37 to 137<|START|> how is colbert presenting himself?
+0   )  as someone who doesn't care about the topic.     (10tok)
+1 GT)  he tries to present himself as civil as he is the host.     (13tok)
+~~~~~~~~~~~ Example 1 qh8JWHlIgcE_q3~qh8JWHlIgcE ~~~~~~~~
+ -40 to 140<|START|> why are the pair dancing?
+0   )  the two people are dancing because they want to have fun.     (12tok)
+1 GT)  they are celebrating an event.     (6tok)
+~~~~~~~~~~~ Example 2 P8YRuxu8dQU_q8~P8YRuxu8dQU ~~~~~~~~
+ -40 to 141<|START|> how do you know wilma is nervous?
+0   )  she says she's nervous.     (6tok)
+1 GT)  wilma is nervous because her eyes are wide.     (10tok)
+~~~~~~~~~~~ Example 3 CoMz3JOnZFo_q3~CoMz3JOnZFo ~~~~~~~~
+ -39 to 140<|START|> is the man happy to see the girl?
+0 GT)  yes, as he's glad to see a fan of his.     (13tok)
+1   )  no, as evidenced by his expressions while interacting with the girl.     (15tok)
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/nQqY3j8btbI-trimmed.en.vtt
+/data/raw/transcript/Yzq6fNeXf6w-trimmed.en.vtt
+/data/raw/transcript/QytntXWJIe8-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/8MK9frCMoWA-trimmed.en.vtt
+/data/raw/transcript/NR9v3PBJw8g-trimmed.en.vtt
+/data/raw/transcript/_zuODgCQ6O8-trimmed.en.vtt
+/data/raw/transcript/LD1RAPiT_7A-trimmed.en.vtt
+Finished writing 63 questions; max len = 4356

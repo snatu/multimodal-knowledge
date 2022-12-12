@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q5~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> are the men to the left and right curious about what the man in the middle is saying?
+0 GT)  yes, he has their attention and they seem eager to hear about it     (14tok)
+1   )  no, the men are bored by what he is saying     (11tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q13~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> how does the woman in the green jacket feel about the story?
+0   )  she doesn't care.     (5tok)
+1 GT)  she thinks it is a little crazy     (7tok)
+~~~~~~~~~~~ Example 2 4yr_etbfZtQ_q2~4yr_etbfZtQ ~~~~~~~~
+ -35 to 135<|START|> why is the woman explaining the difference between these two wines?
+0 GT)  she is educating the watcher.     (6tok)
+1   )  she is not explaining.     (5tok)
+~~~~~~~~~~~ Example 3 97AUfvzQ_1E_q1~97AUfvzQ_1E ~~~~~~~~
+ -40 to 140<|START|> what does the man in black hope to accomplish with the clothes?
+0   )  the man in black hopes to sell clothes to the man in grey.     (14tok)
+1 GT)  the man in black hopes to please the man in grey with a new clothing look.     (17tok)
+/data/raw/transcript/2XFVnzr4Vho-trimmed.en.vtt
+/data/raw/transcript/3nUKwvFsjA4-trimmed.en.vtt
+/data/raw/transcript/ElghrCC2Rbs-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/IE6r8Pk91T0-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+/data/raw/transcript/N1fVL4AQEW8-trimmed.en.vtt
+Finished writing 63 questions; max len = 4506

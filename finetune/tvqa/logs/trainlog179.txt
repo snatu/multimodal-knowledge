@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q12~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> what does the woman sitting in front of the blinds feel the bill is directly related to?
+0   )  the woman sitting in front of the blinds feels that the bill is directly related to bargaining     (17tok)
+1 GT)  she feels that it's connected to the recession the state is experiencing.     (14tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q5~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> is the woman in black athletic?
+0   )  no, since the workouts were simply done for exercise according to her.     (14tok)
+1 GT)  yes, given how she willingly talks about her workout sessions.     (12tok)
+~~~~~~~~~~~ Example 2 k5bk1efKBSI_q2~k5bk1efKBSI ~~~~~~~~
+ -34 to 135<|START|> how does the man in the plaid shirt feel about the man in the striped shirt?
+0 GT)  he has affection for the man in the striped shirt     (10tok)
+1   )  he pities him.     (5tok)
+~~~~~~~~~~~ Example 3 _tBXwqueWcg_q2~_tBXwqueWcg ~~~~~~~~
+ -35 to 135<|START|> the woman speaks very fluently and comfortably, suggesting that she
+0 GT)  is knowledgeable about the topic     (5tok)
+1   )  is not good at public speaking.     (7tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/pK1WAx4jJzE-trimmed.en.vtt
+/data/raw/transcript/U4r9ePA6RkQ-trimmed.en.vtt
+/data/raw/transcript/oY6BfHkNFPY-trimmed.en.vtt
+/data/raw/transcript/LtxWWUBt7ro-trimmed.en.vtt
+/data/raw/transcript/7Oum_c5Seis-trimmed.en.vtt
+/data/raw/transcript/dACF-Mz-X8M-trimmed.en.vtt
+/data/raw/transcript/qow_n-oNEt8-trimmed.en.vtt
+/data/raw/transcript/5fy7S3jCyAg-trimmed.en.vtt
+Finished writing 64 questions; max len = 4451

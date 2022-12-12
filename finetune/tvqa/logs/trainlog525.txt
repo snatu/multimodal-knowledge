@@ -1,0 +1,23 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q7~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> are the man and the woman in agreement?
+0 GT)  yes, because the man thinks that what the woman has said is correct.     (15tok)
+1   )  no, they disagree.     (5tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q7~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> describe the mood of the video at 0:15
+0   )  the video has a depressing mood at 0:15 because the men have to face a serious issue.     (20tok)
+1 GT)  full of laughter     (3tok)
+~~~~~~~~~~~ Example 2 SJSmbF9W9PQ_q1~SJSmbF9W9PQ ~~~~~~~~
+ -40 to 140<|START|> what is the man with glasses' tone in interacting with the other man?
+0 GT)  he is enthusiastic.     (4tok)
+1   )  he is attracted to him, because he makes him laugh and he is celebrating his achievements.     (18tok)
+~~~~~~~~~~~ Example 3 uivjORoSW0k_q1~uivjORoSW0k ~~~~~~~~
+ -41 to 140<|START|> why does the audience applaud?
+0   )  they think the man on the left is scary.     (10tok)
+1 GT)  they think the man on the left is funny.     (10tok)
+/data/raw/transcript/eDqEcrIRxgQ-trimmed.en.vtt
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/n5_HdNzf03Q-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/lUyKpfbB9M8-trimmed.en.vtt
+/data/raw/transcript/A48AJ_5nWsc-trimmed.en.vtt
+Finished writing 63 questions; max len = 5236

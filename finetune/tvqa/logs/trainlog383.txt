@@ -1,0 +1,34 @@
+~~~~~~~~~~~ Example 0 B6p6X1LSjiA_q8~B6p6X1LSjiA ~~~~~~~~
+ -40 to 139<|START|> how does the man on the left feel about his company?
+0   )  the man on the left loves his company and advertises heavily for it     (14tok)
+1 GT)  the man on the left feels confident about the service that his company provides     (14tok)
+/data/raw/transcript/ofvOXABptcY-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 ofvOXABptcY_q2~ofvOXABptcY ~~~~~~~~
+ -41 to 141<|START|> why does the woman scrunch her eyebrows when the man is talking?
+0   )  the women is not sure if the man is telling the truth     (12tok)
+1 GT)  the women cannot believe it     (5tok)
+~~~~~~~~~~~ Example 2 zYeBxnAm2wI_q4~zYeBxnAm2wI ~~~~~~~~
+ -37 to 137<|START|> near the end of the video, the man with glasses makes one more point about the person in question. what does he feel about that person's opinion regarding that point?
+0 GT)  he is frustrated with this person's opinion.     (9tok)
+1   )  he feels that it's a misinterpreted point as people are biased.     (16tok)
+~~~~~~~~~~~ Example 3 WVnNoiQKhPc_q4~WVnNoiQKhPc ~~~~~~~~
+ -41 to 141<|START|> why are they so passionately speaking?
+0   )  they are experts on the subject of street skiing.     (10tok)
+1 GT)  they are talking about something that are interesting to them     (10tok)
+/data/raw/transcript/Iu6_k2ok00U-trimmed.en.vtt
+/data/raw/transcript/-daGjyKKNio-trimmed.en.vtt
+/data/raw/transcript/_s42gOg2WSU-trimmed.en.vtt
+/data/raw/transcript/B1VB7vVQNQg-trimmed.en.vtt
+/data/raw/transcript/zXbortaLKDE-trimmed.en.vtt
+/data/raw/transcript/xWRNBOXoLf8-trimmed.en.vtt
+/data/raw/transcript/3qp3AeWmt38-trimmed.en.vtt
+/data/raw/transcript/_KE_-EdMhDI-trimmed.en.vtt
+/data/raw/transcript/bT_DEZz99VQ-trimmed.en.vtt
+/data/raw/transcript/Kjlt_FgKPgA-trimmed.en.vtt
+/data/raw/transcript/aDJJBMXiwiI-trimmed.en.vtt
+/data/raw/transcript/vSQvk9P1dus-trimmed.en.vtt
+/data/raw/transcript/6xQv6ozrz90-trimmed.en.vtt
+/data/raw/transcript/YIJ0mZYi1O4-trimmed.en.vtt
+/data/raw/transcript/Mf76yyTY7Ss-trimmed.en.vtt
+/data/raw/transcript/KzN6XWDEmXI-trimmed.en.vtt
+Finished writing 63 questions; max len = 5227

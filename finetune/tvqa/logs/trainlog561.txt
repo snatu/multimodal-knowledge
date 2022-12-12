@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 EqXKrS3gPN4_q2~EqXKrS3gPN4 ~~~~~~~~
+ -40 to 139<|START|> what is mofaiza doing?
+0   )  she's presenting about her feelings on language     (8tok)
+1 GT)  she is talking to them     (5tok)
+~~~~~~~~~~~ Example 1 OWsT2rkqCk8_q2~OWsT2rkqCk8 ~~~~~~~~
+ -36 to 136<|START|> what is the talking dog trying to do?
+0   )  it is trying to get away from the talking tree.     (11tok)
+1 GT)  he is trying to convince the girl.     (8tok)
+~~~~~~~~~~~ Example 2 SJSmbF9W9PQ_q5~SJSmbF9W9PQ ~~~~~~~~
+ -40 to 140<|START|> what is the dynamic between the two men?
+0 GT)  they are interested in each other.     (7tok)
+1   )  they do not have an active dynamic, because they do not react to each others expressions.     (18tok)
+~~~~~~~~~~~ Example 3 uivjORoSW0k_q4~uivjORoSW0k ~~~~~~~~
+ -41 to 140<|START|> what does the man on the right think of the man on the left?
+0 GT)  he thinks he is funny.     (6tok)
+1   )  he thinks he is mean.     (6tok)
+/data/raw/transcript/QHeNKMxsqYE-trimmed.en.vtt
+/data/raw/transcript/4W192A7g5KY-trimmed.en.vtt
+/data/raw/transcript/cXTjL-f-msU-trimmed.en.vtt
+/data/raw/transcript/C08WmKiwcSs-trimmed.en.vtt
+/data/raw/transcript/1j1C3dlwh7E-trimmed.en.vtt
+/data/raw/transcript/kRh1zXFKC_o-trimmed.en.vtt
+/data/raw/transcript/g8D-LyfTrRs-trimmed.en.vtt
+/data/raw/transcript/8xFtIsyRvNE-trimmed.en.vtt
+/data/raw/transcript/WhsZxUWSHaQ-trimmed.en.vtt
+/data/raw/transcript/lUyKpfbB9M8-trimmed.en.vtt
+/data/raw/transcript/A48AJ_5nWsc-trimmed.en.vtt
+/data/raw/transcript/13HM_96pUIo-trimmed.en.vtt
+Finished writing 63 questions; max len = 288

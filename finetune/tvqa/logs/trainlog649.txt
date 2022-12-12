@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 LTUojzYVUUI_q5~LTUojzYVUUI ~~~~~~~~
+ -37 to 137<|START|> how is colbert presenting himself?
+0 GT)  he's very responsive and engaged     (6tok)
+1   )  as someone who won't stop arguing until a consensus is met.     (13tok)
+~~~~~~~~~~~ Example 1 qh8JWHlIgcE_q3~qh8JWHlIgcE ~~~~~~~~
+ -40 to 140<|START|> why are the pair dancing?
+0   )  they are dancing because they are in a dancing competition.     (11tok)
+1 GT)  the woman is grateful for the man's actions.     (10tok)
+~~~~~~~~~~~ Example 2 P8YRuxu8dQU_q7~P8YRuxu8dQU ~~~~~~~~
+ -40 to 141<|START|> why does the man in the tree costume yell?
+0   )  the man in the tree costume yells because he is feeling silly.     (13tok)
+1 GT)  the man in the tree costume yells because he doesn't like the news he is getting.     (18tok)
+~~~~~~~~~~~ Example 3 CoMz3JOnZFo_q3~CoMz3JOnZFo ~~~~~~~~
+ -39 to 140<|START|> is the man happy to see the girl?
+0   )  it's not visible, given how in-character the man is.     (15tok)
+1 GT)  yes, given how he opens his arms for a hug.     (12tok)
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/Yzq6fNeXf6w-trimmed.en.vtt
+/data/raw/transcript/QytntXWJIe8-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/8MK9frCMoWA-trimmed.en.vtt
+/data/raw/transcript/NR9v3PBJw8g-trimmed.en.vtt
+/data/raw/transcript/_zuODgCQ6O8-trimmed.en.vtt
+/data/raw/transcript/iBL0FcUTFT8-trimmed.en.vtt
+Finished writing 63 questions; max len = 4353

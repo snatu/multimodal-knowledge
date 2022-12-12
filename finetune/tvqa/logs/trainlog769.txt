@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q5~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> what does the boy think about the activity being undertaken?
+0 GT)  he is interested in it     (5tok)
+1   )  the boy is nervous.     (5tok)
+/data/raw/transcript/vC63_bemI2I-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 vC63_bemI2I_q2~vC63_bemI2I ~~~~~~~~
+ -41 to 142<|START|> how do the two men feel about each other?
+0   )  they want to get to know the other's beliefs more.     (12tok)
+1 GT)  the man with the beard does not like the religion of the man in black, while the man in the black tries to defend his religion.     (28tok)
+~~~~~~~~~~~ Example 2 FWBCTZiijEM_q4~FWBCTZiijEM ~~~~~~~~
+ -35 to 135<|START|> why does the man laugh in the beginning?
+0 GT)  the man laughs because of his fail.     (8tok)
+1   )  the man laughs because of the joke.     (8tok)
+~~~~~~~~~~~ Example 3 yRtPan09Ek0_q3~yRtPan09Ek0 ~~~~~~~~
+ -39 to 140<|START|> does the host have a positive opinion of the guest
+0 GT)  yes, the host thinks the guest is an interesting person     (11tok)
+1   )  no, the host seems to think the guest is not cool     (12tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/0a2lv4IwZFY-trimmed.en.vtt
+/data/raw/transcript/t-dmFuH7TyM-trimmed.en.vtt
+/data/raw/transcript/gbVOyKifrAo-trimmed.en.vtt
+/data/raw/transcript/GCZ5aagOddY-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/UUuXfyfCaL4-trimmed.en.vtt
+/data/raw/transcript/GK4_G33fXFU-trimmed.en.vtt
+/data/raw/transcript/j7cUdCFEpeU-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 3552

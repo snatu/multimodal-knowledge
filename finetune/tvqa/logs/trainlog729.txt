@@ -1,0 +1,24 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q1~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> how does the little boy react to the drill spinning?
+0 GT)  the boy is satisfied.     (5tok)
+1   )  he is sad and disappointed     (5tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q6~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> why does the man in the blue suit nod his head at 0:14?
+0   )  he is nodding because he is silently agreeing and listening to the man in the tie's monologue     (19tok)
+1 GT)  he wants to show agreement with a statement the other man has made.     (14tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q3~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> how does the woman in black react to the crowd?
+0 GT)  the women is caught up in the excitement bought by the crowd     (12tok)
+1   )  the women is feeling tensed deep down not showing it     (11tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q3~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> why does the man in the center of the video with his back turned to the camera put out his hand at 0:15?
+0   )  he wants to poke the man with his fingers.     (10tok)
+1 GT)  he wants a hand shake.     (6tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 3550

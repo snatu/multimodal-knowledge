@@ -1,0 +1,24 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q8~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> why does the woman point at 0:46?
+0   )  she does this to help herself remember the name of the person.     (13tok)
+1 GT)  she wishes to direct her words at a certain person.     (11tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q7~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> describe the mood of the video at 0:15
+0 GT)  the moods of the people in the video are joking.     (12tok)
+1   )  full of sorrow     (3tok)
+~~~~~~~~~~~ Example 2 SJSmbF9W9PQ_q1~SJSmbF9W9PQ ~~~~~~~~
+ -40 to 140<|START|> what is the man with glasses' tone in interacting with the other man?
+0 GT)  very excited     (2tok)
+1   )  the man with the glasses' tone is very gloomy and very depressing     (13tok)
+~~~~~~~~~~~ Example 3 uivjORoSW0k_q1~uivjORoSW0k ~~~~~~~~
+ -41 to 140<|START|> why does the audience applaud?
+0 GT)  they like the impression.     (5tok)
+1   )  they are angry and want to show their displeasure with the blonde man.     (16tok)
+/data/raw/transcript/eDqEcrIRxgQ-trimmed.en.vtt
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/n5_HdNzf03Q-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/g8D-LyfTrRs-trimmed.en.vtt
+/data/raw/transcript/lUyKpfbB9M8-trimmed.en.vtt
+/data/raw/transcript/A48AJ_5nWsc-trimmed.en.vtt
+Finished writing 63 questions; max len = 4554

@@ -1,0 +1,27 @@
+~~~~~~~~~~~ Example 0 qr69jLeQdRA_q9~qr69jLeQdRA ~~~~~~~~
+ -41 to 141<|START|> does everyone seem to be having a good time?
+0 GT)  yes, people seem to have positive dispositions     (9tok)
+1   )  no, the people look nervous and uncomfortable     (8tok)
+~~~~~~~~~~~ Example 1 QQpIBRLlJzo_q5~QQpIBRLlJzo ~~~~~~~~
+ -38 to 139<|START|> describe the nature of the conversation between the two men
+0 GT)  they are having friendly banter, cracking jokes at one another     (11tok)
+1   )  they are having a formal debate, arguing about an issue     (11tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q3~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> why does the man with the gray shirt smile at 0:20?
+0 GT)  he smiles when he punctuates his point     (8tok)
+1   )  he smiles because he feels happy about his job and likes what he does     (14tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q1~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> how does the old woman in green react to the question about the iphone?
+0 GT)  the women reacts with anger and passion     (7tok)
+1   )  the women is really happy with it     (7tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/oY6BfHkNFPY-trimmed.en.vtt
+/data/raw/transcript/jYL4gMsGZgE-trimmed.en.vtt
+/data/raw/transcript/DZsBei4nCkU-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/96YOZOU7ggo-trimmed.en.vtt
+Finished writing 64 questions; max len = 5990

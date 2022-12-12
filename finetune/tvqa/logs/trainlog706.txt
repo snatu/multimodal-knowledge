@@ -1,0 +1,27 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q4~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> what is the women in the blue hair feeling about the video?
+0 GT)  she wants to talk a lot in the video.     (10tok)
+1   )  she is incredibly uncomfortable being in the video.     (9tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q2~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> why does the man in the blue suit grin at 0:36?
+0 GT)  the man in the blue suit grinned at 0:36 because he told a joke     (17tok)
+1   )  he is embarrassed.     (4tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q1~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> why is the women smiling?
+0 GT)  the women is caught up in the wave of excitement bought by the men     (14tok)
+1   )  the women found the man's attitude very pleasent     (10tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q1~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> do the people dislike math?
+0   )  math is not liked or disliked by anyone because no one knows what math is.     (17tok)
+1 GT)  no, they like math.     (6tok)
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/nQqY3j8btbI-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/LD1RAPiT_7A-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+Finished writing 63 questions; max len = 6257

@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 EqXKrS3gPN4_q4~EqXKrS3gPN4 ~~~~~~~~
+ -40 to 139<|START|> how do the last three feel about their opinions?
+0 GT)  they're calm yet passionate     (5tok)
+1   )  they feel a little unsure based on their tone of voice.     (12tok)
+~~~~~~~~~~~ Example 1 YIZpD3fEfgs_q1~YIZpD3fEfgs ~~~~~~~~
+ -40 to 140<|START|> why are they wearing suit jackets?
+0   )  because they planned to match with each other.     (9tok)
+1 GT)  to have a more formal appearance.     (7tok)
+~~~~~~~~~~~ Example 2 gKuBUQVcDJM_q2~gKuBUQVcDJM ~~~~~~~~
+ -41 to 141<|START|> how does the man on the left react to the kangaroo?
+0 GT)  he seems delighted and excited by it     (7tok)
+1   )  he seems disgusted and scared by it     (7tok)
+~~~~~~~~~~~ Example 3 uivjORoSW0k_q5~uivjORoSW0k ~~~~~~~~
+ -41 to 140<|START|> why does the man with the glasses point at the other man at 0:25?
+0 GT)  there is no reason.     (5tok)
+1   )  he is attracted to the other man and wants to get closer.     (13tok)
+/data/raw/transcript/QHeNKMxsqYE-trimmed.en.vtt
+/data/raw/transcript/4W192A7g5KY-trimmed.en.vtt
+/data/raw/transcript/cXTjL-f-msU-trimmed.en.vtt
+/data/raw/transcript/C08WmKiwcSs-trimmed.en.vtt
+/data/raw/transcript/1j1C3dlwh7E-trimmed.en.vtt
+/data/raw/transcript/kRh1zXFKC_o-trimmed.en.vtt
+/data/raw/transcript/g8D-LyfTrRs-trimmed.en.vtt
+/data/raw/transcript/8xFtIsyRvNE-trimmed.en.vtt
+/data/raw/transcript/WhsZxUWSHaQ-trimmed.en.vtt
+/data/raw/transcript/wbmW_Z1oPJw-trimmed.en.vtt
+/data/raw/transcript/pMGhqE76kQA-trimmed.en.vtt
+/data/raw/transcript/A48AJ_5nWsc-trimmed.en.vtt
+/data/raw/transcript/13HM_96pUIo-trimmed.en.vtt
+Finished writing 63 questions; max len = 276

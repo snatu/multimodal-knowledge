@@ -1,0 +1,24 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q11~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> are the people rallying knowledgeable on the situation?
+0 GT)  yes, as their signs show statistics and what they know.     (12tok)
+1   )  no, as this is a case of bandwagoning.     (11tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q4~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> how do the women feel towards one another?
+0   )  they are competitive with one another     (6tok)
+1 GT)  they are friendly towards one another     (6tok)
+~~~~~~~~~~~ Example 2 k5bk1efKBSI_q1~k5bk1efKBSI ~~~~~~~~
+ -34 to 135<|START|> why do the first two people repeat the same word over and over again?
+0   )  the two men repeat the same word because they think it is a funny word     (15tok)
+1 GT)  the first two people repeat the word for humor     (9tok)
+/data/raw/transcript/Q25kn317a2M-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 Q25kn317a2M_q6~Q25kn317a2M ~~~~~~~~
+ -41 to 142<|START|> why is the man who is being asked to sign the card so hesitant? is it because the task is very difficult
+0 GT)  he man is not certain what is expected of him     (10tok)
+1   )  he man who is being asked to sign the card is so hesitant because the task he is expected to do is so very difficult     (25tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/pK1WAx4jJzE-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/dACF-Mz-X8M-trimmed.en.vtt
+/data/raw/transcript/qow_n-oNEt8-trimmed.en.vtt
+/data/raw/transcript/5fy7S3jCyAg-trimmed.en.vtt
+Finished writing 64 questions; max len = 5167

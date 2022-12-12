@@ -1,0 +1,24 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q4~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> what is the women in the blue hair feeling about the video?
+0 GT)  hr gestures indicate that she too is fond of the video     (11tok)
+1   )  she is not saying anything     (5tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q1~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> does the man without the tie seem confused once he is handed a boomerang?
+0 GT)  he is slightly confused because he does not know if he should be throwing it     (15tok)
+1   )  the man without the tie knew the boomerang was coming and was super offended     (14tok)
+~~~~~~~~~~~ Example 2 P8YRuxu8dQU_q17~P8YRuxu8dQU ~~~~~~~~
+ -40 to 141<|START|> did the man on the phone have a hostile relationship with the people in costumes?
+0   )  the man on the phone created a wonderful relationship with the people in costumes.     (15tok)
+1 GT)  the man on the phone made the people in costumes see him in a hostile way.     (17tok)
+~~~~~~~~~~~ Example 3 CoMz3JOnZFo_q16~CoMz3JOnZFo ~~~~~~~~
+ -39 to 140<|START|> is the girl in black shirt excited?
+0   )  no, because she doesn't know what's going on.     (12tok)
+1 GT)  yes, as she was anticipating something special.     (9tok)
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/nQqY3j8btbI-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/LD1RAPiT_7A-trimmed.en.vtt
+Finished writing 63 questions; max len = 6256

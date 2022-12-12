@@ -1,0 +1,23 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q5~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> why does the women say it is crazy? is it a literal meaning?
+0   )  she means crazy as in literally unstable.     (8tok)
+1 GT)  she means to say that she never thought it would be that way.     (14tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q4~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> why is the audience amused by the man without the tie's character?
+0 GT)  they are amused by the character's name     (8tok)
+1   )  the man without the tie does not understand the jokes that the man with the tie is telling     (18tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q2~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> why is the crowd cheering the man in the black jacket on?
+0   )  because the man said something funny     (6tok)
+1 GT)  they are drunk     (3tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q1~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> do the people dislike math?
+0   )  math is extremely disliked by the people at the event, and they gather to stop math.     (19tok)
+1 GT)  math is liked and disliked by many people.     (10tok)
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+Finished writing 63 questions; max len = 6250

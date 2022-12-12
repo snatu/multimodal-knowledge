@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q2~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> what does the little boy think about the drill after seeing it spin?
+0   )  the boy is mildly disappointed at the drill.     (9tok)
+1 GT)  he is amused by it     (5tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q6~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> why does the man in the blue suit nod his head at 0:14?
+0 GT)  he is nodding because his character's name is captain boomerang     (12tok)
+1   )  he is nodding because he just agreed to do a task with the man in the tie     (18tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q4~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> why does the man kiss the ball?
+0   )  he really likes the ball     (5tok)
+1 GT)  the man kisses the ball as that is believed to impart good luck, usually some other person does that     (20tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q3~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> why does the man in the center of the video with his back turned to the camera put out his hand at 0:15?
+0   )  he puts his hand out because he wanted to make a business deal with the other man.     (18tok)
+1 GT)  he puts his hand out to congratulate the winner of the contest.     (13tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/0a2lv4IwZFY-trimmed.en.vtt
+/data/raw/transcript/t-dmFuH7TyM-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 3539

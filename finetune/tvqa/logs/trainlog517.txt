@@ -1,0 +1,23 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q7~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> are the man and the woman in agreement?
+0 GT)  we do not know because the woman does not share her opinion.     (13tok)
+1   )  no, because the man seems angry with what the woman is saying.     (14tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q5~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> do the two men agree with each other?
+0 GT)  yes, because they find each other's humor amusing.     (11tok)
+1   )  they do agree.     (4tok)
+~~~~~~~~~~~ Example 2 o6DEc3OYQfU_q21~o6DEc3OYQfU ~~~~~~~~
+ -41 to 141<|START|> what does the man in the tie think about the thing that the man in the black shirt is showing him?
+0   )  the man in the tie thinks that the task is hard and unfeasible.     (17tok)
+1 GT)  he thinks it is revolutionary.     (6tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q5~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> why does the man in black want to go to the ballpark?
+0 GT)  because he remembers his fond childhood memories     (7tok)
+1   )  he does not want to go to the ballpark     (9tok)
+/data/raw/transcript/eDqEcrIRxgQ-trimmed.en.vtt
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/n5_HdNzf03Q-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+/data/raw/transcript/lUyKpfbB9M8-trimmed.en.vtt
+Finished writing 63 questions; max len = 5248

@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q12~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> what does the woman sitting in front of the blinds feel the bill is directly related to?
+0 GT)  she feels that it's related to the budget deficit their state is under.     (15tok)
+1   )  she feels that it's connected to the success of the state.     (13tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q4~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> how do the women feel towards one another?
+0 GT)  they like each other, as they're willing to hold a good conversation.     (15tok)
+1   )  they are competitive with one another     (6tok)
+~~~~~~~~~~~ Example 2 k5bk1efKBSI_q2~k5bk1efKBSI ~~~~~~~~
+ -34 to 135<|START|> how does the man in the plaid shirt feel about the man in the striped shirt?
+0 GT)  he cares about him.     (5tok)
+1   )  he dislikes the man in the striped shirt     (8tok)
+~~~~~~~~~~~ Example 3 _tBXwqueWcg_q1~_tBXwqueWcg ~~~~~~~~
+ -35 to 135<|START|> the lady is smiling throughout the entire video. this suggests that she is
+0 GT)  enjoying her life in general.     (6tok)
+1   )  hiding her sadness inside.     (5tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/pK1WAx4jJzE-trimmed.en.vtt
+/data/raw/transcript/U4r9ePA6RkQ-trimmed.en.vtt
+/data/raw/transcript/7Oum_c5Seis-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/dACF-Mz-X8M-trimmed.en.vtt
+/data/raw/transcript/qow_n-oNEt8-trimmed.en.vtt
+/data/raw/transcript/5fy7S3jCyAg-trimmed.en.vtt
+Finished writing 64 questions; max len = 5167

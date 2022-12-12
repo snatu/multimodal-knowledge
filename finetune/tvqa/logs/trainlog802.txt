@@ -1,0 +1,27 @@
+~~~~~~~~~~~ Example 0 E0TBOKN8J2E_q7~E0TBOKN8J2E ~~~~~~~~
+ -40 to 141<|START|> what does the man on the right think is a big challenge for the team?
+0   )  the man on the right thinks the players' oration skills are a big challenge.     (17tok)
+1 GT)  the man on the right thinks changes will cause challenges for the team.     (14tok)
+/data/raw/transcript/vC63_bemI2I-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 vC63_bemI2I_q5~vC63_bemI2I ~~~~~~~~
+ -41 to 142<|START|> why does the man in the muscle tee rotate his hands?
+0 GT)  he is prompting the man with the beard to name names.     (13tok)
+1   )  because he is trying to hit the bearded man     (9tok)
+~~~~~~~~~~~ Example 2 FWBCTZiijEM_q9~FWBCTZiijEM ~~~~~~~~
+ -35 to 135<|START|> was the man successful in clearing the game in this scenario?
+0   )  the man keeps falling.     (5tok)
+1 GT)  so far, the man is successful.     (8tok)
+~~~~~~~~~~~ Example 3 yRtPan09Ek0_q7~yRtPan09Ek0 ~~~~~~~~
+ -39 to 140<|START|> does the guest seem fond of his daughter
+0 GT)  yes, he seems fond of his daughter     (8tok)
+1   )  no, the guest makes fun of his daughter since she is not there     (14tok)
+/data/raw/transcript/ZeYarFkvoGw-trimmed.en.vtt
+/data/raw/transcript/gbVOyKifrAo-trimmed.en.vtt
+/data/raw/transcript/GCZ5aagOddY-trimmed.en.vtt
+/data/raw/transcript/UUuXfyfCaL4-trimmed.en.vtt
+/data/raw/transcript/GK4_G33fXFU-trimmed.en.vtt
+/data/raw/transcript/xdiFzcpmmJc-trimmed.en.vtt
+/data/raw/transcript/iDgaqD7CWXU-trimmed.en.vtt
+/data/raw/transcript/JxbV5wGpXc8-trimmed.en.vtt
+/data/raw/transcript/jtl5XK7QP38-trimmed.en.vtt
+Finished writing 63 questions; max len = 4458

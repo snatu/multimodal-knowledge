@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q5~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> are the men to the left and right curious about what the man in the middle is saying?
+0   )  no, the men don't seem interested in what he is saying     (13tok)
+1 GT)  yes, because the other men are receptive of his ideas     (12tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q14~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> what is the attitude of the woman with short blonde hair towards the girl with blindfold?
+0 GT)  she thought her description was insane     (6tok)
+1   )  she was really bored by her     (6tok)
+~~~~~~~~~~~ Example 2 4yr_etbfZtQ_q3~4yr_etbfZtQ ~~~~~~~~
+ -35 to 135<|START|> does the woman have a positive opinion of the second wine?
+0 GT)  she prefers the first wine.     (6tok)
+1   )  yes, she has a positive opinion about the second wine.     (12tok)
+~~~~~~~~~~~ Example 3 97AUfvzQ_1E_q2~97AUfvzQ_1E ~~~~~~~~
+ -40 to 140<|START|> is the man in the black hoodie sincere?
+0   )  the man in the black hoodie lied every chance he could.     (12tok)
+1 GT)  no, he is mostly making fun     (7tok)
+/data/raw/transcript/2XFVnzr4Vho-trimmed.en.vtt
+/data/raw/transcript/3nUKwvFsjA4-trimmed.en.vtt
+/data/raw/transcript/Vlh0sMMjU04-trimmed.en.vtt
+/data/raw/transcript/A3WbCRfad-w-trimmed.en.vtt
+/data/raw/transcript/ElghrCC2Rbs-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/IE6r8Pk91T0-trimmed.en.vtt
+/data/raw/transcript/Z7MknXjNJSg-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+/data/raw/transcript/N1fVL4AQEW8-trimmed.en.vtt
+Finished writing 63 questions; max len = 3972

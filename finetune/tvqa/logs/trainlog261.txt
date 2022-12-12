@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q2~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> why are the men on the left and right silent?
+0   )  because they are indifferent about the topic.     (8tok)
+1 GT)  the men on the left and right are silent because they are interested in what the man in the middle has to say     (23tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q11~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> does the girl with blindfolds seem excited?
+0 GT)  yes she does     (3tok)
+1   )  no, the blindfolded girl is mostly rude and unhappy about the gift     (13tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q5~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> is the man with the gray shirt genuine?
+0 GT)  no, he gives off an air of having other motives     (11tok)
+1   )  yes, he seems very honest and unbiasedly believes what he is saying about the man     (19tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q4~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> are the two women close?
+0   )  no, the woman in green talks over the woman in black all the time     (15tok)
+1 GT)  yes, they are leaning close to each other and appear to have known each other for a long time     (20tok)
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/ElghrCC2Rbs-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+Finished writing 64 questions; max len = 5990

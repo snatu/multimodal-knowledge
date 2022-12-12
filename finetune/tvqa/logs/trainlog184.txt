@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 qr69jLeQdRA_q1~qr69jLeQdRA ~~~~~~~~
+ -41 to 141<|START|> was the man in black suit successful in making jokes?
+0 GT)  yes, people seem to be engaged in what he is saying     (12tok)
+1   )  no, the people look nervous and uncomfortable     (8tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q5~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> is the woman in black athletic?
+0 GT)  yes, since she explains more about her workout from the photos she has.     (15tok)
+1   )  no, she only does it because it's good for her.     (13tok)
+~~~~~~~~~~~ Example 2 k5bk1efKBSI_q3~k5bk1efKBSI ~~~~~~~~
+ -34 to 135<|START|> do the man in the blue suit and the man in the white shirt have good senses of humor?
+0 GT)  yes, they are joking with each other.     (9tok)
+1   )  no, the two people seem to think they are funny but are not     (14tok)
+~~~~~~~~~~~ Example 3 _tBXwqueWcg_q2~_tBXwqueWcg ~~~~~~~~
+ -35 to 135<|START|> the woman speaks very fluently and comfortably, suggesting that she
+0 GT)  sure about how good the program is.     (8tok)
+1   )  does not know what she is talking about     (8tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/pK1WAx4jJzE-trimmed.en.vtt
+/data/raw/transcript/U4r9ePA6RkQ-trimmed.en.vtt
+/data/raw/transcript/oY6BfHkNFPY-trimmed.en.vtt
+/data/raw/transcript/jYL4gMsGZgE-trimmed.en.vtt
+/data/raw/transcript/LtxWWUBt7ro-trimmed.en.vtt
+/data/raw/transcript/7Oum_c5Seis-trimmed.en.vtt
+/data/raw/transcript/96YOZOU7ggo-trimmed.en.vtt
+/data/raw/transcript/dACF-Mz-X8M-trimmed.en.vtt
+/data/raw/transcript/qow_n-oNEt8-trimmed.en.vtt
+/data/raw/transcript/5fy7S3jCyAg-trimmed.en.vtt
+Finished writing 64 questions; max len = 4453

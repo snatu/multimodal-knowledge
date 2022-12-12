@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q6~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> have the people gathered to send a strong message about the state of wisconsin and its authorities?
+0   )  no, the people have gathered on a whim     (9tok)
+1 GT)  yes, given how many people came with signs about the message.     (13tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q3~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> what does the woman in black think about her show's new season?
+0   )  it's unknown, as she only says what she's allowed to say about the season.     (18tok)
+1 GT)  she's likes it because it is much happier than past seasons.     (13tok)
+~~~~~~~~~~~ Example 2 vqFmKLl2hq4_q5~vqFmKLl2hq4 ~~~~~~~~
+ -39 to 139<|START|> why does the man in the middle want a picture with people?
+0   )  he wants a picture with people because he wants to remember what they were wearing.     (16tok)
+1 GT)  the man in the middle wants pictures with people because he thinks others would be delighted at the pictures he took.     (22tok)
+/data/raw/transcript/Q25kn317a2M-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 Q25kn317a2M_q5~Q25kn317a2M ~~~~~~~~
+ -41 to 142<|START|> how do the two men behave differently?
+0 GT)  the magician is well balanced while the host is very panicking     (11tok)
+1   )  the two men behave very differently.since the magician has a lot more at stake he is looking very tense and hesitant while the host s just relaaxed     (33tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/MdG9Lkk8VWo-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/dACF-Mz-X8M-trimmed.en.vtt
+/data/raw/transcript/qow_n-oNEt8-trimmed.en.vtt
+/data/raw/transcript/5fy7S3jCyAg-trimmed.en.vtt
+/data/raw/transcript/1Za8BtLgKv8-trimmed.en.vtt
+Finished writing 64 questions; max len = 5155

@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q2~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> why are the men on the left and right silent?
+0 GT)  the men on the left and right are silent in order to be attentive     (14tok)
+1   )  the men on the left and right are silent because they want to seem superior to the man in the middle     (21tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q6~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> how does the blindfolded woman feel?
+0   )  she is angry about the car     (6tok)
+1 GT)  she is so grateful for the prize     (7tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q5~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> is the man with the gray shirt genuine?
+0   )  yes, he is very passionate     (6tok)
+1 GT)  yes, he genuinely feels the man he talks about has poor leadership     (13tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q3~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> what attitude does the old woman in the black on the right speak with when talking about taking pictures?
+0 GT)  she has a pride in her voice     (7tok)
+1   )  she is happy things have changed     (6tok)
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/ElghrCC2Rbs-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+Finished writing 64 questions; max len = 5984

@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q1~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> how does the little boy react to the drill spinning?
+0 GT)  the boy is smiling.     (5tok)
+1   )  he is sad and disappointed     (5tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q4~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> why is the audience amused by the man without the tie's character?
+0   )  the man without the tie is offended by the jokes that the man with the tie is telling     (18tok)
+1 GT)  the man without the tie tells some jokes     (8tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q3~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> how does the woman in black react to the crowd?
+0 GT)  she tries to remain indifferent but she is confused.     (10tok)
+1   )  the women is feeling tensed deep down not showing it     (11tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q2~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> why does the crowd clap each time after the man finishes talking?
+0   )  they do not like what the man is saying and want to drown out the noise.     (17tok)
+1 GT)  the crowd claps because they want to acknowledge the achievements of the contestants.     (14tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 6250

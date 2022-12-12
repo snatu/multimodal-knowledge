@@ -1,0 +1,33 @@
+~~~~~~~~~~~ Example 0 W_GrHtwZez8_q6~W_GrHtwZez8 ~~~~~~~~
+ -39 to 140<|START|> what causes the man speaking to make quotation marks with his hands.
+0   )  the man speaking makes quotation to the man on the phone to show that he is not interested in him     (21tok)
+1 GT)  to make it sarcastic     (4tok)
+/data/raw/transcript/g67e0hDT1oQ-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 g67e0hDT1oQ_q3~g67e0hDT1oQ ~~~~~~~~
+ -41 to 142<|START|> does the man in the glasses feel scared because of the tiger?
+0   )  the man faints because he is scared of the tiger.     (13tok)
+1 GT)  yes he feels very timid and scared because of the tiger     (11tok)
+~~~~~~~~~~~ Example 2 g8cyMIFcC_g_q5~g8cyMIFcC_g ~~~~~~~~
+ -32 to 132<|START|> the blonde lady's nods suggest that she is
+0 GT)  that she understands what he is saying.     (8tok)
+1   )  confused by what the man is saying     (7tok)
+~~~~~~~~~~~ Example 3 lC8nM75AqUk_q14~lC8nM75AqUk ~~~~~~~~
+ -41 to 140<|START|> what is the dynamic between the two individuals?
+0 GT)  the two individuals are participating in a calm conversation.     (10tok)
+1   )  the dynamic between the two individuals is combative and angry in nature.     (14tok)
+/data/raw/transcript/1akNUksCpRU-trimmed.en.vtt
+/data/raw/transcript/9eqze5JWNjY-trimmed.en.vtt
+/data/raw/transcript/i5YckMkwmm4-trimmed.en.vtt
+/data/raw/transcript/zWaV_PTlCxk-trimmed.en.vtt
+/data/raw/transcript/P3QEOJWxXI8-trimmed.en.vtt
+/data/raw/transcript/vjZDdaFTubE-trimmed.en.vtt
+/data/raw/transcript/OLw7cIJApMI-trimmed.en.vtt
+/data/raw/transcript/UCW_UH-k-ec-trimmed.en.vtt
+/data/raw/transcript/ASqnnZpsX1M-trimmed.en.vtt
+/data/raw/transcript/09j-Mg5guGg-trimmed.en.vtt
+/data/raw/transcript/PQW7zw2URes-trimmed.en.vtt
+/data/raw/transcript/Fy3Mi8rOB3U-trimmed.en.vtt
+/data/raw/transcript/p6IwwFevo7o-trimmed.en.vtt
+/data/raw/transcript/qN-ZCqaSHHk-trimmed.en.vtt
+/data/raw/transcript/ZMJw752P7z8-trimmed.en.vtt
+Finished writing 64 questions; max len = 4971

@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 LTUojzYVUUI_q2~LTUojzYVUUI ~~~~~~~~
+ -37 to 137<|START|> why does the audience laugh when the man with square-framed glasses says "you don't know how many elves he's killed in his workshop"?
+0   )  they know how many elves santa killed.     (8tok)
+1 GT)  it is an ironic comment and they find it funny     (10tok)
+~~~~~~~~~~~ Example 1 YIZpD3fEfgs_q4~YIZpD3fEfgs ~~~~~~~~
+ -40 to 140<|START|> do the other men take the first man who speaks seriously?
+0 GT)  yes, the other men take him seriously.     (9tok)
+1   )  no, they don't take him seriously shown by the jokes said about him.     (16tok)
+~~~~~~~~~~~ Example 2 gKuBUQVcDJM_q4~gKuBUQVcDJM ~~~~~~~~
+ -41 to 141<|START|> how does the woman feel about the kangaroo?
+0   )  the woman is scared by the kangaroo and watches it warily     (12tok)
+1 GT)  the woman is very interested in the kangaroo     (8tok)
+~~~~~~~~~~~ Example 3 G3xzem7HSME_q6~G3xzem7HSME ~~~~~~~~
+ -38 to 138<|START|> how does the woman at the beginning of the video feel about the students playing at wembley?
+0 GT)  she is happy and excited because this is a first in the school's history.     (16tok)
+1   )  she is disappointed because she expected more from the soccer boys.     (12tok)
+/data/raw/transcript/Yzq6fNeXf6w-trimmed.en.vtt
+/data/raw/transcript/QytntXWJIe8-trimmed.en.vtt
+/data/raw/transcript/8MK9frCMoWA-trimmed.en.vtt
+/data/raw/transcript/jP2HuCwfKFA-trimmed.en.vtt
+/data/raw/transcript/C6RMS4F6LDc-trimmed.en.vtt
+/data/raw/transcript/wbmW_Z1oPJw-trimmed.en.vtt
+/data/raw/transcript/pMGhqE76kQA-trimmed.en.vtt
+/data/raw/transcript/iBL0FcUTFT8-trimmed.en.vtt
+Finished writing 63 questions; max len = 3306

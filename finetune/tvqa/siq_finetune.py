@@ -109,7 +109,7 @@ args = parser.parse_args()
 # print(f"Loading from {args.config_file}", flush=True)
 with open(args.pretrain_config_file, 'r') as f:
     config = yaml.load(f, yaml.FullLoader)
-os.environ["TFRECORDS_PATH"] =  "/data/raw/siq"
+os.environ["TFRECORDS_PATH"] =  "/data/raw/siq_knowledge"
 os.environ["OUTPUT_PATH"] = "/data/raw/models"
 config['data']['train_fns'] = os.path.join(os.environ["TFRECORDS_PATH"], "train{:03d}of833.tfrecord")
 config['data']['num_train_files'] = 833

@@ -1,0 +1,25 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q5~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> why does the women say it is crazy? is it a literal meaning?
+0   )  she means crazy as in literally unstable.     (8tok)
+1 GT)  she means crazy as a colloquial term for unbelievable.     (12tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q4~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> why is the audience amused by the man without the tie's character?
+0   )  the man without the tie does not understand the jokes that the man with the tie is telling     (18tok)
+1 GT)  he seems to be going along with the show and enjoying his time     (13tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q2~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> why is the crowd cheering the man in the black jacket on?
+0 GT)  they want to encourage him     (5tok)
+1   )  because the man said something funny     (6tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q2~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> why does the crowd clap each time after the man finishes talking?
+0   )  the crowd claps because the man talking told them to, and they aren't going to disobey an order.     (22tok)
+1 GT)  they want to show support for the people who the man is introducing.     (14tok)
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 6248

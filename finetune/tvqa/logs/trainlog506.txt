@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q6~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> what is the role of the woman?
+0   )  the role of the woman is to answer questions about her opinion on religion in politics.     (17tok)
+1 GT)  she shares information from both sides.     (7tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q4~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> describe the nature of the relationship between the two men in the black and white video
+0   )  the men have a strictly professional relationship because they do not like needlessly conversing.     (17tok)
+1 GT)  the two men have a slightly friendly relationship.     (9tok)
+~~~~~~~~~~~ Example 2 o6DEc3OYQfU_q21~o6DEc3OYQfU ~~~~~~~~
+ -41 to 141<|START|> what does the man in the tie think about the thing that the man in the black shirt is showing him?
+0 GT)  he thinks it is cool     (5tok)
+1   )  he thinks it is useless     (5tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q4~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> does the man in black remember his childhood fondly?
+0 GT)  yes, he remembers his childhood fondly     (8tok)
+1   )  no, as he speaks about his childhood with spite     (10tok)
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/n5_HdNzf03Q-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/AQX2Q-V2Uh8-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+/data/raw/transcript/RAUSVB_Nu9k-trimmed.en.vtt
+/data/raw/transcript/oYM9bFGb8B8-trimmed.en.vtt
+/data/raw/transcript/KWSDwS4S6Ss-trimmed.en.vtt
+Finished writing 63 questions; max len = 5228

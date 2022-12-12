@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q4~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> describe the interaction between the boy and the man
+0   )  they seem nervous and awkward around each other, suggesting they are not very close     (15tok)
+1 GT)  the man is tender with the boy.     (8tok)
+/data/raw/transcript/vC63_bemI2I-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 vC63_bemI2I_q1~vC63_bemI2I ~~~~~~~~
+ -41 to 142<|START|> what is the man in the muscle tee trying to get out of this argument
+0 GT)  to reason with the other man about how christians aren't bad.     (13tok)
+1   )  to prove that christianity is better than the religion of the man with the beard.     (16tok)
+~~~~~~~~~~~ Example 2 FWBCTZiijEM_q4~FWBCTZiijEM ~~~~~~~~
+ -35 to 135<|START|> why does the man laugh in the beginning?
+0 GT)  the man accidentally died.     (5tok)
+1   )  the man never laughs.     (5tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q5~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> why does the man in grey think he was lucky?
+0   )  he thinks he was lucky because he won and doubted his skills.     (13tok)
+1 GT)  the man in grey thinks he was lucky because he wasn't satisfied with his performance on the test.     (20tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/0a2lv4IwZFY-trimmed.en.vtt
+/data/raw/transcript/t-dmFuH7TyM-trimmed.en.vtt
+/data/raw/transcript/GCZ5aagOddY-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/GK4_G33fXFU-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+/data/raw/transcript/j7cUdCFEpeU-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 3551

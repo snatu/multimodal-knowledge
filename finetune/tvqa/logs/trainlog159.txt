@@ -1,0 +1,24 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q11~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> are the people rallying knowledgeable on the situation?
+0   )  no, they are holding up signs for fun.     (10tok)
+1 GT)  yes, given their opinions on the bill.     (9tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q3~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> what does the woman in black think about her show's new season?
+0 GT)  she thinks that it'll bring some positive events in the main character's life.     (16tok)
+1   )  she's mostly neutral to it, as the treatment of the main character doesn't seem to improve.     (20tok)
+~~~~~~~~~~~ Example 2 k5bk1efKBSI_q1~k5bk1efKBSI ~~~~~~~~
+ -34 to 135<|START|> why do the first two people repeat the same word over and over again?
+0 GT)  the man with white shirt is trying to explain to the other man how to pronounce his name     (18tok)
+1   )  the two men dislike each other and are one-upping each otheer     (15tok)
+/data/raw/transcript/Q25kn317a2M-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 Q25kn317a2M_q6~Q25kn317a2M ~~~~~~~~
+ -41 to 142<|START|> why is the man who is being asked to sign the card so hesitant? is it because the task is very difficult
+0 GT)  the man is hesitant because he is not sure of the instructions     (12tok)
+1   )  the man is not very good at using a pen, or performing the actions he was asked     (18tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/pK1WAx4jJzE-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/dACF-Mz-X8M-trimmed.en.vtt
+/data/raw/transcript/qow_n-oNEt8-trimmed.en.vtt
+/data/raw/transcript/5fy7S3jCyAg-trimmed.en.vtt
+Finished writing 64 questions; max len = 5159

@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 EqXKrS3gPN4_q5~EqXKrS3gPN4 ~~~~~~~~
+ -40 to 139<|START|> what is the overall mood of the video?
+0 GT)  a serious mood, given the tone of voices.     (10tok)
+1   )  it is very rowdy and excitable to watch     (9tok)
+~~~~~~~~~~~ Example 1 YIZpD3fEfgs_q3~YIZpD3fEfgs ~~~~~~~~
+ -40 to 140<|START|> why are they sitting next to each other in a row?
+0 GT)  they are filming a video for other people to watch.     (11tok)
+1   )  they sat next to each other by accident.     (9tok)
+~~~~~~~~~~~ Example 2 gKuBUQVcDJM_q3~gKuBUQVcDJM ~~~~~~~~
+ -41 to 141<|START|> how do the others react to the man in the cowboy hat?
+0   )  they show an open contempt towards the man in the cowboy hat     (12tok)
+1 GT)  they hold a deep respect for him     (7tok)
+~~~~~~~~~~~ Example 3 G3xzem7HSME_q5~G3xzem7HSME ~~~~~~~~
+ -38 to 138<|START|> how does the blonde boy feel about sitting across from the man in the red sweater?
+0 GT)  he's excited and asks to shake his hand.     (10tok)
+1   )  he's scared because he doesn't know the man.     (11tok)
+/data/raw/transcript/QHeNKMxsqYE-trimmed.en.vtt
+/data/raw/transcript/4W192A7g5KY-trimmed.en.vtt
+/data/raw/transcript/cXTjL-f-msU-trimmed.en.vtt
+/data/raw/transcript/jP2HuCwfKFA-trimmed.en.vtt
+/data/raw/transcript/C6RMS4F6LDc-trimmed.en.vtt
+/data/raw/transcript/wbmW_Z1oPJw-trimmed.en.vtt
+/data/raw/transcript/pMGhqE76kQA-trimmed.en.vtt
+/data/raw/transcript/iBL0FcUTFT8-trimmed.en.vtt
+/data/raw/transcript/13HM_96pUIo-trimmed.en.vtt
+Finished writing 63 questions; max len = 214

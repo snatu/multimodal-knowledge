@@ -1,0 +1,34 @@
+~~~~~~~~~~~ Example 0 W_GrHtwZez8_q6~W_GrHtwZez8 ~~~~~~~~
+ -39 to 140<|START|> what causes the man speaking to make quotation marks with his hands.
+0 GT)  to make it sarcastic     (4tok)
+1   )  he wants to emphasize the word reporting so that the man on the phone will focus on that.     (19tok)
+/data/raw/transcript/g67e0hDT1oQ-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 g67e0hDT1oQ_q2~g67e0hDT1oQ ~~~~~~~~
+ -41 to 142<|START|> why does the man with glasses lift his hands up?
+0   )  the man is about to attack the tiger.     (9tok)
+1 GT)  the man is frightened by the tiger.     (8tok)
+~~~~~~~~~~~ Example 2 g8cyMIFcC_g_q5~g8cyMIFcC_g ~~~~~~~~
+ -32 to 132<|START|> the blonde lady's nods suggest that she is
+0 GT)  that she agrees with him.     (6tok)
+1   )  that she disagrees with him and his opinion.     (10tok)
+~~~~~~~~~~~ Example 3 lC8nM75AqUk_q14~lC8nM75AqUk ~~~~~~~~
+ -41 to 140<|START|> what is the dynamic between the two individuals?
+0 GT)  the two individuals are participating in a calm conversation.     (10tok)
+1   )  they hate each other because they disagree about types of the english language.     (14tok)
+/data/raw/transcript/1akNUksCpRU-trimmed.en.vtt
+/data/raw/transcript/9eqze5JWNjY-trimmed.en.vtt
+/data/raw/transcript/i5YckMkwmm4-trimmed.en.vtt
+/data/raw/transcript/zWaV_PTlCxk-trimmed.en.vtt
+/data/raw/transcript/P3QEOJWxXI8-trimmed.en.vtt
+/data/raw/transcript/vjZDdaFTubE-trimmed.en.vtt
+/data/raw/transcript/OLw7cIJApMI-trimmed.en.vtt
+/data/raw/transcript/UCW_UH-k-ec-trimmed.en.vtt
+/data/raw/transcript/ASqnnZpsX1M-trimmed.en.vtt
+/data/raw/transcript/09j-Mg5guGg-trimmed.en.vtt
+/data/raw/transcript/PQW7zw2URes-trimmed.en.vtt
+/data/raw/transcript/h35dZhHkuFM-trimmed.en.vtt
+/data/raw/transcript/Fy3Mi8rOB3U-trimmed.en.vtt
+/data/raw/transcript/p6IwwFevo7o-trimmed.en.vtt
+/data/raw/transcript/qN-ZCqaSHHk-trimmed.en.vtt
+/data/raw/transcript/ZMJw752P7z8-trimmed.en.vtt
+Finished writing 64 questions; max len = 4971

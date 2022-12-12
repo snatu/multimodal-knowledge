@@ -1,0 +1,24 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q5~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> how do the people in the video feel about the bill?
+0 GT)  they don't like it; they think it takes away their rights.     (14tok)
+1   )  they are in favor of the bill.     (8tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q1~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> why does the woman say she gets into the ocean with kettle bells?
+0 GT)  she wanted to show off all the things she likes to do for her workout.     (16tok)
+1   )  she wishes to show off how fit she is     (9tok)
+~~~~~~~~~~~ Example 2 vqFmKLl2hq4_q3~vqFmKLl2hq4 ~~~~~~~~
+ -39 to 139<|START|> why doesn't the man on the right want to answer the question?
+0   )  the man on the right doesn't want to answer the question because he is afraid of disappointing the man next to him.     (24tok)
+1 GT)  the man on the right doesn't want to answer the question because he isn't as familiar with the woman as he would like.     (26tok)
+/data/raw/transcript/Q25kn317a2M-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 Q25kn317a2M_q4~Q25kn317a2M ~~~~~~~~
+ -41 to 142<|START|> why does the audience laugh (the first time)?
+0   )  the audience laugh as the magician took the hosts question sand used it to insult and tease the host and they hate the host very much     (26tok)
+1 GT)  the audience laughs the first time because the people realise that the host was being very sily     (19tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/uJUP839M2WM-trimmed.en.vtt
+/data/raw/transcript/MdG9Lkk8VWo-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/awpHn196aVs-trimmed.en.vtt
+/data/raw/transcript/1Za8BtLgKv8-trimmed.en.vtt
+Finished writing 64 questions; max len = 5169

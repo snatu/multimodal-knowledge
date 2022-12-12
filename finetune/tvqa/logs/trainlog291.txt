@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q5~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> are the men to the left and right curious about what the man in the middle is saying?
+0 GT)  yes, because they are attentive when he speaks     (9tok)
+1   )  no, they are clearly looking for a way to end the conversation as they don't care about hearing about what the man in the middle is talking about     (30tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q13~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> how does the woman in the green jacket feel about the story?
+0 GT)  she thinks it is a little crazy     (7tok)
+1   )  she thinks the story is depressing     (6tok)
+~~~~~~~~~~~ Example 2 4yr_etbfZtQ_q3~4yr_etbfZtQ ~~~~~~~~
+ -35 to 135<|START|> does the woman have a positive opinion of the second wine?
+0   )  she loves it.     (4tok)
+1 GT)  no, she has a negative opinion about the second wine.     (12tok)
+~~~~~~~~~~~ Example 3 97AUfvzQ_1E_q1~97AUfvzQ_1E ~~~~~~~~
+ -40 to 140<|START|> what does the man in black hope to accomplish with the clothes?
+0   )  he hopes to fit the man in grey into a suit.     (12tok)
+1 GT)  the man in black hopes to share a few laughs with the man in grey over silly clothes.     (19tok)
+/data/raw/transcript/2XFVnzr4Vho-trimmed.en.vtt
+/data/raw/transcript/3nUKwvFsjA4-trimmed.en.vtt
+/data/raw/transcript/Vlh0sMMjU04-trimmed.en.vtt
+/data/raw/transcript/ElghrCC2Rbs-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/IE6r8Pk91T0-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+/data/raw/transcript/N1fVL4AQEW8-trimmed.en.vtt
+Finished writing 63 questions; max len = 4305

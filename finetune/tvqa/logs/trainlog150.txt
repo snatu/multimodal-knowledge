@@ -1,0 +1,24 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q6~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> have the people gathered to send a strong message about the state of wisconsin and its authorities?
+0 GT)  yes, given how many people came with signs about the message.     (13tok)
+1   )  they mainly gathered through social media.     (7tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q2~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> does the short-haired woman respect the other woman?
+0   )  no - she thinks of her as an equal, however, and likes her for what she is.     (20tok)
+1 GT)  yes, given how impressed she was when she saw the workout photos.     (14tok)
+~~~~~~~~~~~ Example 2 vqFmKLl2hq4_q5~vqFmKLl2hq4 ~~~~~~~~
+ -39 to 139<|START|> why does the man in the middle want a picture with people?
+0   )  the man in the middle wants pictures with people because he wants to blackmail them later.     (17tok)
+1 GT)  the man in the middle wants pictures with people because he thinks they are famous.     (16tok)
+/data/raw/transcript/Q25kn317a2M-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 Q25kn317a2M_q5~Q25kn317a2M ~~~~~~~~
+ -41 to 142<|START|> how do the two men behave differently?
+0 GT)  the magician is well balanced while the host is very panicking     (11tok)
+1   )  the man in green tie is scared of the taller man because the taller man can control him     (18tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/MdG9Lkk8VWo-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/dACF-Mz-X8M-trimmed.en.vtt
+/data/raw/transcript/5fy7S3jCyAg-trimmed.en.vtt
+/data/raw/transcript/1Za8BtLgKv8-trimmed.en.vtt
+Finished writing 64 questions; max len = 5152

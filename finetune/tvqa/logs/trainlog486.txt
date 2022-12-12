@@ -1,0 +1,27 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q2~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> why does the bald man nod his head at 0:56?
+0 GT)  he thinks the other man's statement is correct.     (10tok)
+1   )  he is listening to music that makes him nod.     (10tok)
+~~~~~~~~~~~ Example 1 YlVkBzXo0YM_q9~YlVkBzXo0YM ~~~~~~~~
+ -38 to 139<|START|> how does the man in the black hoodie feel towards the woman next to him?
+0   )  the man in the black hoodie feels condescending towards the woman next to him     (17tok)
+1 GT)  the man in the black hoodie feels anxious about the woman next to him     (14tok)
+~~~~~~~~~~~ Example 2 o6DEc3OYQfU_q18~o6DEc3OYQfU ~~~~~~~~
+ -41 to 141<|START|> describe the reaction of the man on the left to what the man on the right is saying
+0 GT)  he reacts with nods to show understanding.     (9tok)
+1   )  the man reacts poorly to the instructions of the man on the right.     (14tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q2~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> is the man in blue excited?
+0 GT)  yes, he seems to be looking forward to meeting the other man     (13tok)
+1   )  yes, the man in blue is excited to drive to the ballpark.     (14tok)
+/data/raw/transcript/VNM7Z7hir_I-trimmed.en.vtt
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/AQX2Q-V2Uh8-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+/data/raw/transcript/RAUSVB_Nu9k-trimmed.en.vtt
+/data/raw/transcript/oYM9bFGb8B8-trimmed.en.vtt
+/data/raw/transcript/KWSDwS4S6Ss-trimmed.en.vtt
+/data/raw/transcript/BH8FUBW4IIE-trimmed.en.vtt
+/data/raw/transcript/TA3Xy53hMMY-trimmed.en.vtt
+Finished writing 63 questions; max len = 5239

@@ -5,6 +5,7 @@ from pretrain.dataloader import encoder, load_and_resize_img, pad_to_fixed_size,
 from copy import deepcopy
 import functools
 import numpy as np
+import ipdb
 
 def parse_record_singleimg(record, config):
     """
@@ -183,14 +184,11 @@ def preprocess_tvqa(record, config):
 
     #############
     query = tf.concat([features.pop('qa_query'), encoder.encode('answer: ').ids], 0)
-
     textonly_seqs = []
     audio_seqs = []
-
     for i in range(config['num_answers']):
         option_i = tf.concat([query, features.pop(f'qa_choice_{i}')], 0)
         option_i = tf.concat([option_i[:(config['lang_seq_len'] - 1)], [MASK]], 0)
-
         # Now we add the subtitles
         sub_input_ragged = tf.ragged.stack([option_i] + [x['sub'] for x in segment_list])
         segment_id = tf.cast(tf.where(sub_input_ragged)[:, 0], dtype=tf.int32)
@@ -245,6 +243,113 @@ def preprocess_tvqa(record, config):
                                               ], -1)
     return features
 
+def preprocess_train_tvqa(record, config):
+    """
+    there are 7 frames, each with audio and associated text
+    there is also an initial "frame" that doesn't have any image, but does have metadata where we stick the Q.
+    :param record:
+    :param config:
+    :return:
+    """
+    k2f = {
+        'id': tf.io.FixedLenFeature((), tf.string, default_value=''),
+        'magic_number': tf.io.FixedLenFeature((), tf.float32, 1),
+        'qa_query': tf.io.VarLenFeature(tf.int64),
+        'knowledge': tf.io.VarLenFeature(tf.int64),
+        'qa_label': tf.io.FixedLenFeature((), tf.int64, 1),
+        'num_frames': tf.io.FixedLenFeature((), tf.int64, 1),
+        'speakers': tf.io.VarLenFeature(tf.float32),
+    }
+    for i in range(config['num_answers']):
+        k2f[f'qa_choice_{i}'] = tf.io.VarLenFeature(tf.int64)
+
+    for i in range(config['num_segments']):
+        k2f[f'c{i:02d}/image_encoded'] = tf.io.FixedLenFeature((), tf.string, default_value='')
+        k2f[f'c{i:02d}/spec_encoded'] = tf.io.FixedLenFeature((), tf.string, default_value='')
+        k2f[f'c{i:02d}/sub'] = tf.io.VarLenFeature(tf.int64)
+    features = tf.io.parse_single_example(record, k2f)
+    def _unsparsify(x):
+        if isinstance(x, tf.SparseTensor):
+            x = x.values
+        if x.dtype == tf.int64:
+            x = tf.cast(x, dtype=tf.int32)
+        return x
+
+    segment_list = [{k: _unsparsify(features.pop(f'c{i:02d}/{k}')) for k in ['image_encoded', 'spec_encoded', 'sub']} for i in
+                    range(config['num_segments'])]
+    features = {k: _unsparsify(v) for k, v in features.items()}
+
+
+    encodeds = tf.stack([x['image_encoded'] for x in segment_list])
+    features['images'] = tf.map_fn(functools.partial(load_and_resize_img, config=config),
+                                   elems=encodeds, fn_output_signature=tf.float32, name='decode_img')
+
+    audio_encodeds = tf.stack([x['spec_encoded'] for x in segment_list])
+    features['audio_clips'] = tf.map_fn(functools.partial(tf.image.decode_jpeg, channels=1), audio_encodeds, fn_output_signature=tf.uint8)
+    features['audio_clips'] = tf.reshape(features['audio_clips'], [config['num_segments'], 3, 60, 65])
+    features['audio_clips'] = tf.cast(features['audio_clips'], dtype=tf.float32) / features['magic_number']
+
+    #############
+    query = tf.concat([features.pop('qa_query'), encoder.encode('answer: ').ids], 0)
+    textonly_seqs = []
+    audio_seqs = []
+    for i in range(config['num_answers']):
+        option_i = tf.concat([query, features.pop(f'qa_choice_{i}')], 0)
+        option_i = tf.concat([option_i[:(config['lang_seq_len'] - 1)], [MASK]], 0)
+        option_i = tf.concat([option_i, features.pop('knowledge')], 0)
+        # Now we add the subtitles
+        sub_input_ragged = tf.ragged.stack([option_i] + [x['sub'] for x in segment_list])
+        segment_id = tf.cast(tf.where(sub_input_ragged)[:, 0], dtype=tf.int32)
+        textonly_seq_i = tf.stack([sub_input_ragged.values, segment_id], -1)
+        textonly_seq_i = pad_to_fixed_size(textonly_seq_i, 0,
+                                           output_shape=[config['lang_seq_len'], 2], truncate=True)
+        textonly_seqs.append(textonly_seq_i)
+
+        # Now we add the non-subtitles
+        audio_span_full = tf.fill([3 * config['audio_token_length']], AUDIOSPAN)
+        audio_input_ragged = tf.ragged.stack([option_i] + [audio_span_full for _ in segment_list])
+        segment_id = tf.cast(tf.where(audio_input_ragged)[:, 0], dtype=tf.int32)
+        audio_seq_i = tf.stack([audio_input_ragged.values, segment_id], -1)
+        audio_seq_i = pad_to_fixed_size(audio_seq_i, 0,
+                                                   output_shape=[config['lang_seq_len'], 2], truncate=True)
+        audio_seqs.append(audio_seq_i)
+
+    features['textonly_seqs'] = tf.stack(textonly_seqs)
+    features['audio_seqs'] = tf.stack(audio_seqs)
+    features['labels'] = features.pop('qa_label')
+
+    # do this so we don't have to mask
+    frame_is_valid = tf.cast(tf.less(tf.range(config['num_segments']), features['num_frames']), dtype=tf.float32)
+    features['images'] *= frame_is_valid[:, None, None]
+
+    if config.get('do_random_scale', True):
+        print("Random adjustment of audio clips")
+        old_shape = get_shape_list(features['audio_clips'], 4)
+        old_nwindow = old_shape[0] * old_shape[1] * old_shape[2]
+        num_mels = old_shape[3]
+
+        features['audio_clips'] = features['audio_clips'][:features['num_frames']]
+        giant_seq = tf.reshape(features['audio_clips'], [-1, num_mels])
+        avg = tf.reduce_mean(giant_seq, 0)
+        std = tf.math.reduce_std(giant_seq, 0)
+
+        amt_to_pad_start = 4
+        start = tf.random.normal([amt_to_pad_start, num_mels], mean=avg, stddev=std)
+
+        amt_to_pad_end = 4 + (old_nwindow - get_shape_list(giant_seq, 2)[0])
+        end = tf.random.normal([amt_to_pad_end, num_mels], mean=avg, stddev=std)
+
+        seq = tf.concat([start, giant_seq, end], 0)
+        start_idx = tf.random.uniform([], minval=0, maxval=amt_to_pad_start + 1, dtype=tf.int32)
+        seq = seq[start_idx:(start_idx+old_nwindow)]
+        features['audio_clips'] = tf.reshape(seq, old_shape)
+    features['audio_clips'] *= frame_is_valid[:, None, None, None]
+
+    # final thing should always be 1 and it's being rounded right now
+    features['audio_clips'] = tf.concat([features['audio_clips'][..., :-1],
+                                              tf.ones_like(features['audio_clips'][..., 0, None])
+                                              ], -1)
+    return features
 
 def make_dataset_singleimg(config, fns, preprocessor, batch_size, num_devices=1, is_training=True):
     """

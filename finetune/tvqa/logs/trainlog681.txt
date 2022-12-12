@@ -1,0 +1,26 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q2~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> when the women asks the question to the blond haired women, does she display any feelings about the topic in the way she makes her facial expressions?
+0   )  no, the women does not have any feelings, she just asks the question     (15tok)
+1 GT)  yes, she feels positively about being a part of the conversation.     (13tok)
+~~~~~~~~~~~ Example 1 qh8JWHlIgcE_q9~qh8JWHlIgcE ~~~~~~~~
+ -40 to 140<|START|> why is the man smiling as he dances?
+0   )  he is not smiling as he dances with the woman.     (11tok)
+1 GT)  he is happy to be dancing with the woman in white.     (12tok)
+~~~~~~~~~~~ Example 2 P8YRuxu8dQU_q14~P8YRuxu8dQU ~~~~~~~~
+ -40 to 141<|START|> why did the people in costumes stay silent for a moment after the man on the phone told them not to eat the cake?
+0   )  the people in costumes stayed silent for a moment because they thought the man was being funny.     (18tok)
+1 GT)  the people in costumes stayed silent for a moment because  they were processing what the man said.     (19tok)
+~~~~~~~~~~~ Example 3 CoMz3JOnZFo_q7~CoMz3JOnZFo ~~~~~~~~
+ -39 to 140<|START|> why is the girl nervous?
+0 GT)  she does not what is going to happen.     (9tok)
+1   )  she knows she is going to see something scary.     (10tok)
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/nQqY3j8btbI-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/NR9v3PBJw8g-trimmed.en.vtt
+/data/raw/transcript/_zuODgCQ6O8-trimmed.en.vtt
+/data/raw/transcript/LD1RAPiT_7A-trimmed.en.vtt
+Finished writing 63 questions; max len = 6252

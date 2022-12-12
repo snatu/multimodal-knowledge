@@ -1,0 +1,27 @@
+~~~~~~~~~~~ Example 0 E0TBOKN8J2E_q1~E0TBOKN8J2E ~~~~~~~~
+ -40 to 141<|START|> why does the man with the blue tie nod?
+0   )  he is falling asleep and cannot keep his head up while listening to the other man.     (17tok)
+1 GT)  he thinks the things being said make sense.     (9tok)
+/data/raw/transcript/vC63_bemI2I-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 vC63_bemI2I_q3~vC63_bemI2I ~~~~~~~~
+ -41 to 142<|START|> do either of the men's perspectives change as the conversation progresses?
+0 GT)  no, both men are stubborn and won't listen to the other.     (14tok)
+1   )  yes, they become more understanding of the other's arguments.     (12tok)
+~~~~~~~~~~~ Example 2 FWBCTZiijEM_q8~FWBCTZiijEM ~~~~~~~~
+ -35 to 135<|START|> does the man like the game?
+0 GT)  yes, because he is very focused on it.     (10tok)
+1   )  the man is being forced to play.     (8tok)
+~~~~~~~~~~~ Example 3 yRtPan09Ek0_q4~yRtPan09Ek0 ~~~~~~~~
+ -39 to 140<|START|> how does the man on the right feel about the man on the left?
+0 GT)  the man on the right thinks the man on the left is cool     (13tok)
+1   )  the man on the right thinks the man on the left is a disappointment     (14tok)
+/data/raw/transcript/ZeYarFkvoGw-trimmed.en.vtt
+/data/raw/transcript/0a2lv4IwZFY-trimmed.en.vtt
+/data/raw/transcript/t-dmFuH7TyM-trimmed.en.vtt
+/data/raw/transcript/gbVOyKifrAo-trimmed.en.vtt
+/data/raw/transcript/GCZ5aagOddY-trimmed.en.vtt
+/data/raw/transcript/UUuXfyfCaL4-trimmed.en.vtt
+/data/raw/transcript/GK4_G33fXFU-trimmed.en.vtt
+/data/raw/transcript/xdiFzcpmmJc-trimmed.en.vtt
+/data/raw/transcript/j7cUdCFEpeU-trimmed.en.vtt
+Finished writing 63 questions; max len = 4455

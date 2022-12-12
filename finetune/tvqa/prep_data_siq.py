@@ -118,7 +118,7 @@ random.seed(args.seed)
 #     temp_num_folds = 8
 # temp_data_dir = '/home/sheryl/raw/'
 
-out_fn = os.path.join(args.base_fn, 'siq', '{}{:03d}of{:03d}.tfrecord'.format(args.split, args.fold, args.num_folds))
+out_fn = os.path.join(args.base_fn, 'siq_external_knowledge', '{}{:03d}of{:03d}.tfrecord'.format(args.split, args.fold, args.num_folds))
 
 split_fn = {
     'train': 'siq_train.jsonl',
@@ -329,7 +329,8 @@ def parse_item(item):
            pos = np.searchsorted(bounds, mid_time)
            if (pos > 0) and (pos <= len(times_used)):
                times_used[pos-1]['sub'].append(sub_item.text)
-
+    print("previous times used")
+    print(times_used)
     for ts in times_used:
         ts['sub'] = ' '.join(ts['sub'])
         ts['sub'] = unidecode(ftfy.ftfy(ts['sub'])).replace('\n', ' ')
@@ -359,7 +360,10 @@ def parse_item(item):
             frames.append(frames[-1])
             spectrograms.append(spectrograms[-1])
             times_used.append({'start_time': -1, 'end_time': -1, 'sub': ''})
-
+    print('qa item')
+    print(qa_item)
+    print('times used')
+    print(times_used)
     return qa_item, frames, spectrograms, times_used
 
 num_written = 0
@@ -399,7 +403,6 @@ with GCSTFRecordWriter(out_fn, auto_close=False) as tfrecord_writer:
             feature_dict[f'c{i:02d}/sub'] = int64_list_feature(encoder.encode(subs_i['sub']).ids)
             max_query += len(feature_dict[f'c{i:02d}/sub'].int64_list.value)
         max_len = max(max_len, max_query)
-
         if num_written < 4:
             print(f"~~~~~~~~~~~ Example {num_written} {qa_item['id']} ~~~~~~~~")
             print(encoder.decode(feature_dict['qa_query'].int64_list.value, skip_special_tokens=False), flush=True)

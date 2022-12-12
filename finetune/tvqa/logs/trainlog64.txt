@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 3wIejfT9l30_q2~3wIejfT9l30 ~~~~~~~~
+ -39 to 140<|START|> why does the woman pretend to believe the man?
+0 GT)  she wants to carry on the conversation     (7tok)
+1   )  she is trying to make a fool out of the man     (11tok)
+/data/raw/transcript/g67e0hDT1oQ-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 g67e0hDT1oQ_q5~g67e0hDT1oQ ~~~~~~~~
+ -41 to 142<|START|> does the man in the hat feel comfortable with the tiger?
+0   )  no he seems very shy and scared of the tiger.     (11tok)
+1 GT)  the man in the hat is not frightened by the tiger.     (12tok)
+~~~~~~~~~~~ Example 2 n6-ef_YHeJU_q8~n6-ef_YHeJU ~~~~~~~~
+ -39 to 139<|START|> how does the interviewee feel about being rejected?
+0 GT)  he is upset     (3tok)
+1   )  the interviewee feels happy because he did not want the job.     (14tok)
+~~~~~~~~~~~ Example 3 dU7L1hvMx9Y_q2~dU7L1hvMx9Y ~~~~~~~~
+ -41 to 141<|START|> why does the boy in white carry salt shakers?
+0 GT)  the boy is trying to help put out the salt shakers.     (13tok)
+1   )  the boy thinks he can steal the salt shakers from the wedding.     (14tok)
+/data/raw/transcript/1akNUksCpRU-trimmed.en.vtt
+/data/raw/transcript/9eqze5JWNjY-trimmed.en.vtt
+/data/raw/transcript/R-xtt7w9Do4-trimmed.en.vtt
+/data/raw/transcript/RZPBl5-cu3c-trimmed.en.vtt
+/data/raw/transcript/2Wk9JY6ic0k-trimmed.en.vtt
+/data/raw/transcript/3m-54UiEqzg-trimmed.en.vtt
+/data/raw/transcript/x6yr8W3mc38-trimmed.en.vtt
+/data/raw/transcript/Fy3Mi8rOB3U-trimmed.en.vtt
+/data/raw/transcript/qN-ZCqaSHHk-trimmed.en.vtt
+/data/raw/transcript/ZMJw752P7z8-trimmed.en.vtt
+Finished writing 64 questions; max len = 4976

@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 EqXKrS3gPN4_q5~EqXKrS3gPN4 ~~~~~~~~
+ -40 to 139<|START|> what is the overall mood of the video?
+0   )  it is extremely sad and depressing to watch     (8tok)
+1 GT)  it is quiet     (3tok)
+~~~~~~~~~~~ Example 1 YIZpD3fEfgs_q3~YIZpD3fEfgs ~~~~~~~~
+ -40 to 140<|START|> why are they sitting next to each other in a row?
+0 GT)  they are filming a video for other people to watch.     (11tok)
+1   )  they don't like facing one another.     (8tok)
+~~~~~~~~~~~ Example 2 gKuBUQVcDJM_q3~gKuBUQVcDJM ~~~~~~~~
+ -41 to 141<|START|> how do the others react to the man in the cowboy hat?
+0 GT)  they welcome him and treat him with reverence     (9tok)
+1   )  they are disappointed by the man's presence and frown upon him     (12tok)
+~~~~~~~~~~~ Example 3 G3xzem7HSME_q2~G3xzem7HSME ~~~~~~~~
+ -38 to 138<|START|> is the man in red shirt respectful?
+0 GT)  yes, he is respectful towards the student athletes. he takes the time to sit down and talk to them about playing in a prestigious tournament at a special stadium.     (32tok)
+1   )  no, he is disrespectful and rude towards the school's faculty and staff.     (15tok)
+/data/raw/transcript/QHeNKMxsqYE-trimmed.en.vtt
+/data/raw/transcript/4W192A7g5KY-trimmed.en.vtt
+/data/raw/transcript/cXTjL-f-msU-trimmed.en.vtt
+/data/raw/transcript/jP2HuCwfKFA-trimmed.en.vtt
+/data/raw/transcript/C6RMS4F6LDc-trimmed.en.vtt
+/data/raw/transcript/wbmW_Z1oPJw-trimmed.en.vtt
+/data/raw/transcript/pMGhqE76kQA-trimmed.en.vtt
+/data/raw/transcript/iBL0FcUTFT8-trimmed.en.vtt
+/data/raw/transcript/13HM_96pUIo-trimmed.en.vtt
+Finished writing 63 questions; max len = 212

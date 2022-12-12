@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 qr69jLeQdRA_q8~qr69jLeQdRA ~~~~~~~~
+ -41 to 141<|START|> how does the married couple feel about walking through the arena?
+0 GT)  the married couple feels excited about walking through the area     (10tok)
+1   )  the married couple feels lethargic about walking through the area     (12tok)
+~~~~~~~~~~~ Example 1 QQpIBRLlJzo_q3~QQpIBRLlJzo ~~~~~~~~
+ -38 to 139<|START|> how does the man on the right react to what the man on the left is saying?
+0 GT)  he nods to show that he is following and engaged throughout the story.     (15tok)
+1   )  he laughs out loud in mockey, suggesting he finds what the man on the left is saying to be pathetic     (22tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q1~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> how does the man in grey feel about the president?
+0 GT)  he does not think the president is doing well at leading.     (12tok)
+1   )  the man in grey respects the man and thinks he is a good leader     (14tok)
+~~~~~~~~~~~ Example 3 _tBXwqueWcg_q5~_tBXwqueWcg ~~~~~~~~
+ -35 to 135<|START|> how do the other people at 0:17 feel about woman and what she is talking about?
+0 GT)  they are enjoying the conversation they are having with the woman.     (12tok)
+1   )  they don't want to be talking to the woman.     (11tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/U4r9ePA6RkQ-trimmed.en.vtt
+/data/raw/transcript/oY6BfHkNFPY-trimmed.en.vtt
+/data/raw/transcript/jYL4gMsGZgE-trimmed.en.vtt
+/data/raw/transcript/DZsBei4nCkU-trimmed.en.vtt
+/data/raw/transcript/LtxWWUBt7ro-trimmed.en.vtt
+/data/raw/transcript/7Oum_c5Seis-trimmed.en.vtt
+/data/raw/transcript/96YOZOU7ggo-trimmed.en.vtt
+Finished writing 64 questions; max len = 5987

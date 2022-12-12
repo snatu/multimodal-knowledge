@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 LTUojzYVUUI_q1~LTUojzYVUUI ~~~~~~~~
+ -37 to 137<|START|> why is the man with the square-framed glasses calmer when he says "how's that?" to the other man?
+0   )  he was told to calm down.     (7tok)
+1 GT)  he has no idea what the man on the right is talking about.     (14tok)
+~~~~~~~~~~~ Example 1 YIZpD3fEfgs_q4~YIZpD3fEfgs ~~~~~~~~
+ -40 to 140<|START|> do the other men take the first man who speaks seriously?
+0   )  no, they don't take him seriously shown by the jokes said about him.     (16tok)
+1 GT)  yes, they take the first man seriously.     (9tok)
+~~~~~~~~~~~ Example 2 gKuBUQVcDJM_q4~gKuBUQVcDJM ~~~~~~~~
+ -41 to 141<|START|> how does the woman feel about the kangaroo?
+0 GT)  the woman is in awe of the kangaroo     (8tok)
+1   )  the woman is scared by the kangaroo and watches it warily     (12tok)
+~~~~~~~~~~~ Example 3 G3xzem7HSME_q6~G3xzem7HSME ~~~~~~~~
+ -38 to 138<|START|> how does the woman at the beginning of the video feel about the students playing at wembley?
+0   )  she is disappointed because she expected more from the soccer boys.     (12tok)
+1 GT)  she's excited.     (4tok)
+/data/raw/transcript/Yzq6fNeXf6w-trimmed.en.vtt
+/data/raw/transcript/QytntXWJIe8-trimmed.en.vtt
+/data/raw/transcript/8MK9frCMoWA-trimmed.en.vtt
+/data/raw/transcript/jP2HuCwfKFA-trimmed.en.vtt
+/data/raw/transcript/C6RMS4F6LDc-trimmed.en.vtt
+/data/raw/transcript/wbmW_Z1oPJw-trimmed.en.vtt
+/data/raw/transcript/pMGhqE76kQA-trimmed.en.vtt
+/data/raw/transcript/iBL0FcUTFT8-trimmed.en.vtt
+Finished writing 63 questions; max len = 3308

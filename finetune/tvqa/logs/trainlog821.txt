@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 E0TBOKN8J2E_q9~E0TBOKN8J2E ~~~~~~~~
+ -40 to 141<|START|> why does the man on the far left think his team hasn't been good in recent years?
+0   )  the team is too small and needs a bigger arena in order to play well.     (16tok)
+1 GT)  the team thinks his team did not have enough willpower.     (11tok)
+~~~~~~~~~~~ Example 1 g8cyMIFcC_g_q1~g8cyMIFcC_g ~~~~~~~~
+ -32 to 132<|START|> is the man nervous?
+0   )  yes, because his hands would not stop moving.     (10tok)
+1 GT)  no, he seems knowledgeable in the subject area and confident in his answers.     (15tok)
+~~~~~~~~~~~ Example 2 lC8nM75AqUk_q6~lC8nM75AqUk ~~~~~~~~
+ -41 to 140<|START|> how does the woman appear to receive the man's comments?
+0 GT)  she receives the comments well.     (6tok)
+1   )  with harsh judgement     (3tok)
+~~~~~~~~~~~ Example 3 yRtPan09Ek0_q8~yRtPan09Ek0 ~~~~~~~~
+ -39 to 140<|START|> how does the man on the left feel about stephen king?
+0   )  the man on the left dislikes stephen king's books     (10tok)
+1 GT)  the man on the left thinks stephen king writes scary stories     (11tok)
+/data/raw/transcript/ZeYarFkvoGw-trimmed.en.vtt
+/data/raw/transcript/i5YckMkwmm4-trimmed.en.vtt
+/data/raw/transcript/zWaV_PTlCxk-trimmed.en.vtt
+/data/raw/transcript/UUuXfyfCaL4-trimmed.en.vtt
+/data/raw/transcript/RtjJBtFXJaI-trimmed.en.vtt
+/data/raw/transcript/xdiFzcpmmJc-trimmed.en.vtt
+/data/raw/transcript/ZuYTtKZUkJc-trimmed.en.vtt
+/data/raw/transcript/h35dZhHkuFM-trimmed.en.vtt
+/data/raw/transcript/iDgaqD7CWXU-trimmed.en.vtt
+/data/raw/transcript/JxbV5wGpXc8-trimmed.en.vtt
+/data/raw/transcript/jtl5XK7QP38-trimmed.en.vtt
+Finished writing 63 questions; max len = 4668

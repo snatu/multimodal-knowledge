@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q5~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> what does the boy think about the activity being undertaken?
+0   )  the boy is angry.     (5tok)
+1 GT)  he wants to help out and figure it out.     (10tok)
+/data/raw/transcript/vC63_bemI2I-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 vC63_bemI2I_q3~vC63_bemI2I ~~~~~~~~
+ -41 to 142<|START|> do either of the men's perspectives change as the conversation progresses?
+0   )  yes, the man in the black shirt realizes that the bearded man has a point.     (17tok)
+1 GT)  no, they continue to point fingers and show that they are clearly still frustrated with one another.     (19tok)
+~~~~~~~~~~~ Example 2 FWBCTZiijEM_q7~FWBCTZiijEM ~~~~~~~~
+ -35 to 135<|START|> is the man excited?
+0 GT)  the man is enjoying the game.     (7tok)
+1   )  no     (1tok)
+~~~~~~~~~~~ Example 3 yRtPan09Ek0_q3~yRtPan09Ek0 ~~~~~~~~
+ -39 to 140<|START|> does the host have a positive opinion of the guest
+0 GT)  yes, the host responds that the guest is cool     (10tok)
+1   )  no, the host is more interested in his daughter     (10tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/0a2lv4IwZFY-trimmed.en.vtt
+/data/raw/transcript/t-dmFuH7TyM-trimmed.en.vtt
+/data/raw/transcript/gbVOyKifrAo-trimmed.en.vtt
+/data/raw/transcript/GCZ5aagOddY-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/UUuXfyfCaL4-trimmed.en.vtt
+/data/raw/transcript/GK4_G33fXFU-trimmed.en.vtt
+/data/raw/transcript/xdiFzcpmmJc-trimmed.en.vtt
+/data/raw/transcript/j7cUdCFEpeU-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 4456

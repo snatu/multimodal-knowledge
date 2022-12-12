@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q1~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> is the man in the middle doing a good job of explaining himself?
+0 GT)  yes, because the other men are attentive and receptive of his ideas     (14tok)
+1   )  no, because the other men are confused by his ideas     (11tok)
+~~~~~~~~~~~ Example 1 QQpIBRLlJzo_q5~QQpIBRLlJzo ~~~~~~~~
+ -38 to 139<|START|> describe the nature of the conversation between the two men
+0 GT)  nostalgic as they discuss memories.     (6tok)
+1   )  they are having a formal debate, arguing about an issue     (11tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q4~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> how does the man feel about the issues he discusses?
+0   )  the man does not feel much about the issues he discusses; he would prefer a different question     (19tok)
+1 GT)  he believes that proper actions is not being taken on them.     (12tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q2~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> why does the old woman in green shirt cover her face and laugh?
+0 GT)  even though she is fon of the memory, it is a bit embarrasing     (17tok)
+1   )  she is very shy so covers     (6tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/DZsBei4nCkU-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+Finished writing 64 questions; max len = 5993

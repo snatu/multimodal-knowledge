@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 EqXKrS3gPN4_q1~EqXKrS3gPN4 ~~~~~~~~
+ -40 to 139<|START|> why are the people so monotonal?
+0   )  they do not want to speak at all     (8tok)
+1 GT)  because it is a sensitive topic, and it may offend others     (12tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q12~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> why does the man on the right joke?
+0 GT)  he is comfortable enough in the situation to make jokes.     (11tok)
+1   )  he is confused by what the other man is saying to him.     (13tok)
+~~~~~~~~~~~ Example 2 SJSmbF9W9PQ_q4~SJSmbF9W9PQ ~~~~~~~~
+ -40 to 140<|START|> is the man in the grey suit excited to be there?
+0 GT)  he seems happy to be there, but not as overly excited as the man in the black jacket.     (20tok)
+1   )  no. he is really hesitant to come on stage.     (11tok)
+~~~~~~~~~~~ Example 3 uivjORoSW0k_q2~uivjORoSW0k ~~~~~~~~
+ -41 to 140<|START|> why does the man with the glasses laugh at 0:16?
+0 GT)  the man with blonde hair is amusing.     (8tok)
+1   )  he just remembered that they were talking about shakespeare and he found it amusing.     (15tok)
+/data/raw/transcript/QHeNKMxsqYE-trimmed.en.vtt
+/data/raw/transcript/4W192A7g5KY-trimmed.en.vtt
+/data/raw/transcript/eDqEcrIRxgQ-trimmed.en.vtt
+/data/raw/transcript/1j1C3dlwh7E-trimmed.en.vtt
+/data/raw/transcript/kRh1zXFKC_o-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/g8D-LyfTrRs-trimmed.en.vtt
+/data/raw/transcript/8xFtIsyRvNE-trimmed.en.vtt
+/data/raw/transcript/WhsZxUWSHaQ-trimmed.en.vtt
+/data/raw/transcript/lUyKpfbB9M8-trimmed.en.vtt
+/data/raw/transcript/A48AJ_5nWsc-trimmed.en.vtt
+/data/raw/transcript/13HM_96pUIo-trimmed.en.vtt
+Finished writing 63 questions; max len = 3261

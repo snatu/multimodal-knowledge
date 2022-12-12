@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 EqXKrS3gPN4_q4~EqXKrS3gPN4 ~~~~~~~~
+ -40 to 139<|START|> how do the last three feel about their opinions?
+0 GT)  they feel like their opinions are important     (7tok)
+1   )  they don't really care what their opinions are     (9tok)
+~~~~~~~~~~~ Example 1 YIZpD3fEfgs_q2~YIZpD3fEfgs ~~~~~~~~
+ -40 to 140<|START|> are the men angry with each other?
+0 GT)  no they are not angry at each other.     (9tok)
+1   )  yes, they want to fight.     (7tok)
+~~~~~~~~~~~ Example 2 gKuBUQVcDJM_q2~gKuBUQVcDJM ~~~~~~~~
+ -41 to 141<|START|> how does the man on the left react to the kangaroo?
+0   )  he is scared by the kangaroo and keeps a wary eye on it     (13tok)
+1 GT)  he is surprised by the kangaroo     (6tok)
+~~~~~~~~~~~ Example 3 G3xzem7HSME_q2~G3xzem7HSME ~~~~~~~~
+ -38 to 138<|START|> is the man in red shirt respectful?
+0 GT)  yes     (1tok)
+1   )  no, he is disrespectful and rude towards the school's faculty and staff.     (15tok)
+/data/raw/transcript/QHeNKMxsqYE-trimmed.en.vtt
+/data/raw/transcript/4W192A7g5KY-trimmed.en.vtt
+/data/raw/transcript/cXTjL-f-msU-trimmed.en.vtt
+/data/raw/transcript/C08WmKiwcSs-trimmed.en.vtt
+/data/raw/transcript/kRh1zXFKC_o-trimmed.en.vtt
+/data/raw/transcript/g8D-LyfTrRs-trimmed.en.vtt
+/data/raw/transcript/8xFtIsyRvNE-trimmed.en.vtt
+/data/raw/transcript/jP2HuCwfKFA-trimmed.en.vtt
+/data/raw/transcript/C6RMS4F6LDc-trimmed.en.vtt
+/data/raw/transcript/WhsZxUWSHaQ-trimmed.en.vtt
+/data/raw/transcript/wbmW_Z1oPJw-trimmed.en.vtt
+/data/raw/transcript/pMGhqE76kQA-trimmed.en.vtt
+/data/raw/transcript/13HM_96pUIo-trimmed.en.vtt
+Finished writing 63 questions; max len = 279

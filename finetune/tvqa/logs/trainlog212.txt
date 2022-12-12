@@ -1,0 +1,27 @@
+~~~~~~~~~~~ Example 0 qr69jLeQdRA_q5~qr69jLeQdRA ~~~~~~~~
+ -41 to 141<|START|> how does the host feel about the woman's name?
+0 GT)  the host feels fascinated by the woman's name     (9tok)
+1   )  the host feels uncomfortable about the woman's name     (9tok)
+~~~~~~~~~~~ Example 1 QQpIBRLlJzo_q3~QQpIBRLlJzo ~~~~~~~~
+ -38 to 139<|START|> how does the man on the right react to what the man on the left is saying?
+0   )  he cries because he is so moved by the story. he tries to console the other man who is also starting to tear up.     (26tok)
+1 GT)  he laughs out loud, suggesting he finds what the man on the left is saying to be hilarious     (19tok)
+~~~~~~~~~~~ Example 2 k5bk1efKBSI_q5~k5bk1efKBSI ~~~~~~~~
+ -34 to 135<|START|> what is the tone of the person speaking?
+0   )  it is extremely excited     (4tok)
+1 GT)  the person speaking is informative but appreciative     (7tok)
+~~~~~~~~~~~ Example 3 _tBXwqueWcg_q4~_tBXwqueWcg ~~~~~~~~
+ -35 to 135<|START|> what does the woman think the wellness training institute teaches people to feel?
+0   )  to feel bad about themselves.     (6tok)
+1 GT)  it will motivate them to collect their thought together.     (10tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/pK1WAx4jJzE-trimmed.en.vtt
+/data/raw/transcript/U4r9ePA6RkQ-trimmed.en.vtt
+/data/raw/transcript/oY6BfHkNFPY-trimmed.en.vtt
+/data/raw/transcript/jYL4gMsGZgE-trimmed.en.vtt
+/data/raw/transcript/DZsBei4nCkU-trimmed.en.vtt
+/data/raw/transcript/LtxWWUBt7ro-trimmed.en.vtt
+/data/raw/transcript/7Oum_c5Seis-trimmed.en.vtt
+/data/raw/transcript/96YOZOU7ggo-trimmed.en.vtt
+Finished writing 64 questions; max len = 4218

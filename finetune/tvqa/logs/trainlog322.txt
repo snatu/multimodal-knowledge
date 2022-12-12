@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 vKkpvQlHEG8_q2~vKkpvQlHEG8 ~~~~~~~~
+ -40 to 140<|START|> why is the guest really shocked when she receives the emmy?
+0 GT)  she wasn't expecting it.     (6tok)
+1   )  she was not surprised.     (5tok)
+~~~~~~~~~~~ Example 1 72ltfGTYqpQ_q10~72ltfGTYqpQ ~~~~~~~~
+ -38 to 138<|START|> are the men hostile towards each other?
+0   )  yes, because the man in blue thinks the man in grey has said something ridiculous.     (17tok)
+1 GT)  the men are not hostile towards each other, they are engaged in a friendly conversation.     (17tok)
+~~~~~~~~~~~ Example 2 4yr_etbfZtQ_q6~4yr_etbfZtQ ~~~~~~~~
+ -35 to 135<|START|> what does the woman feel about italians?
+0 GT)  she thought they were passionate.     (6tok)
+1   )  she thinks they are intelligent.     (6tok)
+~~~~~~~~~~~ Example 3 97AUfvzQ_1E_q4~97AUfvzQ_1E ~~~~~~~~
+ -40 to 140<|START|> why is the man in black whispering?
+0   )  the man in black is whispering because he thinks the man in grey is afraid of loud noises.     (19tok)
+1 GT)  he is whispering to convey to others he is trying to convince the man in grey what to say.     (20tok)
+/data/raw/transcript/7bc_qfRmPK0-trimmed.en.vtt
+/data/raw/transcript/2XFVnzr4Vho-trimmed.en.vtt
+/data/raw/transcript/_Ice5RkbWUY-trimmed.en.vtt
+/data/raw/transcript/3nUKwvFsjA4-trimmed.en.vtt
+/data/raw/transcript/Vlh0sMMjU04-trimmed.en.vtt
+/data/raw/transcript/A3WbCRfad-w-trimmed.en.vtt
+/data/raw/transcript/deKPBy_uLkg-trimmed.en.vtt
+/data/raw/transcript/IE6r8Pk91T0-trimmed.en.vtt
+/data/raw/transcript/Z7MknXjNJSg-trimmed.en.vtt
+/data/raw/transcript/N1fVL4AQEW8-trimmed.en.vtt
+/data/raw/transcript/QR43TImr0dQ-trimmed.en.vtt
+/data/raw/transcript/OPdbdjctx2I-trimmed.en.vtt
+/data/raw/transcript/RHRPK2O9R4w-trimmed.en.vtt
+Finished writing 63 questions; max len = 3971

@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q2~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> what does the little boy think about the drill after seeing it spin?
+0   )  he is scared of it     (5tok)
+1 GT)  he is amused by it     (5tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q6~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> why does the man in the blue suit nod his head at 0:14?
+0 GT)  he is nodding because he is responding to the question     (11tok)
+1   )  he is nodding because he is silently agreeing and listening to the man in the tie's monologue     (19tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q3~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> how does the woman in black react to the crowd?
+0   )  the women is feeling tensed deep down not showing it     (11tok)
+1 GT)  the women is confused a bit at the excitement     (9tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q3~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> why does the man in the center of the video with his back turned to the camera put out his hand at 0:15?
+0   )  he wants to poke the man with his fingers.     (10tok)
+1 GT)  he puts his hand out to congratulate the winner of the contest.     (13tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/0a2lv4IwZFY-trimmed.en.vtt
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 3547

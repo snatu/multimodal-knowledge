@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q2~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> is the woman sitting down happy?
+0   )  yes, as she thinks the bill will be useful.     (11tok)
+1 GT)  no, given the growing budget deficit.     (8tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q1~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> why does the woman say she gets into the ocean with kettle bells?
+0   )  she wishes to show off how fit she is     (9tok)
+1 GT)  she is making a joke     (5tok)
+~~~~~~~~~~~ Example 2 vqFmKLl2hq4_q3~vqFmKLl2hq4 ~~~~~~~~
+ -39 to 139<|START|> why doesn't the man on the right want to answer the question?
+0   )  the man on the right doesn't want to answer the question because he is afraid of disappointing the man next to him.     (24tok)
+1 GT)  the man on the right doesn't want to answer the question because he is afraid of hurting someone's feelings.     (22tok)
+/data/raw/transcript/Q25kn317a2M-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 Q25kn317a2M_q2~Q25kn317a2M ~~~~~~~~
+ -41 to 142<|START|> why does the man holding the cards not looking in front?
+0 GT)  the man holding the cards want the cards to be unknown to him     (13tok)
+1   )  the man holding the cards does not look in front of him as he is very very angry with the person in front of him     (25tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/X9BE2oUSOXM-trimmed.en.vtt
+/data/raw/transcript/uJUP839M2WM-trimmed.en.vtt
+/data/raw/transcript/MdG9Lkk8VWo-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/awpHn196aVs-trimmed.en.vtt
+/data/raw/transcript/1Za8BtLgKv8-trimmed.en.vtt
+/data/raw/transcript/PfwwCpAy0-0-trimmed.en.vtt
+Finished writing 64 questions; max len = 5151

@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q4~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> why does the woman methodically bob her hands at 0:35?
+0   )  she is showing her solidarity with the others via this hand motion.     (13tok)
+1 GT)  she is drawing attention to these specific words.     (9tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q4~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> describe the nature of the relationship between the two men in the black and white video
+0 GT)  they seem to have a lot of respect for each other and seem like old friends     (16tok)
+1   )  the men have a strictly professional relationship because they do not like needlessly conversing.     (17tok)
+~~~~~~~~~~~ Example 2 o6DEc3OYQfU_q19~o6DEc3OYQfU ~~~~~~~~
+ -41 to 141<|START|> what does the man in the tie feel about the thing he is tasked with?
+0 GT)  he is eager to do the activity.     (8tok)
+1   )  he is leery of it     (6tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q3~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> is the man in blue shirt excited?
+0   )  no, he seems very mopey.     (8tok)
+1 GT)  yes, he is smiling.     (6tok)
+/data/raw/transcript/VNM7Z7hir_I-trimmed.en.vtt
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/n5_HdNzf03Q-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/AQX2Q-V2Uh8-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+/data/raw/transcript/RAUSVB_Nu9k-trimmed.en.vtt
+/data/raw/transcript/oYM9bFGb8B8-trimmed.en.vtt
+/data/raw/transcript/KWSDwS4S6Ss-trimmed.en.vtt
+Finished writing 63 questions; max len = 5226

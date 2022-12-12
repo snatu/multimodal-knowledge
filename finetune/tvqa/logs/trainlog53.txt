@@ -1,0 +1,31 @@
+~~~~~~~~~~~ Example 0 W_GrHtwZez8_q9~W_GrHtwZez8 ~~~~~~~~
+ -39 to 140<|START|> describe the tone of the man on the line
+0   )  to tone of the man on the line who is speaking at the moment is very gloomy and depressed to speak     (21tok)
+1 GT)  the man on the phone who is speaking to the man in the suit feels defensive about the questions     (19tok)
+/data/raw/transcript/g67e0hDT1oQ-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 g67e0hDT1oQ_q4~g67e0hDT1oQ ~~~~~~~~
+ -41 to 142<|START|> why does the man with the hat on tell the man with glasses  to repeat what he said?
+0 GT)  the man in the glasses is in charge.     (9tok)
+1   )  the man with the glasses is his translator.     (9tok)
+~~~~~~~~~~~ Example 2 n6-ef_YHeJU_q7~n6-ef_YHeJU ~~~~~~~~
+ -39 to 139<|START|> does the interviewee seem to be confident in his answers?
+0   )  no, he seems very nervous     (6tok)
+1 GT)  yes, the interviewee seems confident.     (9tok)
+~~~~~~~~~~~ Example 3 dU7L1hvMx9Y_q1~dU7L1hvMx9Y ~~~~~~~~
+ -41 to 141<|START|> how does the woman in glasses at the beginning of the video feel about the other woman in the room?
+0 GT)  she feels happy that the other woman is in the room.     (12tok)
+1   )  the woman with glasses feels anxious about the other woman in the room.     (14tok)
+/data/raw/transcript/1akNUksCpRU-trimmed.en.vtt
+/data/raw/transcript/9eqze5JWNjY-trimmed.en.vtt
+/data/raw/transcript/R-xtt7w9Do4-trimmed.en.vtt
+/data/raw/transcript/P3QEOJWxXI8-trimmed.en.vtt
+/data/raw/transcript/vjZDdaFTubE-trimmed.en.vtt
+/data/raw/transcript/OLw7cIJApMI-trimmed.en.vtt
+/data/raw/transcript/UCW_UH-k-ec-trimmed.en.vtt
+/data/raw/transcript/x6yr8W3mc38-trimmed.en.vtt
+/data/raw/transcript/09j-Mg5guGg-trimmed.en.vtt
+/data/raw/transcript/PQW7zw2URes-trimmed.en.vtt
+/data/raw/transcript/Fy3Mi8rOB3U-trimmed.en.vtt
+/data/raw/transcript/qN-ZCqaSHHk-trimmed.en.vtt
+/data/raw/transcript/ZMJw752P7z8-trimmed.en.vtt
+Finished writing 64 questions; max len = 4974

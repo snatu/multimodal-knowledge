@@ -1,0 +1,24 @@
+~~~~~~~~~~~ Example 0 LTUojzYVUUI_q4~LTUojzYVUUI ~~~~~~~~
+ -37 to 137<|START|> how does each man feel about the topic at hand?
+0   )  they don't care about the topic.     (8tok)
+1 GT)  they have opposing views about who would win the fight.     (11tok)
+~~~~~~~~~~~ Example 1 qh8JWHlIgcE_q2~qh8JWHlIgcE ~~~~~~~~
+ -40 to 140<|START|> why does the audience applaud?
+0   )  they applaud because they are given a cue to do so.     (12tok)
+1 GT)  they are glad everything worked out.     (7tok)
+~~~~~~~~~~~ Example 2 P8YRuxu8dQU_q7~P8YRuxu8dQU ~~~~~~~~
+ -40 to 141<|START|> why does the man in the tree costume yell?
+0 GT)  the man in the tree costume yells because he is upset.     (12tok)
+1   )  he wants to yell b/c that's his character.     (12tok)
+~~~~~~~~~~~ Example 3 G3xzem7HSME_q16~G3xzem7HSME ~~~~~~~~
+ -38 to 138<|START|> how welcomed is the man in red shirt?
+0   )  he was welcomed at first. but, then he made a rude remark and now he is no longer welcomed.     (22tok)
+1 GT)  he is very welcomed. the kids playing soccer listen to him carefully on his advice.     (17tok)
+/data/raw/transcript/Yzq6fNeXf6w-trimmed.en.vtt
+/data/raw/transcript/QytntXWJIe8-trimmed.en.vtt
+/data/raw/transcript/8MK9frCMoWA-trimmed.en.vtt
+/data/raw/transcript/NR9v3PBJw8g-trimmed.en.vtt
+/data/raw/transcript/_zuODgCQ6O8-trimmed.en.vtt
+/data/raw/transcript/C6RMS4F6LDc-trimmed.en.vtt
+/data/raw/transcript/iBL0FcUTFT8-trimmed.en.vtt
+Finished writing 63 questions; max len = 4356

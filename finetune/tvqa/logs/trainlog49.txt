@@ -1,0 +1,33 @@
+~~~~~~~~~~~ Example 0 W_GrHtwZez8_q9~W_GrHtwZez8 ~~~~~~~~
+ -39 to 140<|START|> describe the tone of the man on the line
+0 GT)  defensive and seemingly in an argument     (6tok)
+1   )  the tone of the man on the line who is speaking at the moment is very elated and excited to speak     (22tok)
+/data/raw/transcript/g67e0hDT1oQ-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 g67e0hDT1oQ_q4~g67e0hDT1oQ ~~~~~~~~
+ -41 to 142<|START|> why does the man with the hat on tell the man with glasses  to repeat what he said?
+0 GT)  the man with the glasses makes it more clear.     (10tok)
+1   )  he wants to feel superior and order the man with glasses around.     (13tok)
+~~~~~~~~~~~ Example 2 n6-ef_YHeJU_q3~n6-ef_YHeJU ~~~~~~~~
+ -39 to 139<|START|> does the interviewer seem satisfied with the answers
+0   )  yes, the interviewer wants to hear more from the responses.     (12tok)
+1 GT)  no, the interviewer is losing patience for the interviewee.     (13tok)
+~~~~~~~~~~~ Example 3 dU7L1hvMx9Y_q1~dU7L1hvMx9Y ~~~~~~~~
+ -41 to 141<|START|> how does the woman in glasses at the beginning of the video feel about the other woman in the room?
+0   )  the woman with glasses feels sympathetic for the other woman in the room.     (14tok)
+1 GT)  she feels grateful for the other woman in the room.     (11tok)
+/data/raw/transcript/1akNUksCpRU-trimmed.en.vtt
+/data/raw/transcript/9eqze5JWNjY-trimmed.en.vtt
+/data/raw/transcript/R-xtt7w9Do4-trimmed.en.vtt
+/data/raw/transcript/P3QEOJWxXI8-trimmed.en.vtt
+/data/raw/transcript/vjZDdaFTubE-trimmed.en.vtt
+/data/raw/transcript/OLw7cIJApMI-trimmed.en.vtt
+/data/raw/transcript/UCW_UH-k-ec-trimmed.en.vtt
+/data/raw/transcript/x6yr8W3mc38-trimmed.en.vtt
+/data/raw/transcript/ASqnnZpsX1M-trimmed.en.vtt
+/data/raw/transcript/09j-Mg5guGg-trimmed.en.vtt
+/data/raw/transcript/PQW7zw2URes-trimmed.en.vtt
+/data/raw/transcript/Fy3Mi8rOB3U-trimmed.en.vtt
+/data/raw/transcript/p6IwwFevo7o-trimmed.en.vtt
+/data/raw/transcript/qN-ZCqaSHHk-trimmed.en.vtt
+/data/raw/transcript/ZMJw752P7z8-trimmed.en.vtt
+Finished writing 64 questions; max len = 4975

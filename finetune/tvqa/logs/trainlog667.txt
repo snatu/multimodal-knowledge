@@ -1,0 +1,25 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q1~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> was the girl really sad or depressed when she cried?
+0   )  she was really excited to be crying.     (8tok)
+1 GT)  she was sad when she cried.     (7tok)
+~~~~~~~~~~~ Example 1 qh8JWHlIgcE_q8~qh8JWHlIgcE ~~~~~~~~
+ -40 to 140<|START|> what is the woman in white dress feeling?
+0 GT)  she is probably very happy.     (6tok)
+1   )  she is sad.     (4tok)
+~~~~~~~~~~~ Example 2 P8YRuxu8dQU_q12~P8YRuxu8dQU ~~~~~~~~
+ -40 to 141<|START|> how did the man on the phone react when the people in costumes told him how the disease commonly spreads?
+0   )  the man on the phone cried when the people in costumes told him how the disease commonly spreads.     (19tok)
+1 GT)  the man on the phone was dismissive when the people in costumes told him how the disease commonly spreads.     (21tok)
+~~~~~~~~~~~ Example 3 CoMz3JOnZFo_q4~CoMz3JOnZFo ~~~~~~~~
+ -39 to 140<|START|> why does the man in the pirate costume (with black hair) walking and talking awkwardly?
+0   )  because he's physically disabled and has to walk a certain way.     (13tok)
+1 GT)  because the character he's dressed up as walks and talks that way.     (14tok)
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/nQqY3j8btbI-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/NR9v3PBJw8g-trimmed.en.vtt
+/data/raw/transcript/_zuODgCQ6O8-trimmed.en.vtt
+/data/raw/transcript/LD1RAPiT_7A-trimmed.en.vtt
+Finished writing 63 questions; max len = 6255

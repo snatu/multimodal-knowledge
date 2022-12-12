@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q1~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> is the man in the middle doing a good job of explaining himself?
+0   )  no, because the other men are unenthusiastic about his ideas     (15tok)
+1 GT)  yes, because the other men are interested in his ideas     (11tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q6~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> how does the blindfolded woman feel?
+0 GT)  she is incredibly excited and giddy.     (7tok)
+1   )  she is angry about the car     (6tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q4~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> how does the man feel about the issues he discusses?
+0   )  he believes that these issues will be resolved soon.     (10tok)
+1 GT)  the man feels that the issues he discusses are important     (11tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q2~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> why does the old woman in green shirt cover her face and laugh?
+0 GT)  she laughs at how embarresing she looks     (9tok)
+1   )  she is actually weeping and wiping tears     (7tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+Finished writing 64 questions; max len = 5985

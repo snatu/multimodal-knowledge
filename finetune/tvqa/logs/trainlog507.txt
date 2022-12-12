@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q6~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> what is the role of the woman?
+0 GT)  the woman's role is to facilitate the argument.     (10tok)
+1   )  she is meant to provoke the other people.     (9tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q4~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> describe the nature of the relationship between the two men in the black and white video
+0   )  the two men have a romantic relationship because they enjoy being intimate with each other.     (16tok)
+1 GT)  the two men have a slightly friendly relationship.     (9tok)
+~~~~~~~~~~~ Example 2 o6DEc3OYQfU_q21~o6DEc3OYQfU ~~~~~~~~
+ -41 to 141<|START|> what does the man in the tie think about the thing that the man in the black shirt is showing him?
+0 GT)  he thinks it is cool     (5tok)
+1   )  the man in the tie thinks the task is useless and stupid.     (13tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q4~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> does the man in black remember his childhood fondly?
+0   )  no, he disliked his childhood.     (8tok)
+1 GT)  yes, as he talks about his grandmother     (8tok)
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/n5_HdNzf03Q-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/AQX2Q-V2Uh8-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+/data/raw/transcript/RAUSVB_Nu9k-trimmed.en.vtt
+/data/raw/transcript/oYM9bFGb8B8-trimmed.en.vtt
+/data/raw/transcript/KWSDwS4S6Ss-trimmed.en.vtt
+Finished writing 63 questions; max len = 5230

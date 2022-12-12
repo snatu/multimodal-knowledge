@@ -1,0 +1,27 @@
+~~~~~~~~~~~ Example 0 3wIejfT9l30_q15~3wIejfT9l30 ~~~~~~~~
+ -39 to 140<|START|> how does the woman feel when the man falls asleep next to her?
+0 GT)  she was taken aback     (5tok)
+1   )  she knew it was going to happen and wasn't surprised     (11tok)
+~~~~~~~~~~~ Example 1 s3Czwcz3E-o_q4~s3Czwcz3E-o ~~~~~~~~
+ -38 to 139<|START|> are the men angry with each other?
+0   )  yes, they are hiding their anger.     (8tok)
+1 GT)  no, as one of them is providing tips for the other.     (13tok)
+~~~~~~~~~~~ Example 2 vqFmKLl2hq4_q1~vqFmKLl2hq4 ~~~~~~~~
+ -39 to 139<|START|> what does the man sitting in the middle of the three men feel about the prospect of getting a selfie with the queen?
+0   )  the man in the middle doesn't want a selfie with the queen but says he does to make the woman laugh.     (23tok)
+1 GT)  he finds it humorous and exciting     (6tok)
+~~~~~~~~~~~ Example 3 dU7L1hvMx9Y_q5~dU7L1hvMx9Y ~~~~~~~~
+ -41 to 141<|START|> why does the woman in black laugh?
+0   )  she is angry with the woman in blue for taking her can opener.     (14tok)
+1 GT)  the woman in blue's words make her feel joyful.     (11tok)
+/data/raw/transcript/X9BE2oUSOXM-trimmed.en.vtt
+/data/raw/transcript/uJUP839M2WM-trimmed.en.vtt
+/data/raw/transcript/MdG9Lkk8VWo-trimmed.en.vtt
+/data/raw/transcript/R-xtt7w9Do4-trimmed.en.vtt
+/data/raw/transcript/RZPBl5-cu3c-trimmed.en.vtt
+/data/raw/transcript/2Wk9JY6ic0k-trimmed.en.vtt
+/data/raw/transcript/3m-54UiEqzg-trimmed.en.vtt
+/data/raw/transcript/awpHn196aVs-trimmed.en.vtt
+/data/raw/transcript/1Za8BtLgKv8-trimmed.en.vtt
+/data/raw/transcript/PfwwCpAy0-0-trimmed.en.vtt
+Finished writing 64 questions; max len = 4080

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q4~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> describe the interaction between the boy and the man
+0   )  the man is supervising the boy.     (8tok)
+1 GT)  the man is tender with the boy.     (8tok)
+/data/raw/transcript/vC63_bemI2I-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 vC63_bemI2I_q2~vC63_bemI2I ~~~~~~~~
+ -41 to 142<|START|> how do the two men feel about each other?
+0   )  they like each other very much and embrace the different perspectives they hold.     (14tok)
+1 GT)  they do not understand the other person's point of view and feel defensive and argumentative towards the other.     (21tok)
+~~~~~~~~~~~ Example 2 FWBCTZiijEM_q4~FWBCTZiijEM ~~~~~~~~
+ -35 to 135<|START|> why does the man laugh in the beginning?
+0 GT)  the man made a small error.     (7tok)
+1   )  he is very serious about the game he is playing.     (11tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q5~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> why does the man in grey think he was lucky?
+0   )  the man in grey thinks he was lucky because without the tie, he would have lost.     (18tok)
+1 GT)  the man in grey thinks he was lucky because he wasn't satisfied with his performance on the test.     (20tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/0a2lv4IwZFY-trimmed.en.vtt
+/data/raw/transcript/t-dmFuH7TyM-trimmed.en.vtt
+/data/raw/transcript/gbVOyKifrAo-trimmed.en.vtt
+/data/raw/transcript/GCZ5aagOddY-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/GK4_G33fXFU-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+/data/raw/transcript/j7cUdCFEpeU-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 3545

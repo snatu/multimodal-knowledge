@@ -1,0 +1,35 @@
+~~~~~~~~~~~ Example 0 8m_3eBsy22Y_q2~8m_3eBsy22Y ~~~~~~~~
+ -40 to 141<|START|> does the the woman with brown hair wearing black sound desperate?
+0 GT)  she is under massive debt and needs help.     (9tok)
+1   )  no she is not desperate and is happy about her life.     (12tok)
+/data/raw/transcript/ofvOXABptcY-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 ofvOXABptcY_q5~ofvOXABptcY ~~~~~~~~
+ -41 to 141<|START|> how does the women ask her first question?
+0 GT)  casually with a curious undertone     (5tok)
+1   )  she is making fun or light of the man, that is why the audience laugh     (16tok)
+~~~~~~~~~~~ Example 2 JW2HHfQiGVs_q3~JW2HHfQiGVs ~~~~~~~~
+ -39 to 140<|START|> why does the man point to the woman in the middle of his sentence?
+0 GT)  he wants her to help him finish his sentence.     (10tok)
+1   )  the man points to the woman in the middle of his sentence because he wants to call her out for not paying attention     (23tok)
+~~~~~~~~~~~ Example 3 pc3__b1uF4Q_q5~pc3__b1uF4Q ~~~~~~~~
+ -41 to 141<|START|> what is the relationship between these two men?
+0   )  they are close friends and reminiscing about memories.     (10tok)
+1 GT)  these two men know each other professionally.     (8tok)
+/data/raw/transcript/FkLblGfWAvY-trimmed.en.vtt
+/data/raw/transcript/DiaDblUd-lw-trimmed.en.vtt
+/data/raw/transcript/-daGjyKKNio-trimmed.en.vtt
+/data/raw/transcript/_s42gOg2WSU-trimmed.en.vtt
+/data/raw/transcript/rVWZuXDkc4A-trimmed.en.vtt
+/data/raw/transcript/MM0YOB-cSWA-trimmed.en.vtt
+/data/raw/transcript/3qp3AeWmt38-trimmed.en.vtt
+/data/raw/transcript/bT_DEZz99VQ-trimmed.en.vtt
+/data/raw/transcript/hnfkZx4jmpA-trimmed.en.vtt
+/data/raw/transcript/3zjz6ryPvIg-trimmed.en.vtt
+/data/raw/transcript/atEkAkPfpUY-trimmed.en.vtt
+/data/raw/transcript/6xQv6ozrz90-trimmed.en.vtt
+/data/raw/transcript/erOpqmubBL4-trimmed.en.vtt
+/data/raw/transcript/KpljzfIVBDM-trimmed.en.vtt
+/data/raw/transcript/Ham3IQQzoU8-trimmed.en.vtt
+/data/raw/transcript/Mf76yyTY7Ss-trimmed.en.vtt
+/data/raw/transcript/KzN6XWDEmXI-trimmed.en.vtt
+Finished writing 63 questions; max len = 5695

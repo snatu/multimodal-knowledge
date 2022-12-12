@@ -1,0 +1,23 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q5~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> how do the people in the video feel about the bill?
+0   )  they are in favor of the bill.     (8tok)
+1 GT)  they are against the bill given their current budget.     (10tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q2~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> does the short-haired woman respect the other woman?
+0 GT)  yes, given her reaction to the photos in the magazine.     (12tok)
+1   )  no, she mocks her     (6tok)
+~~~~~~~~~~~ Example 2 vqFmKLl2hq4_q4~vqFmKLl2hq4 ~~~~~~~~
+ -39 to 139<|START|> why are the men whispering?
+0   )  the men are whispering because they are trying to figure out what the conversation is about.     (17tok)
+1 GT)  the men are whispering to appear like they are conferring when they have already decided what to do.     (21tok)
+/data/raw/transcript/Q25kn317a2M-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 Q25kn317a2M_q5~Q25kn317a2M ~~~~~~~~
+ -41 to 142<|START|> how do the two men behave differently?
+0   )  the two men behave very differently. the magician is clearly nervous because he is trying to decieve the audience while the host is looking confident     (28tok)
+1 GT)  the man in green tie listens to the taller man and acts more timid and shy, whereas the taller man speaks with authority and confidence and control     (28tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/MdG9Lkk8VWo-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/awpHn196aVs-trimmed.en.vtt
+/data/raw/transcript/1Za8BtLgKv8-trimmed.en.vtt
+Finished writing 64 questions; max len = 5169

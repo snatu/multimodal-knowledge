@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q2~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> is the woman sitting down happy?
+0   )  yes, as she thinks the bill will be useful.     (11tok)
+1 GT)  no, she isn't because the state of wisconsin is broke.     (13tok)
+~~~~~~~~~~~ Example 1 s3Czwcz3E-o_q8~s3Czwcz3E-o ~~~~~~~~
+ -38 to 139<|START|> is the man in the blue relaxed or nervous?
+0   )  he is nervous     (3tok)
+1 GT)  he's relaxed, as he easily provides advice on the game.     (13tok)
+~~~~~~~~~~~ Example 2 vqFmKLl2hq4_q2~vqFmKLl2hq4 ~~~~~~~~
+ -39 to 139<|START|> why does the person sitting in the middle of the three men tell the other man "don't say that"?
+0   )  the person in the middle warns against saying something because he doesn't think the other man will say it correctly.     (22tok)
+1 GT)  the person in the middle warns against saying something because he wants to change the subject.     (17tok)
+/data/raw/transcript/Q25kn317a2M-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 Q25kn317a2M_q2~Q25kn317a2M ~~~~~~~~
+ -41 to 142<|START|> why does the man holding the cards not looking in front?
+0   )  the man holding the cards does not look in front of him as he is very very angry with the person in front of him     (25tok)
+1 GT)  the man holding the cards does not want to look at the cards     (13tok)
+/data/raw/transcript/X9BE2oUSOXM-trimmed.en.vtt
+/data/raw/transcript/uJUP839M2WM-trimmed.en.vtt
+/data/raw/transcript/MdG9Lkk8VWo-trimmed.en.vtt
+/data/raw/transcript/3m-54UiEqzg-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/awpHn196aVs-trimmed.en.vtt
+/data/raw/transcript/1Za8BtLgKv8-trimmed.en.vtt
+/data/raw/transcript/PfwwCpAy0-0-trimmed.en.vtt
+Finished writing 64 questions; max len = 5154

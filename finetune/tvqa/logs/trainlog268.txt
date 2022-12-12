@@ -1,0 +1,27 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q3~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> how do the men on the left and right feel about the man in the middle?
+0   )  the men on the left and right are disappointed in the man in the middle     (15tok)
+1 GT)  the men on the left and right are respectful of the man in the middle     (15tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q11~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> does the girl with blindfolds seem excited?
+0   )  no, she does not care about her prize     (9tok)
+1 GT)  yes, the girl with the blindfold is smiling very widely     (11tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q8~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> why does the man in grey stutter?
+0   )  the man in grey stutters because he is so angry he cannot get words out     (17tok)
+1 GT)  he is nervous.     (4tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q4~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> are the two women close?
+0   )  they are not comfortable with each other     (7tok)
+1 GT)  we cannot say     (3tok)
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/ElghrCC2Rbs-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+/data/raw/transcript/N1fVL4AQEW8-trimmed.en.vtt
+Finished writing 63 questions; max len = 5987

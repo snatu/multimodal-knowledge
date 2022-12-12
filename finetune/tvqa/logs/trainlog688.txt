@@ -1,0 +1,25 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q3~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> why does the girl with the blond hair roll her eyes?
+0 GT)  she was trying to think of what she was going to say.     (13tok)
+1   )  she did not want to be talking to the other girls     (11tok)
+~~~~~~~~~~~ Example 1 qh8JWHlIgcE_q9~qh8JWHlIgcE ~~~~~~~~
+ -40 to 140<|START|> why is the man smiling as he dances?
+0   )  he is uncomfortable with the woman in white.     (9tok)
+1 GT)  he feels honored.     (4tok)
+~~~~~~~~~~~ Example 2 P8YRuxu8dQU_q17~P8YRuxu8dQU ~~~~~~~~
+ -40 to 141<|START|> did the man on the phone have a hostile relationship with the people in costumes?
+0 GT)  no - he made a cake for them, but realized he was sick and told them the information.     (20tok)
+1   )  the man on the phone made a friendly relationship with the people in costumes.     (15tok)
+~~~~~~~~~~~ Example 3 CoMz3JOnZFo_q7~CoMz3JOnZFo ~~~~~~~~
+ -39 to 140<|START|> why is the girl nervous?
+0 GT)  because she's unsure as to what awaits her.     (10tok)
+1   )  because she's worried about what she may face.     (10tok)
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/nQqY3j8btbI-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/_zuODgCQ6O8-trimmed.en.vtt
+/data/raw/transcript/LD1RAPiT_7A-trimmed.en.vtt
+Finished writing 63 questions; max len = 6253

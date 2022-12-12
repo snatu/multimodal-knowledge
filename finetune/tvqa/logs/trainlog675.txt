@@ -1,0 +1,26 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q2~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> when the women asks the question to the blond haired women, does she display any feelings about the topic in the way she makes her facial expressions?
+0   )  no, the women does not have any feelings, she just asks the question     (15tok)
+1 GT)  yes, she shows that she is feeling nostalgic.     (10tok)
+~~~~~~~~~~~ Example 1 qh8JWHlIgcE_q8~qh8JWHlIgcE ~~~~~~~~
+ -40 to 140<|START|> what is the woman in white dress feeling?
+0   )  she is sad that the man saved her ten years ago.     (12tok)
+1 GT)  she is feeling emotional in a positive way.     (9tok)
+~~~~~~~~~~~ Example 2 P8YRuxu8dQU_q14~P8YRuxu8dQU ~~~~~~~~
+ -40 to 141<|START|> why did the people in costumes stay silent for a moment after the man on the phone told them not to eat the cake?
+0 GT)  they felt guilty, as most of them ate the cake.     (12tok)
+1   )  the people in costumes stayed silent for a moment because they thought the man was being funny.     (18tok)
+~~~~~~~~~~~ Example 3 CoMz3JOnZFo_q5~CoMz3JOnZFo ~~~~~~~~
+ -39 to 140<|START|> why is the girl happy?
+0   )  she has received good news.     (6tok)
+1 GT)  she met someone that she thought was special.     (9tok)
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/nQqY3j8btbI-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/NR9v3PBJw8g-trimmed.en.vtt
+/data/raw/transcript/_zuODgCQ6O8-trimmed.en.vtt
+/data/raw/transcript/LD1RAPiT_7A-trimmed.en.vtt
+Finished writing 63 questions; max len = 6252

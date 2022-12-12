@@ -1,0 +1,27 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q4~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> do the men on the left and right agree with what the man is saying?
+0 GT)  yes, they are nodding.     (7tok)
+1   )  yes, they give verbal agreement.     (7tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q12~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> how does the woman in the white coat feel about the blindfolded woman's story?
+0   )  she thinks it is not a big deal     (8tok)
+1 GT)  she feels sorry for her     (5tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q8~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> why does the man in grey stutter?
+0   )  the man in grey stutters because he has a speaking disability and struggles to form words     (18tok)
+1 GT)  the man in grey stutters because he is not a very good speaker     (15tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q5~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> how does the old woman in green react to the question about iphones?
+0 GT)  the women reacts with passion     (5tok)
+1   )  she is mad and outraged     (5tok)
+/data/raw/transcript/2XFVnzr4Vho-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/ElghrCC2Rbs-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+/data/raw/transcript/N1fVL4AQEW8-trimmed.en.vtt
+Finished writing 63 questions; max len = 5988

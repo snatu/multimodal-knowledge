@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 8m_3eBsy22Y_q7~8m_3eBsy22Y ~~~~~~~~
+ -40 to 141<|START|> why are the women onstage looking out?
+0   )  they don't know where to look.     (8tok)
+1 GT)  because they're giving their answers to the audience.     (10tok)
+~~~~~~~~~~~ Example 1 YlVkBzXo0YM_q7~YlVkBzXo0YM ~~~~~~~~
+ -38 to 139<|START|> how does the woman next to the man in the hoodie feel after answering the first quiz question?
+0   )  the woman feels boredom after answering the first quiz question     (10tok)
+1 GT)  the woman feels sadness after answering the first quiz question     (10tok)
+~~~~~~~~~~~ Example 2 o6DEc3OYQfU_q6~o6DEc3OYQfU ~~~~~~~~
+ -41 to 141<|START|> describe the overall tone and mood of the video
+0 GT)  lighthearted and comedic     (4tok)
+1   )  the overall tone and mood of the video is sad and depressing.     (13tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q1~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> what is the attitude of the man in blue shirt?
+0   )  he is boring and doesn't like what he is doing.     (12tok)
+1 GT)  he seems to be nice and warm     (7tok)
+/data/raw/transcript/FkLblGfWAvY-trimmed.en.vtt
+/data/raw/transcript/DiaDblUd-lw-trimmed.en.vtt
+/data/raw/transcript/VNM7Z7hir_I-trimmed.en.vtt
+/data/raw/transcript/hnfkZx4jmpA-trimmed.en.vtt
+/data/raw/transcript/AQX2Q-V2Uh8-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+/data/raw/transcript/RAUSVB_Nu9k-trimmed.en.vtt
+/data/raw/transcript/oYM9bFGb8B8-trimmed.en.vtt
+/data/raw/transcript/KWSDwS4S6Ss-trimmed.en.vtt
+/data/raw/transcript/Ham3IQQzoU8-trimmed.en.vtt
+/data/raw/transcript/BH8FUBW4IIE-trimmed.en.vtt
+/data/raw/transcript/QHGeDg6XX6U-trimmed.en.vtt
+/data/raw/transcript/TA3Xy53hMMY-trimmed.en.vtt
+Finished writing 63 questions; max len = 5703

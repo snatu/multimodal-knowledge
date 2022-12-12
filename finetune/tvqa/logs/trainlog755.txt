@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q3~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> describe the overall tone and mood of the video
+0   )  the tone and mood are instructional.     (7tok)
+1 GT)  the tone and mood are warm.     (7tok)
+/data/raw/transcript/vC63_bemI2I-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 vC63_bemI2I_q1~vC63_bemI2I ~~~~~~~~
+ -41 to 142<|START|> what is the man in the muscle tee trying to get out of this argument
+0 GT)  he is trying to prove that the followers of his religion are not bad people.     (16tok)
+1   )  to make the man with the beard feel unwelcome by his religion.     (14tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q5~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> why does the man in the black jacket kiss the white ball
+0   )  because he wants to taste it     (6tok)
+1 GT)  to get more money     (4tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q5~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> why does the man in grey think he was lucky?
+0 GT)  he thinks he was more skillful than lucky.     (9tok)
+1   )  the man in grey thinks he was lucky because without the tie, he would have lost.     (18tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/0a2lv4IwZFY-trimmed.en.vtt
+/data/raw/transcript/t-dmFuH7TyM-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/GK4_G33fXFU-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+/data/raw/transcript/j7cUdCFEpeU-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 3545

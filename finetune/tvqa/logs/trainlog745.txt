@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q3~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> describe the overall tone and mood of the video
+0 GT)  cute and heartwarming     (3tok)
+1   )  the tone and mood are professional.     (7tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q8~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> why does the man behind the desk hand the other man a boomerang?
+0   )  he wants the other man to attack him with the boomerang.     (12tok)
+1 GT)  the man behind the desk hands the other man a boomerang because he wants the other man to teach him     (20tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q4~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> why does the man kiss the ball?
+0 GT)  the man is kissing the dice to rile up the crown and entertain them     (15tok)
+1   )  the man is drunk so being really silly     (8tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q4~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> why are the people clapping?
+0 GT)  the people clap because they want to congratulate the winners of the contest.     (14tok)
+1   )  the people clap because music is being played and they like the music.     (14tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/0a2lv4IwZFY-trimmed.en.vtt
+/data/raw/transcript/t-dmFuH7TyM-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+/data/raw/transcript/j7cUdCFEpeU-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 3552

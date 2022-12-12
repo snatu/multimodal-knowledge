@@ -1,0 +1,36 @@
+~~~~~~~~~~~ Example 0 W_GrHtwZez8_q2~W_GrHtwZez8 ~~~~~~~~
+ -39 to 140<|START|> how does the man on the phone feel about the questions?
+0 GT)  it is his job to answer it     (7tok)
+1   )  the man on the phone has extremely negative feelings about the questions because he finds them extremely and very offensive     (20tok)
+/data/raw/transcript/g67e0hDT1oQ-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 g67e0hDT1oQ_q1~g67e0hDT1oQ ~~~~~~~~
+ -41 to 142<|START|> why does the man with glasses keep interrupting the man wearing a hat?
+0   )  he does not respect the man with the hat on.     (11tok)
+1 GT)  the man with the glasses is in charge.     (9tok)
+~~~~~~~~~~~ Example 2 g8cyMIFcC_g_q3~g8cyMIFcC_g ~~~~~~~~
+ -32 to 132<|START|> how are the two people acting?
+0   )  they are too excited     (4tok)
+1 GT)  they are acting politely and carefully listening to what each has to say.     (14tok)
+~~~~~~~~~~~ Example 3 lC8nM75AqUk_q13~lC8nM75AqUk ~~~~~~~~
+ -41 to 140<|START|> how attentive does the woman seem to the man and what does that signal?
+0   )  she is not attentive at all because she likes the topic of the conversation.     (15tok)
+1 GT)  she is very attentive meaning that she cares about what the man is saying     (14tok)
+/data/raw/transcript/1akNUksCpRU-trimmed.en.vtt
+/data/raw/transcript/9eqze5JWNjY-trimmed.en.vtt
+/data/raw/transcript/i5YckMkwmm4-trimmed.en.vtt
+/data/raw/transcript/zWaV_PTlCxk-trimmed.en.vtt
+/data/raw/transcript/P3QEOJWxXI8-trimmed.en.vtt
+/data/raw/transcript/vjZDdaFTubE-trimmed.en.vtt
+/data/raw/transcript/OLw7cIJApMI-trimmed.en.vtt
+/data/raw/transcript/UCW_UH-k-ec-trimmed.en.vtt
+/data/raw/transcript/RtjJBtFXJaI-trimmed.en.vtt
+/data/raw/transcript/ASqnnZpsX1M-trimmed.en.vtt
+/data/raw/transcript/09j-Mg5guGg-trimmed.en.vtt
+/data/raw/transcript/PQW7zw2URes-trimmed.en.vtt
+/data/raw/transcript/ZuYTtKZUkJc-trimmed.en.vtt
+/data/raw/transcript/h35dZhHkuFM-trimmed.en.vtt
+/data/raw/transcript/iDgaqD7CWXU-trimmed.en.vtt
+/data/raw/transcript/p6IwwFevo7o-trimmed.en.vtt
+/data/raw/transcript/JxbV5wGpXc8-trimmed.en.vtt
+/data/raw/transcript/jtl5XK7QP38-trimmed.en.vtt
+Finished writing 64 questions; max len = 4669

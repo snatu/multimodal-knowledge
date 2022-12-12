@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 EqXKrS3gPN4_q5~EqXKrS3gPN4 ~~~~~~~~
+ -40 to 139<|START|> what is the overall mood of the video?
+0 GT)  it is neutral     (3tok)
+1   )  it is very rowdy and excitable to watch     (9tok)
+~~~~~~~~~~~ Example 1 YIZpD3fEfgs_q2~YIZpD3fEfgs ~~~~~~~~
+ -40 to 140<|START|> are the men angry with each other?
+0 GT)  no they are not angry at each other.     (9tok)
+1   )  yes, they are really angry at each other shown by their facial expression.     (15tok)
+~~~~~~~~~~~ Example 2 gKuBUQVcDJM_q2~gKuBUQVcDJM ~~~~~~~~
+ -41 to 141<|START|> how does the man on the left react to the kangaroo?
+0   )  he is uninterested in the kangaroo and doesn't pay it any attention     (15tok)
+1 GT)  he is very interested in the kangaroo     (7tok)
+~~~~~~~~~~~ Example 3 G3xzem7HSME_q2~G3xzem7HSME ~~~~~~~~
+ -38 to 138<|START|> is the man in red shirt respectful?
+0   )  no     (1tok)
+1 GT)  yes, he is respectful towards the students. he takes the time to shake their hands.     (18tok)
+/data/raw/transcript/QHeNKMxsqYE-trimmed.en.vtt
+/data/raw/transcript/4W192A7g5KY-trimmed.en.vtt
+/data/raw/transcript/cXTjL-f-msU-trimmed.en.vtt
+/data/raw/transcript/kRh1zXFKC_o-trimmed.en.vtt
+/data/raw/transcript/8xFtIsyRvNE-trimmed.en.vtt
+/data/raw/transcript/jP2HuCwfKFA-trimmed.en.vtt
+/data/raw/transcript/C6RMS4F6LDc-trimmed.en.vtt
+/data/raw/transcript/WhsZxUWSHaQ-trimmed.en.vtt
+/data/raw/transcript/wbmW_Z1oPJw-trimmed.en.vtt
+/data/raw/transcript/pMGhqE76kQA-trimmed.en.vtt
+/data/raw/transcript/13HM_96pUIo-trimmed.en.vtt
+Finished writing 63 questions; max len = 279

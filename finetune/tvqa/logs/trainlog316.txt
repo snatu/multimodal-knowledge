@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 vKkpvQlHEG8_q2~vKkpvQlHEG8 ~~~~~~~~
+ -40 to 140<|START|> why is the guest really shocked when she receives the emmy?
+0   )  she was not surprised.     (5tok)
+1 GT)  she didn't expect to receive the emmy.     (9tok)
+~~~~~~~~~~~ Example 1 72ltfGTYqpQ_q3~72ltfGTYqpQ ~~~~~~~~
+ -38 to 138<|START|> does the man think transit has enough financial support?
+0   )  yes, he thinks they have enough money.     (9tok)
+1 GT)  the man thinks that transit has major financial troubles that are not easy to solve.     (16tok)
+~~~~~~~~~~~ Example 2 4yr_etbfZtQ_q6~4yr_etbfZtQ ~~~~~~~~
+ -35 to 135<|START|> what does the woman feel about italians?
+0 GT)  she thinks that they are impatient and passionate.     (9tok)
+1   )  she thinks they are intelligent.     (6tok)
+~~~~~~~~~~~ Example 3 97AUfvzQ_1E_q3~97AUfvzQ_1E ~~~~~~~~
+ -40 to 140<|START|> how does the man in the gray shirt feel about the other man?
+0 GT)  the man in the grey goes along with the man in black and isn't overly enthusiastic.     (18tok)
+1   )  the man in grey is scared of the man in black because of how loud he is.     (18tok)
+/data/raw/transcript/7bc_qfRmPK0-trimmed.en.vtt
+/data/raw/transcript/2XFVnzr4Vho-trimmed.en.vtt
+/data/raw/transcript/3nUKwvFsjA4-trimmed.en.vtt
+/data/raw/transcript/Vlh0sMMjU04-trimmed.en.vtt
+/data/raw/transcript/A3WbCRfad-w-trimmed.en.vtt
+/data/raw/transcript/deKPBy_uLkg-trimmed.en.vtt
+/data/raw/transcript/IE6r8Pk91T0-trimmed.en.vtt
+/data/raw/transcript/Z7MknXjNJSg-trimmed.en.vtt
+/data/raw/transcript/N1fVL4AQEW8-trimmed.en.vtt
+/data/raw/transcript/QR43TImr0dQ-trimmed.en.vtt
+/data/raw/transcript/OPdbdjctx2I-trimmed.en.vtt
+Finished writing 63 questions; max len = 3971

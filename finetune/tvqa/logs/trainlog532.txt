@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q8~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> why does the woman point at 0:46?
+0   )  she does this to help herself remember the name of the person.     (13tok)
+1 GT)  she wants to make it clear who she is passing the conversation to.     (14tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q7~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> describe the mood of the video at 0:15
+0 GT)  the mood of the video at 0:15 is a bit apathetic because of the dark humor.     (21tok)
+1   )  full of sorrow     (3tok)
+~~~~~~~~~~~ Example 2 SJSmbF9W9PQ_q3~SJSmbF9W9PQ ~~~~~~~~
+ -40 to 140<|START|> why does the man in the black jacket keep saying "congratulations" to the man in the grey jacket?
+0 GT)  because the man in the grey jacket just won a big race and has a big trophy to show for it too.     (23tok)
+1   )  because he wants to impress the other person by being over - polite with him.     (16tok)
+~~~~~~~~~~~ Example 3 uivjORoSW0k_q1~uivjORoSW0k ~~~~~~~~
+ -41 to 140<|START|> why does the audience applaud?
+0   )  they are angry and want to show their displeasure with the blonde man.     (16tok)
+1 GT)  they are impressed with the impression.     (7tok)
+/data/raw/transcript/eDqEcrIRxgQ-trimmed.en.vtt
+/data/raw/transcript/kRh1zXFKC_o-trimmed.en.vtt
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/g8D-LyfTrRs-trimmed.en.vtt
+/data/raw/transcript/WhsZxUWSHaQ-trimmed.en.vtt
+/data/raw/transcript/lUyKpfbB9M8-trimmed.en.vtt
+/data/raw/transcript/A48AJ_5nWsc-trimmed.en.vtt
+Finished writing 63 questions; max len = 3261

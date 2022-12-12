@@ -1,0 +1,22 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q6~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> have the people gathered to send a strong message about the state of wisconsin and its authorities?
+0 GT)  yes - there was a protest on the streets that shows such.     (13tok)
+1   )  no, the people have gathered on a whim     (9tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q2~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> does the short-haired woman respect the other woman?
+0   )  no, given the tone of the conversation they had throughout the video.     (14tok)
+1 GT)  yes, as she was amazed at the photo of the other woman on the magazine cover.     (18tok)
+~~~~~~~~~~~ Example 2 vqFmKLl2hq4_q5~vqFmKLl2hq4 ~~~~~~~~
+ -39 to 139<|START|> why does the man in the middle want a picture with people?
+0   )  he wants a picture with people because he wants to remember what they were wearing.     (16tok)
+1 GT)  he wants a picture with people because he admires those people and thinks they are famous.     (18tok)
+/data/raw/transcript/Q25kn317a2M-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 Q25kn317a2M_q5~Q25kn317a2M ~~~~~~~~
+ -41 to 142<|START|> how do the two men behave differently?
+0   )  the two men behave very differently.since the magician has a lot more at stake he is looking very tense and hesitant while the host s just relaaxed     (33tok)
+1 GT)  the magician behaves very confident, the host hesitant     (9tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/MdG9Lkk8VWo-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/1Za8BtLgKv8-trimmed.en.vtt
+Finished writing 64 questions; max len = 5155

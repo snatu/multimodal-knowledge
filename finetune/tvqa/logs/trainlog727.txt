@@ -1,0 +1,24 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q1~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> how does the little boy react to the drill spinning?
+0   )  the boy is sad.     (5tok)
+1 GT)  the boy is happy.     (5tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q6~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> why does the man in the blue suit nod his head at 0:14?
+0   )  he wants the other man to also nod his head.     (11tok)
+1 GT)  he wants to show agreement with a statement the other man has made.     (14tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q3~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> how does the woman in black react to the crowd?
+0   )  the women is feeling that the man should fail     (9tok)
+1 GT)  the women smiles at the crowd     (6tok)
+~~~~~~~~~~~ Example 3 cGU1Pepn1hU_q2~cGU1Pepn1hU ~~~~~~~~
+ -39 to 139<|START|> why does the crowd clap each time after the man finishes talking?
+0 GT)  the crowd claps because it is polite to do in that context.     (13tok)
+1   )  the crowd claps because they want to startle the men in the front of the room.     (18tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/vTLkSpY_aYg-trimmed.en.vtt
+/data/raw/transcript/ZYzql-Y1sP4-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 3552

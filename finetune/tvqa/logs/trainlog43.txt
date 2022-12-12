@@ -1,0 +1,32 @@
+~~~~~~~~~~~ Example 0 W_GrHtwZez8_q8~W_GrHtwZez8 ~~~~~~~~
+ -39 to 140<|START|> what does the body language of the man at the start suggest about how he feels towards the man on the line?
+0   )  the body language of the man at the start suggest about how he feels towards the man on the line negatively.     (22tok)
+1 GT)  body language is a common way of conversation     (8tok)
+/data/raw/transcript/g67e0hDT1oQ-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 g67e0hDT1oQ_q4~g67e0hDT1oQ ~~~~~~~~
+ -41 to 142<|START|> why does the man with the hat on tell the man with glasses  to repeat what he said?
+0 GT)  he wants to make sure that the audience listens.     (10tok)
+1   )  he wants to feel superior and order the man with glasses around.     (13tok)
+~~~~~~~~~~~ Example 2 n6-ef_YHeJU_q3~n6-ef_YHeJU ~~~~~~~~
+ -39 to 139<|START|> does the interviewer seem satisfied with the answers
+0   )  yes, the interviewer wants to hear more from the responses.     (12tok)
+1 GT)  the interviewer is not satisfied with the answers.     (9tok)
+~~~~~~~~~~~ Example 3 lC8nM75AqUk_q19~lC8nM75AqUk ~~~~~~~~
+ -41 to 140<|START|> how invested does the man seem about the topic which he is discussing?
+0   )  he is not invested in the topic because he doesn't understand the languages.     (15tok)
+1 GT)  he is invested in the topic because he wants to learn more.     (13tok)
+/data/raw/transcript/1akNUksCpRU-trimmed.en.vtt
+/data/raw/transcript/9eqze5JWNjY-trimmed.en.vtt
+/data/raw/transcript/P3QEOJWxXI8-trimmed.en.vtt
+/data/raw/transcript/vjZDdaFTubE-trimmed.en.vtt
+/data/raw/transcript/OLw7cIJApMI-trimmed.en.vtt
+/data/raw/transcript/UCW_UH-k-ec-trimmed.en.vtt
+/data/raw/transcript/x6yr8W3mc38-trimmed.en.vtt
+/data/raw/transcript/ASqnnZpsX1M-trimmed.en.vtt
+/data/raw/transcript/09j-Mg5guGg-trimmed.en.vtt
+/data/raw/transcript/PQW7zw2URes-trimmed.en.vtt
+/data/raw/transcript/Fy3Mi8rOB3U-trimmed.en.vtt
+/data/raw/transcript/p6IwwFevo7o-trimmed.en.vtt
+/data/raw/transcript/qN-ZCqaSHHk-trimmed.en.vtt
+/data/raw/transcript/ZMJw752P7z8-trimmed.en.vtt
+Finished writing 64 questions; max len = 4993

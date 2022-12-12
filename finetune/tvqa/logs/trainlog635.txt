@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 LTUojzYVUUI_q3~LTUojzYVUUI ~~~~~~~~
+ -37 to 137<|START|> how does interviewee feel about santa?
+0   )  he believes santa is very weak.     (7tok)
+1 GT)  he believes santa can only be string, based on what he has done.     (15tok)
+~~~~~~~~~~~ Example 1 qh8JWHlIgcE_q2~qh8JWHlIgcE ~~~~~~~~
+ -40 to 140<|START|> why does the audience applaud?
+0   )  they applaud because they are given a cue to do so.     (12tok)
+1 GT)  they are happy that the man saved the woman.     (10tok)
+~~~~~~~~~~~ Example 2 gKuBUQVcDJM_q7~gKuBUQVcDJM ~~~~~~~~
+ -41 to 141<|START|> why does the crowd applaud?
+0   )  they are proud of the woman.     (7tok)
+1 GT)  they are showing their respect for the man in the cowboy hat     (12tok)
+~~~~~~~~~~~ Example 3 G3xzem7HSME_q16~G3xzem7HSME ~~~~~~~~
+ -38 to 138<|START|> how welcomed is the man in red shirt?
+0   )  he was welcomed at first. but, then he made a rude remark and now he is no longer welcomed.     (22tok)
+1 GT)  very welcomed as shown by him shaking hands with all the children.     (13tok)
+/data/raw/transcript/Yzq6fNeXf6w-trimmed.en.vtt
+/data/raw/transcript/QytntXWJIe8-trimmed.en.vtt
+/data/raw/transcript/8MK9frCMoWA-trimmed.en.vtt
+/data/raw/transcript/NR9v3PBJw8g-trimmed.en.vtt
+/data/raw/transcript/_zuODgCQ6O8-trimmed.en.vtt
+/data/raw/transcript/jP2HuCwfKFA-trimmed.en.vtt
+/data/raw/transcript/C6RMS4F6LDc-trimmed.en.vtt
+/data/raw/transcript/iBL0FcUTFT8-trimmed.en.vtt
+Finished writing 63 questions; max len = 3382

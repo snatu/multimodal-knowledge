@@ -1,0 +1,24 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q7~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> are the man and the woman in agreement?
+0   )  no, because the man wants to correct what the woman has said.     (14tok)
+1 GT)  yes, because the man adds onto the woman's opinion, showing that he is in agreement with it.     (21tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q7~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> describe the mood of the video at 0:15
+0   )  the video has an apathetic mood at 0:15 because the two men are not concerned for each other.     (23tok)
+1 GT)  full of laughter     (3tok)
+~~~~~~~~~~~ Example 2 SJSmbF9W9PQ_q1~SJSmbF9W9PQ ~~~~~~~~
+ -40 to 140<|START|> what is the man with glasses' tone in interacting with the other man?
+0   )  he does not seem to show any appreciation or respect and makes fun of him.     (16tok)
+1 GT)  he is enthusiastic.     (4tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q5~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> why does the man in black want to go to the ballpark?
+0 GT)  because he wants to share his past with the other man     (11tok)
+1   )  because he wants to overcome his fear of ballparks     (10tok)
+/data/raw/transcript/eDqEcrIRxgQ-trimmed.en.vtt
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/n5_HdNzf03Q-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+/data/raw/transcript/lUyKpfbB9M8-trimmed.en.vtt
+/data/raw/transcript/A48AJ_5nWsc-trimmed.en.vtt
+Finished writing 63 questions; max len = 5239

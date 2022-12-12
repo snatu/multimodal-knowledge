@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 B6p6X1LSjiA_q2~B6p6X1LSjiA ~~~~~~~~
+ -40 to 139<|START|> why does the man on the right smile?
+0 GT)  he agrees with what the man on the left has said.     (12tok)
+1   )  he is amused by the man in the center.     (10tok)
+~~~~~~~~~~~ Example 1 72ltfGTYqpQ_q14~72ltfGTYqpQ ~~~~~~~~
+ -38 to 138<|START|> why does the man in grey seem surprised?
+0 GT)  the man isn't terribly surprised, as he knows the extent to which the transportation sector needs money.     (20tok)
+1   )  the man isn't surprised because he is the one that caused transportation to run out of money.     (19tok)
+~~~~~~~~~~~ Example 2 zYeBxnAm2wI_q2~zYeBxnAm2wI ~~~~~~~~
+ -37 to 137<|START|> how does the man on the right think of marriage?
+0 GT)  some people have an outdated view of what it is     (10tok)
+1   )  it should strictly be between a man and a woman, and no one else should be able to marry     (20tok)
+~~~~~~~~~~~ Example 3 WVnNoiQKhPc_q2~WVnNoiQKhPc ~~~~~~~~
+ -41 to 141<|START|> do the boys feel comfortable next to one another?
+0 GT)  yes, they enjoy each others company.     (8tok)
+1   )  no, they are nervous around each other.     (9tok)
+/data/raw/transcript/Iu6_k2ok00U-trimmed.en.vtt
+/data/raw/transcript/7bc_qfRmPK0-trimmed.en.vtt
+/data/raw/transcript/_Ice5RkbWUY-trimmed.en.vtt
+/data/raw/transcript/B1VB7vVQNQg-trimmed.en.vtt
+/data/raw/transcript/zXbortaLKDE-trimmed.en.vtt
+/data/raw/transcript/xWRNBOXoLf8-trimmed.en.vtt
+/data/raw/transcript/_KE_-EdMhDI-trimmed.en.vtt
+/data/raw/transcript/Kjlt_FgKPgA-trimmed.en.vtt
+/data/raw/transcript/aDJJBMXiwiI-trimmed.en.vtt
+/data/raw/transcript/vSQvk9P1dus-trimmed.en.vtt
+/data/raw/transcript/QR43TImr0dQ-trimmed.en.vtt
+/data/raw/transcript/OPdbdjctx2I-trimmed.en.vtt
+/data/raw/transcript/RHRPK2O9R4w-trimmed.en.vtt
+Finished writing 63 questions; max len = 5228

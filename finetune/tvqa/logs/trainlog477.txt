@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 8m_3eBsy22Y_q7~8m_3eBsy22Y ~~~~~~~~
+ -40 to 141<|START|> why are the women onstage looking out?
+0   )  they don't know where to look.     (8tok)
+1 GT)  because they're indirectly talking to the crowd.     (9tok)
+~~~~~~~~~~~ Example 1 YlVkBzXo0YM_q9~YlVkBzXo0YM ~~~~~~~~
+ -38 to 139<|START|> how does the man in the black hoodie feel towards the woman next to him?
+0 GT)  he is concerned about her     (5tok)
+1   )  the man in the black hoodie feels condescending towards the woman next to him     (17tok)
+~~~~~~~~~~~ Example 2 o6DEc3OYQfU_q6~o6DEc3OYQfU ~~~~~~~~
+ -41 to 141<|START|> describe the overall tone and mood of the video
+0 GT)  the tone is exciting.     (5tok)
+1   )  the overall tone and mood of the video is sad and depressing.     (13tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q2~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> is the man in blue excited?
+0   )  yes, the man in blue is excited to drive to the ballpark.     (14tok)
+1 GT)  yes, the man in blue is excited to talk with the man in black.     (16tok)
+/data/raw/transcript/FkLblGfWAvY-trimmed.en.vtt
+/data/raw/transcript/DiaDblUd-lw-trimmed.en.vtt
+/data/raw/transcript/VNM7Z7hir_I-trimmed.en.vtt
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/AQX2Q-V2Uh8-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+/data/raw/transcript/RAUSVB_Nu9k-trimmed.en.vtt
+/data/raw/transcript/oYM9bFGb8B8-trimmed.en.vtt
+/data/raw/transcript/KWSDwS4S6Ss-trimmed.en.vtt
+/data/raw/transcript/Ham3IQQzoU8-trimmed.en.vtt
+/data/raw/transcript/BH8FUBW4IIE-trimmed.en.vtt
+/data/raw/transcript/QHGeDg6XX6U-trimmed.en.vtt
+/data/raw/transcript/TA3Xy53hMMY-trimmed.en.vtt
+Finished writing 63 questions; max len = 5234

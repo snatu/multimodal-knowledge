@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q3~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> how do the men on the left and right feel about the man in the middle?
+0 GT)  the men on the left and right are attentive to the man in the middle     (15tok)
+1   )  the men on the left and right are worried about the man in the middle     (15tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q12~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> how does the woman in the white coat feel about the blindfolded woman's story?
+0   )  she doesn't care about her story     (7tok)
+1 GT)  she thinks the blindfolded woman has a good attitude.     (10tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q8~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> why does the man in grey stutter?
+0 GT)  the man in grey stutters because he has not prepared his answer fully     (15tok)
+1   )  he is angry.     (4tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q4~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> are the two women close?
+0 GT)  the video does not provide us with the answers although they appear close     (13tok)
+1   )  they have just met each other     (6tok)
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/ElghrCC2Rbs-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+/data/raw/transcript/N1fVL4AQEW8-trimmed.en.vtt
+Finished writing 63 questions; max len = 5985

@@ -1,0 +1,23 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q11~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> are the people rallying knowledgeable on the situation?
+0   )  yes, but they knew from others.     (8tok)
+1 GT)  yes, as the protests focus on the situation at hand.     (12tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q4~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> how do the women feel towards one another?
+0   )  they're a little hostile towards each other, but stayed polite for the show.     (16tok)
+1 GT)  they feel comfortable with each other given how the woman in the black dress shared her stories with the woman in the suit.     (24tok)
+~~~~~~~~~~~ Example 2 k5bk1efKBSI_q1~k5bk1efKBSI ~~~~~~~~
+ -34 to 135<|START|> why do the first two people repeat the same word over and over again?
+0 GT)  the men are humorously showing one of them struggle with the other's name     (15tok)
+1   )  the man with the white shirt thinks the word is funny     (11tok)
+~~~~~~~~~~~ Example 3 _tBXwqueWcg_q1~_tBXwqueWcg ~~~~~~~~
+ -35 to 135<|START|> the lady is smiling throughout the entire video. this suggests that she is
+0   )  frustrated with what the program has done.     (8tok)
+1 GT)  content and relaxed and enjoys what she is talking about     (10tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/pK1WAx4jJzE-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/dACF-Mz-X8M-trimmed.en.vtt
+/data/raw/transcript/qow_n-oNEt8-trimmed.en.vtt
+/data/raw/transcript/5fy7S3jCyAg-trimmed.en.vtt
+Finished writing 64 questions; max len = 5153

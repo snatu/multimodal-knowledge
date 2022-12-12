@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q1~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> is the man in the middle doing a good job of explaining himself?
+0   )  no, the men on the left and right look puzzled.     (13tok)
+1 GT)  yes, he has a clear and detailed plan he is explaining.  he is even using technical terms and referring to organizations by name to show his expertise.     (31tok)
+~~~~~~~~~~~ Example 1 QQpIBRLlJzo_q5~QQpIBRLlJzo ~~~~~~~~
+ -38 to 139<|START|> describe the nature of the conversation between the two men
+0   )  intense and passionate. the man on the left is discussing a hard time in his life and is on the verge of tears.     (25tok)
+1 GT)  lighthearted and jovial.     (6tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q3~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> why does the man with the gray shirt smile at 0:20?
+0 GT)  he smiles because he is trying to connect to the man in the suit     (14tok)
+1   )  he smiles because he is a friendly person, even though he is talking about something negative     (17tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q2~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> why does the old woman in green shirt cover her face and laugh?
+0   )  because the other woman said something funny     (7tok)
+1 GT)  the women is covering her face because she is embarressed     (11tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/DZsBei4nCkU-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+Finished writing 64 questions; max len = 5993

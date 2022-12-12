@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 3wIejfT9l30_q2~3wIejfT9l30 ~~~~~~~~
+ -39 to 140<|START|> why does the woman pretend to believe the man?
+0 GT)  she pretends to believe him for comedic effect.     (9tok)
+1   )  she pretends to believe him so as not to hurt his feelings.     (13tok)
+/data/raw/transcript/g67e0hDT1oQ-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 g67e0hDT1oQ_q5~g67e0hDT1oQ ~~~~~~~~
+ -41 to 142<|START|> does the man in the hat feel comfortable with the tiger?
+0   )  the man is very frightened by the tiger     (8tok)
+1 GT)  yes     (1tok)
+~~~~~~~~~~~ Example 2 n6-ef_YHeJU_q7~n6-ef_YHeJU ~~~~~~~~
+ -39 to 139<|START|> does the interviewee seem to be confident in his answers?
+0 GT)  the interviewee is charismatic and confident in his responses to the interviewer.     (15tok)
+1   )  no, the interviewee seems to be insecure in his answers.     (14tok)
+~~~~~~~~~~~ Example 3 dU7L1hvMx9Y_q2~dU7L1hvMx9Y ~~~~~~~~
+ -41 to 141<|START|> why does the boy in white carry salt shakers?
+0   )  he carries salt shakers because he is cooking food.     (11tok)
+1 GT)  the boy wants to help set up for the wedding.     (11tok)
+/data/raw/transcript/1akNUksCpRU-trimmed.en.vtt
+/data/raw/transcript/9eqze5JWNjY-trimmed.en.vtt
+/data/raw/transcript/R-xtt7w9Do4-trimmed.en.vtt
+/data/raw/transcript/RZPBl5-cu3c-trimmed.en.vtt
+/data/raw/transcript/vjZDdaFTubE-trimmed.en.vtt
+/data/raw/transcript/2Wk9JY6ic0k-trimmed.en.vtt
+/data/raw/transcript/OLw7cIJApMI-trimmed.en.vtt
+/data/raw/transcript/x6yr8W3mc38-trimmed.en.vtt
+/data/raw/transcript/Fy3Mi8rOB3U-trimmed.en.vtt
+/data/raw/transcript/qN-ZCqaSHHk-trimmed.en.vtt
+/data/raw/transcript/ZMJw752P7z8-trimmed.en.vtt
+Finished writing 64 questions; max len = 4975

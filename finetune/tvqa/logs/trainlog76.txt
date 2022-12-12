@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 3wIejfT9l30_q6~3wIejfT9l30 ~~~~~~~~
+ -39 to 140<|START|> how does the man feel at being bit?
+0 GT)  he doesn't really mind     (5tok)
+1   )  he is extremely angry about what happened to him     (9tok)
+~~~~~~~~~~~ Example 1 s3Czwcz3E-o_q1~s3Czwcz3E-o ~~~~~~~~
+ -38 to 139<|START|> how do we know the men are relaxed?
+0 GT)  based on how one of them provides advice to the other.     (12tok)
+1   )  they are moving their hands a lot.     (8tok)
+~~~~~~~~~~~ Example 2 n6-ef_YHeJU_q9~n6-ef_YHeJU ~~~~~~~~
+ -39 to 139<|START|> how does the interviewer feel about the interviewee?
+0   )  the interviewer is impressed by the interviewee's skillset and experience.     (15tok)
+1 GT)  he is not fond of him     (6tok)
+~~~~~~~~~~~ Example 3 dU7L1hvMx9Y_q3~dU7L1hvMx9Y ~~~~~~~~
+ -41 to 141<|START|> how does the person with the little boy sitting on his shoulders feel?
+0   )  the person with the little boy on his shoulders feels anxious.     (12tok)
+1 GT)  the person with the little boy on his shoulders feels joyful.     (12tok)
+/data/raw/transcript/X9BE2oUSOXM-trimmed.en.vtt
+/data/raw/transcript/R-xtt7w9Do4-trimmed.en.vtt
+/data/raw/transcript/RZPBl5-cu3c-trimmed.en.vtt
+/data/raw/transcript/2Wk9JY6ic0k-trimmed.en.vtt
+/data/raw/transcript/3m-54UiEqzg-trimmed.en.vtt
+/data/raw/transcript/x6yr8W3mc38-trimmed.en.vtt
+/data/raw/transcript/Fy3Mi8rOB3U-trimmed.en.vtt
+/data/raw/transcript/qN-ZCqaSHHk-trimmed.en.vtt
+/data/raw/transcript/PfwwCpAy0-0-trimmed.en.vtt
+Finished writing 64 questions; max len = 4982

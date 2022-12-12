@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 8m_3eBsy22Y_q5~8m_3eBsy22Y ~~~~~~~~
+ -40 to 141<|START|> is the woman with dreadlocks sincere as she speaks?
+0   )  no the woman with dreadlocks does not seem to care and is indifferent.     (15tok)
+1 GT)  yes the woman with dreadlocks is honestly expressing her emotions about the other women as well as the audience.     (21tok)
+~~~~~~~~~~~ Example 1 YlVkBzXo0YM_q4~YlVkBzXo0YM ~~~~~~~~
+ -38 to 139<|START|> is the woman next to the man in the hoodie in denial?
+0   )  no, the woman is merely pretending to exhibit the symptoms that the man thinks he sees     (17tok)
+1 GT)  yes, she refuses to acknowledge her symptoms     (8tok)
+~~~~~~~~~~~ Example 2 JW2HHfQiGVs_q5~JW2HHfQiGVs ~~~~~~~~
+ -39 to 140<|START|> why does the man nod when the woman completes his sentence?
+0 GT)  the man nods when the woman completes his sentence because he likes what she has said     (17tok)
+1   )  the man nods when the woman completes his sentence because he wants to mock her     (16tok)
+~~~~~~~~~~~ Example 3 pc3__b1uF4Q_q7~pc3__b1uF4Q ~~~~~~~~
+ -41 to 141<|START|> why did the man on the right choose to interview the man on the left?
+0 GT)  he believes the man on the left is knowledgeable in the subject he is interested in.     (17tok)
+1   )  because he likes the way the man on the left dresses and is trying to emulate him.     (18tok)
+/data/raw/transcript/FkLblGfWAvY-trimmed.en.vtt
+/data/raw/transcript/DiaDblUd-lw-trimmed.en.vtt
+/data/raw/transcript/rVWZuXDkc4A-trimmed.en.vtt
+/data/raw/transcript/MM0YOB-cSWA-trimmed.en.vtt
+/data/raw/transcript/hnfkZx4jmpA-trimmed.en.vtt
+/data/raw/transcript/3zjz6ryPvIg-trimmed.en.vtt
+/data/raw/transcript/atEkAkPfpUY-trimmed.en.vtt
+/data/raw/transcript/erOpqmubBL4-trimmed.en.vtt
+/data/raw/transcript/KpljzfIVBDM-trimmed.en.vtt
+/data/raw/transcript/Ham3IQQzoU8-trimmed.en.vtt
+/data/raw/transcript/BH8FUBW4IIE-trimmed.en.vtt
+/data/raw/transcript/QHGeDg6XX6U-trimmed.en.vtt
+/data/raw/transcript/TA3Xy53hMMY-trimmed.en.vtt
+Finished writing 63 questions; max len = 5693

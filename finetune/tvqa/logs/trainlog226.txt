@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 qr69jLeQdRA_q8~qr69jLeQdRA ~~~~~~~~
+ -41 to 141<|START|> how does the married couple feel about walking through the arena?
+0   )  the married couple feels lethargic about walking through the area     (12tok)
+1 GT)  the married couple feels enthusiastic about walking through the area     (10tok)
+~~~~~~~~~~~ Example 1 QQpIBRLlJzo_q4~QQpIBRLlJzo ~~~~~~~~
+ -38 to 139<|START|> why did the man with glasses laugh a little when the man with the black suit said something at the end of the video?
+0   )  he thought that the pun was entertaining.     (8tok)
+1 GT)  the man in the black suit jokes that the job must have paid really well because the man with the glasses used to pick up a coworker while hitchhiking.     (33tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q1~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> how does the man in grey feel about the president?
+0 GT)  the man in grey does not respect the president     (9tok)
+1   )  the man in grey respects the man and thinks he is a good leader     (14tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q1~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> how does the old woman in green react to the question about the iphone?
+0 GT)  she is annoyed and enraged     (6tok)
+1   )  the women is really happy with it     (7tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/U4r9ePA6RkQ-trimmed.en.vtt
+/data/raw/transcript/oY6BfHkNFPY-trimmed.en.vtt
+/data/raw/transcript/jYL4gMsGZgE-trimmed.en.vtt
+/data/raw/transcript/DZsBei4nCkU-trimmed.en.vtt
+/data/raw/transcript/LtxWWUBt7ro-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/7Oum_c5Seis-trimmed.en.vtt
+/data/raw/transcript/96YOZOU7ggo-trimmed.en.vtt
+Finished writing 64 questions; max len = 5987

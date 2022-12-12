@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 E0TBOKN8J2E_q1~E0TBOKN8J2E ~~~~~~~~
+ -40 to 141<|START|> why does the man with the blue tie nod?
+0   )  he is falling asleep and cannot keep his head up while listening to the other man.     (17tok)
+1 GT)  he is acknowledging the other man's statements.     (9tok)
+/data/raw/transcript/vC63_bemI2I-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 vC63_bemI2I_q4~vC63_bemI2I ~~~~~~~~
+ -41 to 142<|START|> why does the man with the long beard constantly move his left hand up and down
+0   )  because he is trying to hit the man in the muscle tee     (12tok)
+1 GT)  he tries to emphasize his words with hand gestures.     (10tok)
+~~~~~~~~~~~ Example 2 FWBCTZiijEM_q8~FWBCTZiijEM ~~~~~~~~
+ -35 to 135<|START|> does the man like the game?
+0   )  the man is being forced to play.     (8tok)
+1 GT)  he seems to be having fun.     (7tok)
+~~~~~~~~~~~ Example 3 yRtPan09Ek0_q5~yRtPan09Ek0 ~~~~~~~~
+ -39 to 140<|START|> why is the host asking the guest questions
+0   )  the host asks questions because the other person has done something wrong     (12tok)
+1 GT)  he wants to know more about the guest     (8tok)
+/data/raw/transcript/ZeYarFkvoGw-trimmed.en.vtt
+/data/raw/transcript/t-dmFuH7TyM-trimmed.en.vtt
+/data/raw/transcript/gbVOyKifrAo-trimmed.en.vtt
+/data/raw/transcript/GCZ5aagOddY-trimmed.en.vtt
+/data/raw/transcript/UUuXfyfCaL4-trimmed.en.vtt
+/data/raw/transcript/GK4_G33fXFU-trimmed.en.vtt
+/data/raw/transcript/xdiFzcpmmJc-trimmed.en.vtt
+/data/raw/transcript/j7cUdCFEpeU-trimmed.en.vtt
+Finished writing 63 questions; max len = 4450

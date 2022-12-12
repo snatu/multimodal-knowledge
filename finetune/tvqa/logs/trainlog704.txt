@@ -1,0 +1,25 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q4~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> what is the women in the blue hair feeling about the video?
+0   )  she hates making the video.     (6tok)
+1 GT)  she is invested in what the blonde woman has to say.     (12tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q2~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> why does the man in the blue suit grin at 0:36?
+0 GT)  he just made a joke, which he thought was funny.     (12tok)
+1   )  the man in the blue suit grinned at 0:36 because he is offended slightly     (17tok)
+/data/raw/transcript/KBj3TocgvOA-trimmed.en.vtt
+~~~~~~~~~~~ Example 2 KBj3TocgvOA_q1~KBj3TocgvOA ~~~~~~~~
+ -41 to 142<|START|> why is the women smiling?
+0   )  the women is smiling because she was told a joke     (10tok)
+1 GT)  the women is caught up in the wave of excitement bought by the men     (14tok)
+~~~~~~~~~~~ Example 3 CoMz3JOnZFo_q16~CoMz3JOnZFo ~~~~~~~~
+ -39 to 140<|START|> is the girl in black shirt excited?
+0 GT)  the girl in the black shirt is very excited.     (10tok)
+1   )  the girl in the black is bored.     (8tok)
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/nQqY3j8btbI-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/LD1RAPiT_7A-trimmed.en.vtt
+Finished writing 63 questions; max len = 6255

@@ -1,0 +1,23 @@
+~~~~~~~~~~~ Example 0 LTUojzYVUUI_q1~LTUojzYVUUI ~~~~~~~~
+ -37 to 137<|START|> why is the man with the square-framed glasses calmer when he says "how's that?" to the other man?
+0 GT)  he is confused by what the man on the right claimed.     (12tok)
+1   )  he is scared of the man on the right.     (10tok)
+~~~~~~~~~~~ Example 1 YIZpD3fEfgs_q3~YIZpD3fEfgs ~~~~~~~~
+ -40 to 140<|START|> why are they sitting next to each other in a row?
+0 GT)  the viewer can guess so they can see all the speakers.     (12tok)
+1   )  because they were told to.     (6tok)
+~~~~~~~~~~~ Example 2 gKuBUQVcDJM_q4~gKuBUQVcDJM ~~~~~~~~
+ -41 to 141<|START|> how does the woman feel about the kangaroo?
+0 GT)  the woman is amazed by the kangaroo     (7tok)
+1   )  she is scared of the kangaroo.     (7tok)
+~~~~~~~~~~~ Example 3 G3xzem7HSME_q5~G3xzem7HSME ~~~~~~~~
+ -38 to 138<|START|> how does the blonde boy feel about sitting across from the man in the red sweater?
+0   )  he is indifferent about it because he does not recognize who the man in the red sweater is.     (19tok)
+1 GT)  he is starstruck and amazed.     (8tok)
+/data/raw/transcript/Yzq6fNeXf6w-trimmed.en.vtt
+/data/raw/transcript/jP2HuCwfKFA-trimmed.en.vtt
+/data/raw/transcript/C6RMS4F6LDc-trimmed.en.vtt
+/data/raw/transcript/wbmW_Z1oPJw-trimmed.en.vtt
+/data/raw/transcript/pMGhqE76kQA-trimmed.en.vtt
+/data/raw/transcript/iBL0FcUTFT8-trimmed.en.vtt
+Finished writing 63 questions; max len = 3307

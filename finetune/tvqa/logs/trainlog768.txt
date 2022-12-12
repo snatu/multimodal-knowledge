@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 QC_4iR0tyvE_q5~QC_4iR0tyvE ~~~~~~~~
+ -38 to 139<|START|> what does the boy think about the activity being undertaken?
+0 GT)  he is interested in it     (5tok)
+1   )  he is bored by it     (5tok)
+/data/raw/transcript/vC63_bemI2I-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 vC63_bemI2I_q2~vC63_bemI2I ~~~~~~~~
+ -41 to 142<|START|> how do the two men feel about each other?
+0   )  they are glad to see each other and to be able to have a meaningful conversation.     (17tok)
+1 GT)  they do not like each other's opinions.     (9tok)
+~~~~~~~~~~~ Example 2 FWBCTZiijEM_q4~FWBCTZiijEM ~~~~~~~~
+ -35 to 135<|START|> why does the man laugh in the beginning?
+0 GT)  the man laughs because of his fail.     (8tok)
+1   )  the man never laughs.     (5tok)
+~~~~~~~~~~~ Example 3 yRtPan09Ek0_q3~yRtPan09Ek0 ~~~~~~~~
+ -39 to 140<|START|> does the host have a positive opinion of the guest
+0   )  no the host dislikes the guest     (6tok)
+1 GT)  yes, the host thinks the guest is an interesting person     (11tok)
+/data/raw/transcript/h9hAaQOanZY-trimmed.en.vtt
+/data/raw/transcript/0a2lv4IwZFY-trimmed.en.vtt
+/data/raw/transcript/t-dmFuH7TyM-trimmed.en.vtt
+/data/raw/transcript/gbVOyKifrAo-trimmed.en.vtt
+/data/raw/transcript/GCZ5aagOddY-trimmed.en.vtt
+/data/raw/transcript/4vPrTC5qMh0-trimmed.en.vtt
+/data/raw/transcript/UUuXfyfCaL4-trimmed.en.vtt
+/data/raw/transcript/GK4_G33fXFU-trimmed.en.vtt
+/data/raw/transcript/j7cUdCFEpeU-trimmed.en.vtt
+/data/raw/transcript/o7Ax6SRTGks-trimmed.en.vtt
+Finished writing 63 questions; max len = 3551

@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q3~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> how do the men on the left and right feel about the man in the middle?
+0 GT)  they respect him     (3tok)
+1   )  the men on the left and right are disappointed in the man in the middle     (15tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q11~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> does the girl with blindfolds seem excited?
+0   )  no, she does not care about her prize     (9tok)
+1 GT)  yes, she can't wait to see her car     (10tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q5~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> is the man with the gray shirt genuine?
+0   )  yes, when he speaks and smiles he seems to be doing it without other motives     (16tok)
+1 GT)  no, his motives do not seem to be exactly what he acts like     (14tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q4~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> are the two women close?
+0   )  they are not comfortable with each other     (7tok)
+1 GT)  the two women appear close     (5tok)
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/ElghrCC2Rbs-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+Finished writing 63 questions; max len = 5987

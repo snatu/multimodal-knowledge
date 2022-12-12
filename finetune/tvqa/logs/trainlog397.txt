@@ -1,0 +1,34 @@
+~~~~~~~~~~~ Example 0 B6p6X1LSjiA_q13~B6p6X1LSjiA ~~~~~~~~
+ -40 to 139<|START|> how does the man in the center feel about what the man on the left is saying?
+0 GT)  he is interested in what the other man is saying.     (11tok)
+1   )  the man in the center disagrees strongly with what the man on the left is saying     (17tok)
+/data/raw/transcript/ofvOXABptcY-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 ofvOXABptcY_q3~ofvOXABptcY ~~~~~~~~
+ -41 to 141<|START|> how does the man feel about his answer to the first trivia question?
+0 GT)  the mancuts the lady in middle very confident     (10tok)
+1   )  he is unsure and takes a guess.     (8tok)
+~~~~~~~~~~~ Example 2 zYeBxnAm2wI_q5~zYeBxnAm2wI ~~~~~~~~
+ -37 to 137<|START|> why does the man with glasses speak in a passionate manner when he recommends that someone speak about another person's ideals?
+0   )  he is a die-hard republican and wants to see the complete destruction of the democratic party     (18tok)
+1 GT)  he wants to see good political debates     (7tok)
+~~~~~~~~~~~ Example 3 WVnNoiQKhPc_q5~WVnNoiQKhPc ~~~~~~~~
+ -41 to 141<|START|> what is the tone of the boys?
+0   )  they sound frustrated that they can't ski as well as the man.     (14tok)
+1 GT)  they sound excited about the video.     (7tok)
+/data/raw/transcript/Iu6_k2ok00U-trimmed.en.vtt
+/data/raw/transcript/-daGjyKKNio-trimmed.en.vtt
+/data/raw/transcript/_s42gOg2WSU-trimmed.en.vtt
+/data/raw/transcript/B1VB7vVQNQg-trimmed.en.vtt
+/data/raw/transcript/zXbortaLKDE-trimmed.en.vtt
+/data/raw/transcript/xWRNBOXoLf8-trimmed.en.vtt
+/data/raw/transcript/3qp3AeWmt38-trimmed.en.vtt
+/data/raw/transcript/_KE_-EdMhDI-trimmed.en.vtt
+/data/raw/transcript/bT_DEZz99VQ-trimmed.en.vtt
+/data/raw/transcript/Kjlt_FgKPgA-trimmed.en.vtt
+/data/raw/transcript/aDJJBMXiwiI-trimmed.en.vtt
+/data/raw/transcript/6xQv6ozrz90-trimmed.en.vtt
+/data/raw/transcript/erOpqmubBL4-trimmed.en.vtt
+/data/raw/transcript/YIJ0mZYi1O4-trimmed.en.vtt
+/data/raw/transcript/Mf76yyTY7Ss-trimmed.en.vtt
+/data/raw/transcript/KzN6XWDEmXI-trimmed.en.vtt
+Finished writing 63 questions; max len = 4666

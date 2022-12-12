@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 qr69jLeQdRA_q5~qr69jLeQdRA ~~~~~~~~
+ -41 to 141<|START|> how does the host feel about the woman's name?
+0   )  the host feels uncomfortable about the woman's name     (9tok)
+1 GT)  the host feels amused by the woman's name     (9tok)
+~~~~~~~~~~~ Example 1 QQpIBRLlJzo_q2~QQpIBRLlJzo ~~~~~~~~
+ -38 to 139<|START|> what did the man with glasses think about the attraction he used to run at the carnival?
+0   )  he says it was the most popular attraction at the whole carnival. he was constantly stressed by the huge lines that would form.     (25tok)
+1 GT)  he says, "the prizes stunk" so it was not a very strong attraction.     (18tok)
+~~~~~~~~~~~ Example 2 k5bk1efKBSI_q5~k5bk1efKBSI ~~~~~~~~
+ -34 to 135<|START|> what is the tone of the person speaking?
+0 GT)  the person speaking is matter-of-fact     (9tok)
+1   )  it is extremely excited     (4tok)
+~~~~~~~~~~~ Example 3 _tBXwqueWcg_q4~_tBXwqueWcg ~~~~~~~~
+ -35 to 135<|START|> what does the woman think the wellness training institute teaches people to feel?
+0 GT)  people learn to find what to change in their lives.     (11tok)
+1   )  to feel bad about themselves.     (6tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/pK1WAx4jJzE-trimmed.en.vtt
+/data/raw/transcript/U4r9ePA6RkQ-trimmed.en.vtt
+/data/raw/transcript/oY6BfHkNFPY-trimmed.en.vtt
+/data/raw/transcript/jYL4gMsGZgE-trimmed.en.vtt
+/data/raw/transcript/DZsBei4nCkU-trimmed.en.vtt
+/data/raw/transcript/LtxWWUBt7ro-trimmed.en.vtt
+/data/raw/transcript/7Oum_c5Seis-trimmed.en.vtt
+/data/raw/transcript/96YOZOU7ggo-trimmed.en.vtt
+/data/raw/transcript/qow_n-oNEt8-trimmed.en.vtt
+Finished writing 64 questions; max len = 4218

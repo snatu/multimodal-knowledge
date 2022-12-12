@@ -1,0 +1,24 @@
+/data/raw/transcript/FJF56lmDqQo-trimmed.en.vtt
+~~~~~~~~~~~ Example 0 FJF56lmDqQo_q3~FJF56lmDqQo ~~~~~~~~
+ -41 to 141<|START|> why does the girl with the blond hair roll her eyes?
+0   )  she did not want to be talking to the other girls     (11tok)
+1 GT)  she was in her head.     (6tok)
+~~~~~~~~~~~ Example 1 DW2umNQrQU0_q1~DW2umNQrQU0 ~~~~~~~~
+ -36 to 136<|START|> does the man without the tie seem confused once he is handed a boomerang?
+0 GT)  yes, he was not sure why it was handed to him     (12tok)
+1   )  no, he was excited to show off his tricks     (10tok)
+~~~~~~~~~~~ Example 2 P8YRuxu8dQU_q17~P8YRuxu8dQU ~~~~~~~~
+ -40 to 141<|START|> did the man on the phone have a hostile relationship with the people in costumes?
+0   )  the man on the phone made a friendly relationship with the people in costumes.     (15tok)
+1 GT)  the man on the phone did not speak aggressively with the people in costumes.     (15tok)
+~~~~~~~~~~~ Example 3 CoMz3JOnZFo_q7~CoMz3JOnZFo ~~~~~~~~
+ -39 to 140<|START|> why is the girl nervous?
+0 GT)  because she has no idea of what to expect.     (10tok)
+1   )  because she's worried about what she may face.     (10tok)
+/data/raw/transcript/5_uSZcXMV7s-trimmed.en.vtt
+/data/raw/transcript/hL2u93brqiA-trimmed.en.vtt
+/data/raw/transcript/nQqY3j8btbI-trimmed.en.vtt
+/data/raw/transcript/WQxM_EK5aiM-trimmed.en.vtt
+/data/raw/transcript/2gy8H-wYzic-trimmed.en.vtt
+/data/raw/transcript/LD1RAPiT_7A-trimmed.en.vtt
+Finished writing 63 questions; max len = 6252

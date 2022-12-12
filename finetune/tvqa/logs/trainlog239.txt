@@ -1,0 +1,25 @@
+~~~~~~~~~~~ Example 0 qr69jLeQdRA_q9~qr69jLeQdRA ~~~~~~~~
+ -41 to 141<|START|> does everyone seem to be having a good time?
+0   )  the people are actually pretty upset and don't like the event.     (13tok)
+1 GT)  everyone seems to be enjoying the moment.     (8tok)
+~~~~~~~~~~~ Example 1 QQpIBRLlJzo_q5~QQpIBRLlJzo ~~~~~~~~
+ -38 to 139<|START|> describe the nature of the conversation between the two men
+0 GT)  lighthearted and jovial.     (6tok)
+1   )  hostile and violent. they are using an aggressive tone towards each other because they cannot stop arguing with each other.     (22tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q3~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> why does the man with the gray shirt smile at 0:20?
+0 GT)  he smiles because he is trying to connect to the man in the suit     (14tok)
+1   )  he likes     (2tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q2~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> why does the old woman in green shirt cover her face and laugh?
+0 GT)  because she is thinking about the past and how embarrassing those moments could have been     (15tok)
+1   )  she is actually weeping and wiping tears     (7tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/DZsBei4nCkU-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/96YOZOU7ggo-trimmed.en.vtt
+Finished writing 64 questions; max len = 5990

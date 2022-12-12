@@ -1,0 +1,23 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q6~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> what is the role of the woman?
+0   )  she is meant to provoke the other people.     (9tok)
+1 GT)  the woman's role is to present controversial topics for the the others to discuss.     (16tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q5~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> do the two men agree with each other?
+0 GT)  it appears they do, but the man on the right may be acting.     (15tok)
+1   )  no, because the men interrupt each other often to correct each other.     (14tok)
+~~~~~~~~~~~ Example 2 o6DEc3OYQfU_q21~o6DEc3OYQfU ~~~~~~~~
+ -41 to 141<|START|> what does the man in the tie think about the thing that the man in the black shirt is showing him?
+0 GT)  he thinks it is useful.     (6tok)
+1   )  the man in the tie thinks the task is useless and stupid.     (13tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q5~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> why does the man in black want to go to the ballpark?
+0   )  he wants to go to the ballpark to get a drink.     (12tok)
+1 GT)  he wants to go to the ballpark because he wants to play a game there.     (16tok)
+/data/raw/transcript/eDqEcrIRxgQ-trimmed.en.vtt
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/n5_HdNzf03Q-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/AQX2Q-V2Uh8-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+Finished writing 63 questions; max len = 5230

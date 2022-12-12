@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 EqXKrS3gPN4_q1~EqXKrS3gPN4 ~~~~~~~~
+ -40 to 139<|START|> why are the people so monotonal?
+0 GT)  they are in a regular setting     (6tok)
+1   )  they are all really sad and gloomy     (7tok)
+~~~~~~~~~~~ Example 1 OWsT2rkqCk8_q1~OWsT2rkqCk8 ~~~~~~~~
+ -36 to 136<|START|> why is the talking dog frustrated?
+0 GT)  he is trapped.     (4tok)
+1   )  the girl is annoying.     (5tok)
+~~~~~~~~~~~ Example 2 SJSmbF9W9PQ_q4~SJSmbF9W9PQ ~~~~~~~~
+ -40 to 140<|START|> is the man in the grey suit excited to be there?
+0   )  no, he is scared and anxious, because the other person is making fun of him.     (18tok)
+1 GT)  yes, because he smiles     (5tok)
+~~~~~~~~~~~ Example 3 uivjORoSW0k_q2~uivjORoSW0k ~~~~~~~~
+ -41 to 140<|START|> why does the man with the glasses laugh at 0:16?
+0   )  he thinks the man with blonde hair looks funny with blonde hair.     (13tok)
+1 GT)  there is a little absurdity with the impression.     (10tok)
+/data/raw/transcript/QHeNKMxsqYE-trimmed.en.vtt
+/data/raw/transcript/4W192A7g5KY-trimmed.en.vtt
+/data/raw/transcript/cXTjL-f-msU-trimmed.en.vtt
+/data/raw/transcript/1j1C3dlwh7E-trimmed.en.vtt
+/data/raw/transcript/kRh1zXFKC_o-trimmed.en.vtt
+/data/raw/transcript/g8D-LyfTrRs-trimmed.en.vtt
+/data/raw/transcript/8xFtIsyRvNE-trimmed.en.vtt
+/data/raw/transcript/WhsZxUWSHaQ-trimmed.en.vtt
+/data/raw/transcript/lUyKpfbB9M8-trimmed.en.vtt
+/data/raw/transcript/A48AJ_5nWsc-trimmed.en.vtt
+/data/raw/transcript/13HM_96pUIo-trimmed.en.vtt
+Finished writing 63 questions; max len = 3256

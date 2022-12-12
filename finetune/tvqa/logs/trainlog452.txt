@@ -1,0 +1,33 @@
+~~~~~~~~~~~ Example 0 8m_3eBsy22Y_q5~8m_3eBsy22Y ~~~~~~~~
+ -40 to 141<|START|> is the woman with dreadlocks sincere as she speaks?
+0 GT)  yes - she genuinely loves the fans and their support.     (11tok)
+1   )  no, as her tone suggests that she may be hiding something from the audience.     (16tok)
+~~~~~~~~~~~ Example 1 YlVkBzXo0YM_q5~YlVkBzXo0YM ~~~~~~~~
+ -38 to 139<|START|> how does the woman speak in the beginning?
+0   )  the woman speaks in a bored manner     (7tok)
+1 GT)  she speaks in an explanatory manner.     (8tok)
+~~~~~~~~~~~ Example 2 JW2HHfQiGVs_q6~JW2HHfQiGVs ~~~~~~~~
+ -39 to 140<|START|> describe the overall tone and mood of the video
+0 GT)  the overall tone and mood of the video is one of interest     (12tok)
+1   )  playful and joyous     (4tok)
+~~~~~~~~~~~ Example 3 pc3__b1uF4Q_q7~pc3__b1uF4Q ~~~~~~~~
+ -41 to 141<|START|> why did the man on the right choose to interview the man on the left?
+0   )  the man on the right thinks the man on the left will be easiest to manipulate into giving the answers he wants.     (23tok)
+1 GT)  he believes the man on the left can help educate the audience on the subject he is interested in.     (20tok)
+/data/raw/transcript/FkLblGfWAvY-trimmed.en.vtt
+/data/raw/transcript/DiaDblUd-lw-trimmed.en.vtt
+/data/raw/transcript/VNM7Z7hir_I-trimmed.en.vtt
+/data/raw/transcript/rVWZuXDkc4A-trimmed.en.vtt
+/data/raw/transcript/MM0YOB-cSWA-trimmed.en.vtt
+/data/raw/transcript/hnfkZx4jmpA-trimmed.en.vtt
+/data/raw/transcript/3zjz6ryPvIg-trimmed.en.vtt
+/data/raw/transcript/atEkAkPfpUY-trimmed.en.vtt
+/data/raw/transcript/RAUSVB_Nu9k-trimmed.en.vtt
+/data/raw/transcript/oYM9bFGb8B8-trimmed.en.vtt
+/data/raw/transcript/KWSDwS4S6Ss-trimmed.en.vtt
+/data/raw/transcript/KpljzfIVBDM-trimmed.en.vtt
+/data/raw/transcript/Ham3IQQzoU8-trimmed.en.vtt
+/data/raw/transcript/BH8FUBW4IIE-trimmed.en.vtt
+/data/raw/transcript/QHGeDg6XX6U-trimmed.en.vtt
+/data/raw/transcript/TA3Xy53hMMY-trimmed.en.vtt
+Finished writing 63 questions; max len = 5701

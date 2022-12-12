@@ -1,0 +1,27 @@
+~~~~~~~~~~~ Example 0 gfA1xa-BMCg_q8~gfA1xa-BMCg ~~~~~~~~
+ -40 to 140<|START|> why does the woman point at 0:46?
+0 GT)  she wants to alert the other people about who will be talking next.     (14tok)
+1   )  she does this to confuse the audience over who will be talking next.     (14tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q12~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> why does the man on the right joke?
+0   )  he is confused by what the other man is saying to him.     (13tok)
+1 GT)  the men on the right jokes because he wants to appear friendly.     (13tok)
+~~~~~~~~~~~ Example 2 SJSmbF9W9PQ_q3~SJSmbF9W9PQ ~~~~~~~~
+ -40 to 140<|START|> why does the man in the black jacket keep saying "congratulations" to the man in the grey jacket?
+0 GT)  because he is proud of what the other person has accomplished.     (12tok)
+1   )  because the man in the grey jacket won the lottery and bought a really nice trophy for himself.     (19tok)
+~~~~~~~~~~~ Example 3 uivjORoSW0k_q1~uivjORoSW0k ~~~~~~~~
+ -41 to 140<|START|> why does the audience applaud?
+0 GT)  they are having a good time.     (7tok)
+1   )  they are happy that another guest will be entering the show.     (12tok)
+/data/raw/transcript/eDqEcrIRxgQ-trimmed.en.vtt
+/data/raw/transcript/1j1C3dlwh7E-trimmed.en.vtt
+/data/raw/transcript/kRh1zXFKC_o-trimmed.en.vtt
+/data/raw/transcript/SAgYiERRDPY-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/g8D-LyfTrRs-trimmed.en.vtt
+/data/raw/transcript/8xFtIsyRvNE-trimmed.en.vtt
+/data/raw/transcript/WhsZxUWSHaQ-trimmed.en.vtt
+/data/raw/transcript/lUyKpfbB9M8-trimmed.en.vtt
+/data/raw/transcript/A48AJ_5nWsc-trimmed.en.vtt
+Finished writing 63 questions; max len = 3261

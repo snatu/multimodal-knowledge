@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 EqXKrS3gPN4_q2~EqXKrS3gPN4 ~~~~~~~~
+ -40 to 139<|START|> what is mofaiza doing?
+0   )  she is yelling and shouting at them     (7tok)
+1 GT)  she's presenting about what it's like to move to a new country     (14tok)
+~~~~~~~~~~~ Example 1 OWsT2rkqCk8_q1~OWsT2rkqCk8 ~~~~~~~~
+ -36 to 136<|START|> why is the talking dog frustrated?
+0 GT)  because the girl initially thought that it was a hyena, not a dog.     (16tok)
+1   )  because it is a hyena, not a dog.     (11tok)
+~~~~~~~~~~~ Example 2 SJSmbF9W9PQ_q5~SJSmbF9W9PQ ~~~~~~~~
+ -40 to 140<|START|> what is the dynamic between the two men?
+0   )  they are hostile and aggressive with each other , because they get into a fight.     (16tok)
+1 GT)  they are cooperative.     (4tok)
+~~~~~~~~~~~ Example 3 uivjORoSW0k_q3~uivjORoSW0k ~~~~~~~~
+ -41 to 140<|START|> how does the man on the right feel?
+0   )  the man on the right disagrees with the man on the left about shakespeare.     (16tok)
+1 GT)  he feels a little ashamed.     (6tok)
+/data/raw/transcript/QHeNKMxsqYE-trimmed.en.vtt
+/data/raw/transcript/4W192A7g5KY-trimmed.en.vtt
+/data/raw/transcript/cXTjL-f-msU-trimmed.en.vtt
+/data/raw/transcript/1j1C3dlwh7E-trimmed.en.vtt
+/data/raw/transcript/kRh1zXFKC_o-trimmed.en.vtt
+/data/raw/transcript/g8D-LyfTrRs-trimmed.en.vtt
+/data/raw/transcript/8xFtIsyRvNE-trimmed.en.vtt
+/data/raw/transcript/WhsZxUWSHaQ-trimmed.en.vtt
+/data/raw/transcript/lUyKpfbB9M8-trimmed.en.vtt
+/data/raw/transcript/A48AJ_5nWsc-trimmed.en.vtt
+/data/raw/transcript/13HM_96pUIo-trimmed.en.vtt
+Finished writing 63 questions; max len = 270

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 E0TBOKN8J2E_q8~E0TBOKN8J2E ~~~~~~~~
+ -40 to 141<|START|> how does the man in grey feel about what has happened?
+0   )  he thinks that the team he is in has not gotten better.     (13tok)
+1 GT)  he thinks he and his team can rebound from previous issues.     (12tok)
+~~~~~~~~~~~ Example 1 g8cyMIFcC_g_q1~g8cyMIFcC_g ~~~~~~~~
+ -32 to 132<|START|> is the man nervous?
+0   )  yes, because his voice is shaky and uncertain.     (10tok)
+1 GT)  no, he knows what he is talking about.     (10tok)
+~~~~~~~~~~~ Example 2 FWBCTZiijEM_q10~FWBCTZiijEM ~~~~~~~~
+ -35 to 135<|START|> why does the man seem frustrated?
+0   )  the man yells out of frustration.     (7tok)
+1 GT)  no.     (2tok)
+~~~~~~~~~~~ Example 3 yRtPan09Ek0_q8~yRtPan09Ek0 ~~~~~~~~
+ -39 to 140<|START|> how does the man on the left feel about stephen king?
+0 GT)  he regards him with a sense of reverence and respect.     (12tok)
+1   )  he holds him in a low regard.     (8tok)
+/data/raw/transcript/ZeYarFkvoGw-trimmed.en.vtt
+/data/raw/transcript/i5YckMkwmm4-trimmed.en.vtt
+/data/raw/transcript/zWaV_PTlCxk-trimmed.en.vtt
+/data/raw/transcript/GCZ5aagOddY-trimmed.en.vtt
+/data/raw/transcript/UUuXfyfCaL4-trimmed.en.vtt
+/data/raw/transcript/RtjJBtFXJaI-trimmed.en.vtt
+/data/raw/transcript/xdiFzcpmmJc-trimmed.en.vtt
+/data/raw/transcript/ZuYTtKZUkJc-trimmed.en.vtt
+/data/raw/transcript/h35dZhHkuFM-trimmed.en.vtt
+/data/raw/transcript/iDgaqD7CWXU-trimmed.en.vtt
+/data/raw/transcript/JxbV5wGpXc8-trimmed.en.vtt
+/data/raw/transcript/jtl5XK7QP38-trimmed.en.vtt
+Finished writing 63 questions; max len = 4672

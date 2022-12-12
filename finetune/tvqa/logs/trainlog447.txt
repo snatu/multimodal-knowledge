@@ -1,0 +1,31 @@
+~~~~~~~~~~~ Example 0 8m_3eBsy22Y_q5~8m_3eBsy22Y ~~~~~~~~
+ -40 to 141<|START|> is the woman with dreadlocks sincere as she speaks?
+0 GT)  yes, given the confident tone in her voice.     (10tok)
+1   )  no the woman with dreadlocks does not seem to care and is indifferent.     (15tok)
+~~~~~~~~~~~ Example 1 YlVkBzXo0YM_q4~YlVkBzXo0YM ~~~~~~~~
+ -38 to 139<|START|> is the woman next to the man in the hoodie in denial?
+0   )  no, the woman is merely pretending to exhibit the symptoms that the man thinks he sees     (17tok)
+1 GT)  yes, she does not see something which is painfully obvious     (12tok)
+~~~~~~~~~~~ Example 2 JW2HHfQiGVs_q6~JW2HHfQiGVs ~~~~~~~~
+ -39 to 140<|START|> describe the overall tone and mood of the video
+0   )  the overall tone and mood of the video is one of disappointment     (12tok)
+1 GT)  serious and solemn     (3tok)
+~~~~~~~~~~~ Example 3 pc3__b1uF4Q_q7~pc3__b1uF4Q ~~~~~~~~
+ -41 to 141<|START|> why did the man on the right choose to interview the man on the left?
+0 GT)  he believes that the man on the left knows more than him about the subject he is interested in.     (20tok)
+1   )  because he likes the way the man on the left dresses and is trying to emulate him.     (18tok)
+/data/raw/transcript/FkLblGfWAvY-trimmed.en.vtt
+/data/raw/transcript/DiaDblUd-lw-trimmed.en.vtt
+/data/raw/transcript/VNM7Z7hir_I-trimmed.en.vtt
+/data/raw/transcript/rVWZuXDkc4A-trimmed.en.vtt
+/data/raw/transcript/MM0YOB-cSWA-trimmed.en.vtt
+/data/raw/transcript/hnfkZx4jmpA-trimmed.en.vtt
+/data/raw/transcript/3zjz6ryPvIg-trimmed.en.vtt
+/data/raw/transcript/atEkAkPfpUY-trimmed.en.vtt
+/data/raw/transcript/erOpqmubBL4-trimmed.en.vtt
+/data/raw/transcript/KpljzfIVBDM-trimmed.en.vtt
+/data/raw/transcript/Ham3IQQzoU8-trimmed.en.vtt
+/data/raw/transcript/BH8FUBW4IIE-trimmed.en.vtt
+/data/raw/transcript/QHGeDg6XX6U-trimmed.en.vtt
+/data/raw/transcript/TA3Xy53hMMY-trimmed.en.vtt
+Finished writing 63 questions; max len = 5697

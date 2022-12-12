@@ -1,0 +1,28 @@
+~~~~~~~~~~~ Example 0 E0TBOKN8J2E_q8~E0TBOKN8J2E ~~~~~~~~
+ -40 to 141<|START|> how does the man in grey feel about what has happened?
+0   )  the man in grey feels there is no way out of this bad situation.     (15tok)
+1 GT)  he is proud that his team has gotten better.     (10tok)
+/data/raw/transcript/vC63_bemI2I-trimmed.en.vtt
+~~~~~~~~~~~ Example 1 vC63_bemI2I_q5~vC63_bemI2I ~~~~~~~~
+ -41 to 142<|START|> why does the man in the muscle tee rotate his hands?
+0   )  he wants the man to stop talking so he can go home.     (13tok)
+1 GT)  he wants the man in the beard to give more specific evidence.     (13tok)
+~~~~~~~~~~~ Example 2 FWBCTZiijEM_q10~FWBCTZiijEM ~~~~~~~~
+ -35 to 135<|START|> why does the man seem frustrated?
+0 GT)  he is about to do something difficult.     (8tok)
+1   )  he is happy about what he's done.     (9tok)
+~~~~~~~~~~~ Example 3 yRtPan09Ek0_q7~yRtPan09Ek0 ~~~~~~~~
+ -39 to 140<|START|> does the guest seem fond of his daughter
+0   )  no, the guest seems to wish his daughter was cooler     (11tok)
+1 GT)  yes, he smiles when he speaks about his daughter     (10tok)
+/data/raw/transcript/ZeYarFkvoGw-trimmed.en.vtt
+/data/raw/transcript/gbVOyKifrAo-trimmed.en.vtt
+/data/raw/transcript/GCZ5aagOddY-trimmed.en.vtt
+/data/raw/transcript/UUuXfyfCaL4-trimmed.en.vtt
+/data/raw/transcript/RtjJBtFXJaI-trimmed.en.vtt
+/data/raw/transcript/xdiFzcpmmJc-trimmed.en.vtt
+/data/raw/transcript/h35dZhHkuFM-trimmed.en.vtt
+/data/raw/transcript/iDgaqD7CWXU-trimmed.en.vtt
+/data/raw/transcript/JxbV5wGpXc8-trimmed.en.vtt
+/data/raw/transcript/jtl5XK7QP38-trimmed.en.vtt
+Finished writing 63 questions; max len = 4458

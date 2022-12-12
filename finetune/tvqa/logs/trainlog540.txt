@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 EqXKrS3gPN4_q1~EqXKrS3gPN4 ~~~~~~~~
+ -40 to 139<|START|> why are the people so monotonal?
+0   )  because they are awkward people     (5tok)
+1 GT)  because it is a sensitive topic, and it may offend others     (12tok)
+~~~~~~~~~~~ Example 1 4VA4kqMnEqA_q12~4VA4kqMnEqA ~~~~~~~~
+ -39 to 138<|START|> why does the man on the right joke?
+0   )  he is angry with the other man and is trying to mock him.     (14tok)
+1 GT)  he wants the man on the left to be more friendly.     (12tok)
+~~~~~~~~~~~ Example 2 SJSmbF9W9PQ_q3~SJSmbF9W9PQ ~~~~~~~~
+ -40 to 140<|START|> why does the man in the black jacket keep saying "congratulations" to the man in the grey jacket?
+0   )  because the other man just announced that he is creating a new and innovative project.     (16tok)
+1 GT)  because he wants to show his appreciation and respect towards the other person's achievements.     (16tok)
+~~~~~~~~~~~ Example 3 uivjORoSW0k_q2~uivjORoSW0k ~~~~~~~~
+ -41 to 140<|START|> why does the man with the glasses laugh at 0:16?
+0 GT)  the man with blonde hair is amusing.     (8tok)
+1   )  he thinks the other man looks funny.     (8tok)
+/data/raw/transcript/QHeNKMxsqYE-trimmed.en.vtt
+/data/raw/transcript/4W192A7g5KY-trimmed.en.vtt
+/data/raw/transcript/eDqEcrIRxgQ-trimmed.en.vtt
+/data/raw/transcript/1j1C3dlwh7E-trimmed.en.vtt
+/data/raw/transcript/kRh1zXFKC_o-trimmed.en.vtt
+/data/raw/transcript/3eCZ8haia58-trimmed.en.vtt
+/data/raw/transcript/g8D-LyfTrRs-trimmed.en.vtt
+/data/raw/transcript/8xFtIsyRvNE-trimmed.en.vtt
+/data/raw/transcript/WhsZxUWSHaQ-trimmed.en.vtt
+/data/raw/transcript/lUyKpfbB9M8-trimmed.en.vtt
+/data/raw/transcript/A48AJ_5nWsc-trimmed.en.vtt
+/data/raw/transcript/13HM_96pUIo-trimmed.en.vtt
+Finished writing 63 questions; max len = 3264

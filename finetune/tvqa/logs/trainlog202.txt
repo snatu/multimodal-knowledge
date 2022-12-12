@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 qr69jLeQdRA_q4~qr69jLeQdRA ~~~~~~~~
+ -41 to 141<|START|> why is the man in black suit surprised at the woman in a skirt?
+0   )  the man in the suit is surprised at the woman in the skirt because he thinks she has a boring name     (21tok)
+1 GT)  the man in the suit is surprised at the woman in the skirt because he thinks she has an amusing name     (21tok)
+~~~~~~~~~~~ Example 1 QQpIBRLlJzo_q2~QQpIBRLlJzo ~~~~~~~~
+ -38 to 139<|START|> what did the man with glasses think about the attraction he used to run at the carnival?
+0 GT)  he says it was not popular.     (7tok)
+1   )  he didn't mind it, since he didn't have to do much due to the low traffic.     (20tok)
+~~~~~~~~~~~ Example 2 k5bk1efKBSI_q4~k5bk1efKBSI ~~~~~~~~
+ -34 to 135<|START|> why is there laughter after the people repeat the same word over and over again?
+0 GT)  they laugh because the man keeps pronouncing his name wrong     (10tok)
+1   )  they laugh because they are happy to see the man humiliated     (12tok)
+~~~~~~~~~~~ Example 3 _tBXwqueWcg_q4~_tBXwqueWcg ~~~~~~~~
+ -35 to 135<|START|> what does the woman think the wellness training institute teaches people to feel?
+0   )  to feel less hungry at all times.     (8tok)
+1 GT)  relaxed and internally motivated     (4tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/pK1WAx4jJzE-trimmed.en.vtt
+/data/raw/transcript/U4r9ePA6RkQ-trimmed.en.vtt
+/data/raw/transcript/oY6BfHkNFPY-trimmed.en.vtt
+/data/raw/transcript/jYL4gMsGZgE-trimmed.en.vtt
+/data/raw/transcript/DZsBei4nCkU-trimmed.en.vtt
+/data/raw/transcript/LtxWWUBt7ro-trimmed.en.vtt
+/data/raw/transcript/7Oum_c5Seis-trimmed.en.vtt
+/data/raw/transcript/96YOZOU7ggo-trimmed.en.vtt
+/data/raw/transcript/dACF-Mz-X8M-trimmed.en.vtt
+/data/raw/transcript/qow_n-oNEt8-trimmed.en.vtt
+/data/raw/transcript/5fy7S3jCyAg-trimmed.en.vtt
+Finished writing 64 questions; max len = 4203

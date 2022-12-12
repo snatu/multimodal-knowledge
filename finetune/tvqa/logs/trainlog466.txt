@@ -1,0 +1,32 @@
+~~~~~~~~~~~ Example 0 8m_3eBsy22Y_q6~8m_3eBsy22Y ~~~~~~~~
+ -40 to 141<|START|> why is everyone using microphones?
+0 GT)  it allows them to speak without yelling and straining their voice.     (12tok)
+1   )  because they were about to sing a song related to their movie.     (13tok)
+~~~~~~~~~~~ Example 1 YlVkBzXo0YM_q7~YlVkBzXo0YM ~~~~~~~~
+ -38 to 139<|START|> how does the woman next to the man in the hoodie feel after answering the first quiz question?
+0   )  she feels neutral     (3tok)
+1 GT)  the woman feels desperate after answering the first quiz question     (10tok)
+~~~~~~~~~~~ Example 2 o6DEc3OYQfU_q3~o6DEc3OYQfU ~~~~~~~~
+ -41 to 141<|START|> how does the man in the black shirt feel about himself?
+0   )  the man in the black shirt is not proud of who he is.     (14tok)
+1 GT)  the man in the black shirt feels confident.     (9tok)
+~~~~~~~~~~~ Example 3 ooUw7Hq8YLg_q1~ooUw7Hq8YLg ~~~~~~~~
+ -41 to 141<|START|> what is the attitude of the man in blue shirt?
+0 GT)  he is very energetic and curious.     (7tok)
+1   )  he seems to be cold and distant     (7tok)
+/data/raw/transcript/FkLblGfWAvY-trimmed.en.vtt
+/data/raw/transcript/DiaDblUd-lw-trimmed.en.vtt
+/data/raw/transcript/VNM7Z7hir_I-trimmed.en.vtt
+/data/raw/transcript/MM0YOB-cSWA-trimmed.en.vtt
+/data/raw/transcript/hnfkZx4jmpA-trimmed.en.vtt
+/data/raw/transcript/AQX2Q-V2Uh8-trimmed.en.vtt
+/data/raw/transcript/SsuLW2JpjEA-trimmed.en.vtt
+/data/raw/transcript/3zjz6ryPvIg-trimmed.en.vtt
+/data/raw/transcript/RAUSVB_Nu9k-trimmed.en.vtt
+/data/raw/transcript/oYM9bFGb8B8-trimmed.en.vtt
+/data/raw/transcript/KWSDwS4S6Ss-trimmed.en.vtt
+/data/raw/transcript/Ham3IQQzoU8-trimmed.en.vtt
+/data/raw/transcript/BH8FUBW4IIE-trimmed.en.vtt
+/data/raw/transcript/QHGeDg6XX6U-trimmed.en.vtt
+/data/raw/transcript/TA3Xy53hMMY-trimmed.en.vtt
+Finished writing 63 questions; max len = 5704

@@ -1,0 +1,23 @@
+~~~~~~~~~~~ Example 0 gcDnKQul_c8_q5~gcDnKQul_c8 ~~~~~~~~
+ -40 to 141<|START|> how do the people in the video feel about the bill?
+0   )  they are unsure about the bill.     (7tok)
+1 GT)  they do not support the bill given its true intentions.     (11tok)
+~~~~~~~~~~~ Example 1 D56yCIgqqgk_q1~D56yCIgqqgk ~~~~~~~~
+ -40 to 141<|START|> why does the woman say she gets into the ocean with kettle bells?
+0 GT)  she loved to talk about the photo showing her at the ocean with kettle bells.     (16tok)
+1   )  she genuinely does that as her workout routine and wanted to tell others.     (14tok)
+~~~~~~~~~~~ Example 2 vqFmKLl2hq4_q4~vqFmKLl2hq4 ~~~~~~~~
+ -39 to 139<|START|> why are the men whispering?
+0   )  the men are whispering because they don't want the other man to hear their comments.     (17tok)
+1 GT)  the men are whispering because they don't want the woman to know the topic of the conversation.     (19tok)
+/data/raw/transcript/Q25kn317a2M-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 Q25kn317a2M_q4~Q25kn317a2M ~~~~~~~~
+ -41 to 142<|START|> why does the audience laugh (the first time)?
+0 GT)  the auduence laugh that the host missed such an obvious thng     (14tok)
+1   )  the auduence laugh very much as they really hate the host and they are willing to applaud every chance they get to see him belittled     (29tok)
+/data/raw/transcript/G4heS2754l4-trimmed.en.vtt
+/data/raw/transcript/MdG9Lkk8VWo-trimmed.en.vtt
+/data/raw/transcript/1YOzwKKbuPo-trimmed.en.vtt
+/data/raw/transcript/awpHn196aVs-trimmed.en.vtt
+/data/raw/transcript/1Za8BtLgKv8-trimmed.en.vtt
+Finished writing 64 questions; max len = 5160

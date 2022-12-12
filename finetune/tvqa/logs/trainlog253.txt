@@ -1,0 +1,26 @@
+~~~~~~~~~~~ Example 0 lo0R1mvjDT8_q2~lo0R1mvjDT8 ~~~~~~~~
+ -41 to 141<|START|> why are the men on the left and right silent?
+0 GT)  because he keeps telling them to be quiet.     (9tok)
+1   )  the men on the left and right are silent in order to scorn the man in the middle     (19tok)
+~~~~~~~~~~~ Example 1 4pYqIEQow2s_q6~4pYqIEQow2s ~~~~~~~~
+ -38 to 137<|START|> how does the blindfolded woman feel?
+0 GT)  she can't wait to see her new car     (9tok)
+1   )  she is terrified and nervous.     (6tok)
+~~~~~~~~~~~ Example 2 xpXCQkb4LUI_q4~xpXCQkb4LUI ~~~~~~~~
+ -39 to 139<|START|> how does the man feel about the issues he discusses?
+0   )  the man does not feel much about the issues he discusses; he would prefer a different question     (19tok)
+1 GT)  the man feels that the leadership abilities of the man in question are not good     (15tok)
+/data/raw/transcript/ipnGPeRIy2k-trimmed.en.vtt
+~~~~~~~~~~~ Example 3 ipnGPeRIy2k_q3~ipnGPeRIy2k ~~~~~~~~
+ -41 to 142<|START|> what attitude does the old woman in the black on the right speak with when talking about taking pictures?
+0   )  she is just describing her account     (6tok)
+1 GT)  she is showing fond remembrance     (7tok)
+/data/raw/transcript/nqY3tv-y62A-trimmed.en.vtt
+/data/raw/transcript/PR04klFMPYQ-trimmed.en.vtt
+/data/raw/transcript/4AmVjblOvy4-trimmed.en.vtt
+/data/raw/transcript/_xChA_vIuxE-trimmed.en.vtt
+/data/raw/transcript/2jMvc5VoavE-trimmed.en.vtt
+/data/raw/transcript/f3Ch2aIlXWo-trimmed.en.vtt
+/data/raw/transcript/6AzXxhPKh8U-trimmed.en.vtt
+/data/raw/transcript/Hv0PyGfxbpw-trimmed.en.vtt
+Finished writing 64 questions; max len = 5993
